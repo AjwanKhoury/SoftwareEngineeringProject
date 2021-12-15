@@ -14,7 +14,6 @@ import com.example.burgermunch.Adapter.RecommendedAdapter;
 import com.example.burgermunch.Domain.CategoryDomain;
 import com.example.burgermunch.Domain.FoodDomain;
 import com.example.burgermunch.R;
-import com.example.burgermunch.ui.login.LoginActivity;
 
 import java.util.ArrayList;
 

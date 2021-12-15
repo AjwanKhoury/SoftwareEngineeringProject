@@ -8,19 +8,16 @@ import android.widget.TextView;
 
 import com.example.burgermunch.R;
 
-public class LoginActivity extends AppCompatActivity {
+public class RegisterActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
-
-        Button FacebookBtn=findViewById(R.id.FacebookBtn);
-        Button GoogleBtn=findViewById(R.id.GoogleBtn);
-        ImageView logicBtn=findViewById(R.id.logicBtn);
-        TextView register_txt=findViewById(R.id.register_txt);
+        setContentView(R.layout.activity_register);
 
 
+        ImageView registerBtn=findViewById(R.id.registerBtn);
+        TextView recover_pass_txt=findViewById(R.id.recover_pass_txt);
 
     }
 }
