@@ -33,24 +33,12 @@ private RecyclerView recyclerViewCategotyList, recyclerViewPopularList;
 
     private void bottomNavigation() {
         LinearLayout homeBtn=findViewById(R.id.homeBtn);
-        LinearLayout myAccBtn=findViewById(R.id.myAccBtn);
         LinearLayout cartBtn=findViewById(R.id.cartBtn);
-        LinearLayout contactBtn=findViewById(R.id.contactBtn);
-        LinearLayout menuBtn=findViewById(R.id.menuBtn);
-
-
 
         homeBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this,MainActivity.class));
-            }
-        });
-
-        myAccBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, LoginActivity.class));
             }
         });
 

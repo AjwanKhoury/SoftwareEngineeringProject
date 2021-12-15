@@ -9,18 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Burgermunch">
-        <activity
-            android:name=".Activity.LoginActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ui.login.LoginActivity"
-            android:exported="false"
-            android:label="@string/title_activity_login" />
-        <activity android:name=".Activity.ShowDetailActivity" />
+        <activity android:name=".Activity.ShowDetailActivity"></activity>
         <activity android:name=".Activity.CartActivity" />
         <activity android:name=".Activity.MainActivity" />
-        <activity
-            android:name=".Activity.IntroActivity"
+        <activity android:name=".Activity.IntroActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
