@@ -93,7 +93,7 @@
         app:layout_constraintVertical_bias="0.653" />
 
     <ImageView
-        android:id="@+id/logicBtn"
+        android:id="@+id/loginBtn"
         android:layout_width="84dp"
         android:layout_height="72dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -127,7 +127,7 @@
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
             android:layout_weight="1"
-            android:background="@drawable/grey_btn_background"
+            android:background="#ffffff"
             android:drawableEnd="@drawable/facebook"
             android:text="FaceBook"
             android:textColor="#3b608c"

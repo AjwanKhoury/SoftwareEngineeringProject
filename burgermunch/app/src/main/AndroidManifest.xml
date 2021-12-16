@@ -11,6 +11,8 @@
         android:theme="@style/Theme.Burgermunch">
         <activity android:name=".Activity.ShowDetailActivity"></activity>
         <activity android:name=".Activity.CartActivity" />
+        <activity android:name=".Activity.LoginActivity"/>
+        <activity android:name=".Activity.RegisterActivity"/>
         <activity android:name=".Activity.MainActivity" />
         <activity android:name=".Activity.IntroActivity"
             android:exported="true">

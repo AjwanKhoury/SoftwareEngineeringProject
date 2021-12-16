@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "777614685225",
+    "project_id": "burgermunch-da32c",
+    "storage_bucket": "burgermunch-da32c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777614685225:android:f5c8d2afca0b84d5385838",
+        "android_client_info": {
+          "package_name": "com.example.burgermunch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "777614685225-dhn4o3ee94ed87vvujf3725hj9nfe0vu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATju8R_eLbKaEbq_6G37RjQTStja5OXi4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "777614685225-dhn4o3ee94ed87vvujf3725hj9nfe0vu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
