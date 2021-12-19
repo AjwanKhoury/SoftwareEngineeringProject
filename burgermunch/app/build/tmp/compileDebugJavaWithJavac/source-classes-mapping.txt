@@ -36,7 +36,6 @@ com/example/burgermunch/Helper/ManagementCart.java
  com.example.burgermunch.Helper.ManagementCart
 com/example/burgermunch/Activity/RegisterActivity.java
  com.example.burgermunch.Activity.RegisterActivity
- com.example.burgermunch.Activity.RegisterActivity$1
 com/example/burgermunch/Activity/IntroActivity.java
  com.example.burgermunch.Activity.IntroActivity
  com.example.burgermunch.Activity.IntroActivity$1

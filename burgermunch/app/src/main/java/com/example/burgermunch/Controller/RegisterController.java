@@ -22,7 +22,7 @@ public class RegisterController implements IRegisterController, Observer {
     }
 
     @Override
-    public void OnSignUp(String full_name,String address, String phone_number, String email, String password) {
+    public void OnRegister(String full_name,String address, String phone_number, String email, String password) {
         Customer customer = new Customer(full_name,address, phone_number, email, password);
         int signupCode = customer.isValid();
 

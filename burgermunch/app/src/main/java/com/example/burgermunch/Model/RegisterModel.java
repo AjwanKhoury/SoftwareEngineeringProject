@@ -15,7 +15,7 @@ public class RegisterModel extends Observable implements IRegisterModel {
 
     public RegisterModel() {
         FirebaseDatabase db = FirebaseDatabase.getInstance();
-        this.databaseReference = db.getReference("users");
+        this.databaseReference = db.getReference("customer");
         this.mAuth = FirebaseAuth.getInstance();
     }
 

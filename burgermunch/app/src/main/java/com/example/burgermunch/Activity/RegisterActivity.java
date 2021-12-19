@@ -34,19 +34,16 @@ public class RegisterActivity extends AppCompatActivity implements IRegisterView
         phone_number = findViewById(R.id.phoneNum_txt);
         email = findViewById(R.id.email_txt);
         password = findViewById(R.id.password_txt);
+    }
 
-        registerBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+    public void Click(View view){
                 String f_nameS = full_name.getText().toString();
                 String addressS = address.getText().toString();
                 String phone_numberS = phone_number.getText().toString();
                 String emailS = email.getText().toString();
                 String passwordS = password.getText().toString();
-                controllerSignUp.OnSignUp(f_nameS,addressS,phone_numberS,emailS,passwordS);
-            }
-        });
-    }
+                controllerSignUp.OnRegister(f_nameS,addressS,phone_numberS,emailS,passwordS);
+        }
 
     @Override
     public void RegisterSuccess(String message) {

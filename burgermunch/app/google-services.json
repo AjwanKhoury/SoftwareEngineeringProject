@@ -1,13 +1,14 @@
 {
   "project_info": {
     "project_number": "777614685225",
+    "firebase_url": "https://burgermunch-da32c-default-rtdb.firebaseio.com",
     "project_id": "burgermunch-da32c",
     "storage_bucket": "burgermunch-da32c.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:777614685225:android:f5c8d2afca0b84d5385838",
+        "mobilesdk_app_id": "1:777614685225:android:06cc4d81a1626a5f385838",
         "android_client_info": {
           "package_name": "com.example.burgermunch"
         }
