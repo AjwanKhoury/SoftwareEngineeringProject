@@ -1805,7 +1805,6 @@ drawable banner
 drawable bottom_btn1
 drawable bottom_btn2
 drawable bottom_btn3
-drawable bottom_btn4
 drawable bottom_btn5
 drawable btn_arraw1
 drawable btn_arrow2
@@ -1882,6 +1881,7 @@ drawable material_ic_keyboard_arrow_previous_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
+drawable menu_btn
 drawable minus
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow

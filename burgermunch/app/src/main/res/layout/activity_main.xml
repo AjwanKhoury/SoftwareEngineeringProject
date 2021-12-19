@@ -28,7 +28,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="32dp"
                     android:layout_marginRight="32dp"
-                    android:text="היי אגואן!"
+                    android:text="היי אורח!"
                     android:textColor="#e25a26"
                     android:textSize="20dp"
                     android:textStyle="bold"
@@ -51,7 +51,7 @@
                     android:layout_width="73dp"
                     android:layout_height="71dp"
                     android:layout_marginStart="32dp"
-                    android:src="@drawable/profile"
+                    android:src="@drawable/name"
                     app:layout_constraintBottom_toBottomOf="@+id/textView5"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="@+id/textView4" />
@@ -337,13 +337,13 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/bottom_btn4" />
+                        app:srcCompat="@drawable/menu_btn" />
 
                     <TextView
                         android:id="@+id/textView19"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="הגדרות"
+                        android:text="תפריט"
                         android:textAlignment="center"
                         android:textColor="#676767"
                         android:textSize="12sp" />

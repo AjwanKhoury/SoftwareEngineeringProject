@@ -39,6 +39,9 @@ public class Customer implements ICustomer {
     public String getFullName() {
         return full_name;
     }
+    public void setFullName(String fn){
+        this.full_name=fn;
+    }
 
 
     @Override
@@ -90,7 +93,6 @@ public class Customer implements ICustomer {
         String em = hash.get("email").toString();
         String p = hash.get("password").toString();
         return new Customer(fn, ad, pn, em,p);
-
     }
 
     @Override
@@ -110,7 +112,7 @@ public class Customer implements ICustomer {
         return -1;
     }
 
-
+    //Full Name
     private static boolean onlyAlphabetic(String s) {
         char[] chars = s.toCharArray();
         for(char c : chars){
@@ -130,6 +132,4 @@ public class Customer implements ICustomer {
             return false;
         return pat.matcher(s).matches();
     }
-
-
 }

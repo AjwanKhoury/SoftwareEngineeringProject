@@ -337,13 +337,13 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/bottom_btn4" />
+                        app:srcCompat="@drawable/menu_btn" />
 
                     <TextView
                         android:id="@+id/textView19"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="הגדרות"
+                        android:text="תפריט"
                         android:textAlignment="center"
                         android:textColor="#676767"
                         android:textSize="12sp" />
