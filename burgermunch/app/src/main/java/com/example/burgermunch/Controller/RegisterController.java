@@ -27,7 +27,7 @@ public class RegisterController implements IRegisterController, Observer {
         int signupCode = customer.isValid();
 
         if(signupCode == 0){
-            Log.e("user","user cant be null");
+            Log.e("customer","user cant be null");
         }
         if(signupCode == 1){
             view.RegisterError("Full name problem");
