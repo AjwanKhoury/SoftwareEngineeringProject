@@ -24,6 +24,10 @@
         "source": "/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/res/drawable/bottom_btn2.png"
     },
     {
+        "merged": "/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/build/intermediates/merged_res/debug/layout_activity_make_contact.xml.flat",
+        "source": "/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/res/layout/activity_make_contact.xml"
+    },
+    {
         "merged": "/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/build/intermediates/merged_res/debug/layout_activity_register.xml.flat",
         "source": "/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/res/layout/activity_register.xml"
     },

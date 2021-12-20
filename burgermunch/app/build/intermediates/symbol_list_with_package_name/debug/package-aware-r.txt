@@ -2303,6 +2303,7 @@ id list_item
 id loginBtn
 id login_txt
 id mainLayout
+id makeContactBtn
 id masked
 id match_constraint
 id match_parent
@@ -2667,6 +2668,7 @@ layout activity_cart
 layout activity_intro
 layout activity_login
 layout activity_main
+layout activity_make_contact
 layout activity_menu
 layout activity_register
 layout activity_show_detail

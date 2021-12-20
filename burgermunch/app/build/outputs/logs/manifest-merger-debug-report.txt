@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:2:1-52:12
+ADDED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:2:1-53:12
+INJECTED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:2:1-53:12
+INJECTED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:2:1-53:12
+INJECTED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:2:1-53:12
 MERGED from [com.google.android.material:material:1.4.0] /Users/liroymelamed/.gradle/caches/transforms-3/589b32396052d18877318a856258023a/transformed/material-1.4.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /Users/liroymelamed/.gradle/caches/transforms-3/28e3a813f938e7c91d7b2d09f3ddc212/transformed/constraintlayout-2.1.2/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.android:facebook-login:12.2.0] /Users/liroymelamed/.gradle/caches/transforms-3/b12f2fc41aef81ba78625996acc47be4/transformed/jetified-facebook-login-12.2.0/AndroidManifest.xml:21:1-31:12
@@ -69,20 +69,20 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/liroymelamed/.grad
 MERGED from [androidx.print:print:1.0.0] /Users/liroymelamed/.gradle/caches/transforms-3/3a5a5d9934e2c57dd8d5c8a079d2e2b4/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/liroymelamed/.gradle/caches/transforms-3/d66993e727816c8ff7896b7937150dab/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/liroymelamed/.gradle/caches/transforms-3/279687805c93a5089754fc433a4cb0cd/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:2:1-13:12
-INJECTED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:2:1-53:12
+INJECTED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:2:1-53:12
+INJECTED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:2:1-53:12
 	package
 		ADDED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:3:5-38
 		INJECTED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml
-		ADDED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:2:1-52:12
+		ADDED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:2:1-53:12
 		INJECTED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml
-		ADDED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:2:1-52:12
+		ADDED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:2:1-53:12
 		INJECTED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:2:11-69
@@ -95,7 +95,7 @@ MERGED from [com.google.firebase:firebase-database:20.0.3] /Users/liroymelamed/.
 	android:name
 		ADDED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:7:5-50:19
+ADDED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:7:5-51:19
 MERGED from [com.google.android.material:material:1.4.0] /Users/liroymelamed/.gradle/caches/transforms-3/589b32396052d18877318a856258023a/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] /Users/liroymelamed/.gradle/caches/transforms-3/589b32396052d18877318a856258023a/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /Users/liroymelamed/.gradle/caches/transforms-3/28e3a813f938e7c91d7b2d09f3ddc212/transformed/constraintlayout-2.1.2/AndroidManifest.xml:9:5-20
@@ -224,22 +224,26 @@ activity#com.example.burgermunch.Activity.MenuActivity
 ADDED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:40:9-59
 	android:name
 		ADDED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:40:19-56
+activity#com.example.burgermunch.Activity.MakeContactActivity
+ADDED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:41:9-66
+	android:name
+		ADDED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:41:19-63
 activity#com.example.burgermunch.Activity.IntroActivity
-ADDED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:41:9-49:20
+ADDED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:42:9-50:20
 	android:exported
-		ADDED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:43:13-36
+		ADDED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:44:13-36
 	android:name
-		ADDED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:42:13-51
+		ADDED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:43:13-51
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:44:13-48:29
+ADDED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:45:13-49:29
 action#android.intent.action.MAIN
-ADDED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:45:17-69
+ADDED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:46:17-69
 	android:name
-		ADDED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:45:25-66
+		ADDED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:46:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:47:17-77
+ADDED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:48:17-77
 	android:name
-		ADDED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:47:27-74
+		ADDED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:48:27-74
 uses-sdk
 INJECTED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml

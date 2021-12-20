@@ -59,6 +59,7 @@
         <activity android:name="com.example.burgermunch.Activity.RegisterActivity" />
         <activity android:name="com.example.burgermunch.Activity.MainActivity" />
         <activity android:name="com.example.burgermunch.Activity.MenuActivity" />
+        <activity android:name="com.example.burgermunch.Activity.MakeContactActivity" />
         <activity
             android:name="com.example.burgermunch.Activity.IntroActivity"
             android:exported="true" >
