@@ -1,4 +1,4 @@
-package com.example.burgermunch.Interface;
+package com.example.burgermunch.Object;
 
 public interface ICustomer {
     String getFullName();

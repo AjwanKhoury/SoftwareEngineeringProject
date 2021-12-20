@@ -74,9 +74,9 @@ private RecyclerView recyclerViewCategotyList, recyclerViewPopularList;
         recyclerViewPopularList.setLayoutManager(linearLayoutManager);
 
         ArrayList<FoodDomain> foodlist = new ArrayList<>();
-        foodlist.add(new FoodDomain("מנת הבית", "pizza1", "slices pepperoni ,mozzarella cheese, fresh oregano,  ground black pepper, pizza sauce", 13.0, 5, 20, 1000));
-        foodlist.add(new FoodDomain("סמל ראשון", "burger", "440 גרם בקר, 250 גרם אנטריקוט, אווז מעושן, Lettuce, tomato ", 15.20, 4, 18, 1500));
-        foodlist.add(new FoodDomain("סמל", "pizza3", " 250 גרם אנטריקוט, מלפפון חמוץ, חסה, עגבנייה, אווז מעושן, חלפיניו", 83.0, 4, 7, 1470));
+        foodlist.add(new FoodDomain("מנת הבית", "pizza1", "220 גרם בשר בקר, אווז מעושן, ריבת בצל, רוטב קארי, עגבנייה, חסה, בצל סגול ומלפפון חמוץ", 55, 5, 7, 600));
+        foodlist.add(new FoodDomain("סמל ראשון", "burger", "440 גרם בקר, 250 גרם אנטריקוט, אווז מעושן, בית עין, בצל מטוגן, עגבנייה, חסה, בצל סגול ומלפפון חמוץ", 87, 4.8, 8, 1490));
+        foodlist.add(new FoodDomain("סמל", "pizza3", "250 גרם אנטריקוט, אווז מעושן, חלפיניו, עגבנייה, חסה, בצל סגול ומלפפון חמוץ", 83, 4.6, 7, 1270));
 
         adapter2 = new RecommendedAdapter(foodlist);
         recyclerViewPopularList.setAdapter(adapter2);

@@ -1,5 +1,4 @@
 package com.example.burgermunch.Object;
-import com.example.burgermunch.Interface.ICustomer;
 
 import java.util.HashMap;
 import java.util.regex.Pattern;
@@ -131,5 +130,17 @@ public class Customer implements ICustomer {
         if (s == null)
             return false;
         return pat.matcher(s).matches();
+    }
+
+    public int isValid(String email, String password) {
+        if(this == null)
+            return 0;
+        if(email.length() == 0)
+            return 1;
+        if (password.length() == 0)
+            return 2;
+        if(!isEmail(email))
+            return 3;
+        return -1;
     }
 }

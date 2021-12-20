@@ -2127,6 +2127,10 @@ id center_horizontal
 id center_vertical
 id chain
 id chains
+id checkBox2
+id checkBox3
+id checkBox4
+id checkBox5
 id checkbox
 id checked
 id chip

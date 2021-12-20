@@ -6,13 +6,13 @@ public class FoodDomain implements Serializable {
     private String title;
     private String pic;
     private String description;
-    private Double fee;
-    private int star;
+    private int fee;
+    private double star;
     private int time;
     private int calories;
     private int numberInCart;
 
-    public FoodDomain(String title, String pic, String description, Double fee, int star, int time, int calories) {
+    public FoodDomain(String title, String pic, String description, int fee, double star, int time, int calories) {
         this.title = title;
         this.pic = pic;
         this.description = description;
@@ -54,15 +54,15 @@ public class FoodDomain implements Serializable {
         this.description = description;
     }
 
-    public Double getFee() {
+    public int getFee() {
         return fee;
     }
 
-    public void setFee(Double fee) {
+    public void setFee(int fee) {
         this.fee = fee;
     }
 
-    public int getStar() {
+    public double getStar() {
         return star;
     }
 

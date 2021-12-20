@@ -1,8 +1,10 @@
 package com.example.burgermunch.Controller;
 
 import android.util.Log;
-import com.example.burgermunch.Interface.IRegisterModel;
+
+import com.example.burgermunch.Interface.IRegisterController;
 import com.example.burgermunch.Interface.IRegisterView;
+import com.example.burgermunch.Model.IRegisterModel;
 import com.example.burgermunch.Model.RegisterModel;
 import com.example.burgermunch.Object.Customer;
 
