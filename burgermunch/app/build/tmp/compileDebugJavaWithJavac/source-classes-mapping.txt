@@ -10,6 +10,12 @@ com/example/burgermunch/Model/RegisterModel.java
 com/example/burgermunch/Adapter/CartListAdapter.java
  com.example.burgermunch.Adapter.CartListAdapter
  com.example.burgermunch.Adapter.CartListAdapter$ViewHolder
+com/example/burgermunch/Activity/MainActivity.java
+ com.example.burgermunch.Activity.MainActivity
+ com.example.burgermunch.Activity.MainActivity$1
+ com.example.burgermunch.Activity.MainActivity$2
+ com.example.burgermunch.Activity.MainActivity$3
+ com.example.burgermunch.Activity.MainActivity$4
 com/example/burgermunch/Activity/CartActivity.java
  com.example.burgermunch.Activity.CartActivity
  com.example.burgermunch.Activity.CartActivity$1
@@ -17,12 +23,6 @@ com/example/burgermunch/Activity/CartActivity.java
  com.example.burgermunch.Activity.CartActivity$3
  com.example.burgermunch.Activity.CartActivity$4
  com.example.burgermunch.Activity.CartActivity$5
-com/example/burgermunch/Activity/MainActivity.java
- com.example.burgermunch.Activity.MainActivity
- com.example.burgermunch.Activity.MainActivity$1
- com.example.burgermunch.Activity.MainActivity$2
- com.example.burgermunch.Activity.MainActivity$3
- com.example.burgermunch.Activity.MainActivity$4
 com/example/burgermunch/Activity/LoginActivity.java
  com.example.burgermunch.Activity.LoginActivity
  com.example.burgermunch.Activity.LoginActivity$1
@@ -43,21 +43,21 @@ com/example/burgermunch/BuildConfig.java
  com.example.burgermunch.BuildConfig
 com/example/burgermunch/Domain/CategoryDomain.java
  com.example.burgermunch.Domain.CategoryDomain
-com/example/burgermunch/Helper/ManagementCart.java
- com.example.burgermunch.Helper.ManagementCart
 com/example/burgermunch/Activity/RegisterActivity.java
  com.example.burgermunch.Activity.RegisterActivity
 com/example/burgermunch/Activity/IntroActivity.java
  com.example.burgermunch.Activity.IntroActivity
  com.example.burgermunch.Activity.IntroActivity$1
+com/example/burgermunch/Helper/ManagementCart.java
+ com.example.burgermunch.Helper.ManagementCart
 com/example/burgermunch/Helper/TinyDB.java
  com.example.burgermunch.Helper.TinyDB
 com/example/burgermunch/Interface/IRegisterView.java
  com.example.burgermunch.Interface.IRegisterView
-com/example/burgermunch/Activity/MakeContactActivity.java
- com.example.burgermunch.Activity.MakeContactActivity
 com/example/burgermunch/Interface/ICustomer.java
  com.example.burgermunch.Interface.ICustomer
+com/example/burgermunch/Activity/MakeContactActivity.java
+ com.example.burgermunch.Activity.MakeContactActivity
 com/example/burgermunch/Adapter/RecommendedAdapter.java
  com.example.burgermunch.Adapter.RecommendedAdapter
  com.example.burgermunch.Adapter.RecommendedAdapter$ViewHolder
@@ -65,7 +65,7 @@ com/example/burgermunch/Controller/RegisterController.java
  com.example.burgermunch.Controller.RegisterController
 com/example/burgermunch/Domain/FoodDomain.java
  com.example.burgermunch.Domain.FoodDomain
-com/example/burgermunch/Controller/IRegisterController.java
- com.example.burgermunch.Controller.IRegisterController
 com/example/burgermunch/Interface/IRegisterModel.java
  com.example.burgermunch.Interface.IRegisterModel
+com/example/burgermunch/Controller/IRegisterController.java
+ com.example.burgermunch.Controller.IRegisterController

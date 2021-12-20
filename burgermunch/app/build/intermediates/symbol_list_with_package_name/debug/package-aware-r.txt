@@ -2241,6 +2241,7 @@ id ghost_view
 id ghost_view_holder
 id glide_custom_view_target_tag
 id gone
+id google_btn
 id graph
 id graph_wrap
 id group_divider
@@ -2273,6 +2274,7 @@ id imageView3
 id imageView4
 id imageView5
 id imageView6
+id imageView7
 id imageView8
 id immediateStop
 id included
@@ -2535,6 +2537,7 @@ id textView4
 id textView5
 id textView6
 id textView7
+id textView8
 id textView9
 id text_input_end_icon
 id text_input_error_icon

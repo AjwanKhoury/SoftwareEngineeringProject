@@ -6,341 +6,366 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml
+8-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="31" />
-9-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml
+9-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:5:5-67
-11-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:5:22-64
+11-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->[com.google.firebase:firebase-auth:21.0.1] /Users/liroymelamed/.gradle/caches/transforms-3/3e8c8d897276edeaee0f27d0b3e470fe/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:5-79
-12-->[com.google.firebase:firebase-auth:21.0.1] /Users/liroymelamed/.gradle/caches/transforms-3/3e8c8d897276edeaee0f27d0b3e470fe/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:22-76
+12-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\koren\.gradle\caches\transforms-3\3e8c8d897276edeaee0f27d0b3e470fe\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:5-79
+12-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\koren\.gradle\caches\transforms-3\3e8c8d897276edeaee0f27d0b3e470fe\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:22-76
 13    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-13-->[com.android.installreferrer:installreferrer:1.0] /Users/liroymelamed/.gradle/caches/transforms-3/279687805c93a5089754fc433a4cb0cd/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:9:5-110
-13-->[com.android.installreferrer:installreferrer:1.0] /Users/liroymelamed/.gradle/caches/transforms-3/279687805c93a5089754fc433a4cb0cd/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:9:22-107
+13-->[com.android.installreferrer:installreferrer:1.0] C:\Users\koren\.gradle\caches\transforms-3\b4f3509f92f45dd285f0c57401d428f0\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:9:5-110
+13-->[com.android.installreferrer:installreferrer:1.0] C:\Users\koren\.gradle\caches\transforms-3\b4f3509f92f45dd285f0c57401d428f0\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:9:22-107
 14
 15    <application
-15-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:7:5-51:19
+15-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:7:5-51:19
 16        android:allowBackup="true"
-16-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:8:9-35
+16-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:8:9-35
 17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-17-->[androidx.core:core:1.7.0] /Users/liroymelamed/.gradle/caches/transforms-3/8fff248dbe0397cca10a959cecdafd82/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+17-->[androidx.core:core:1.7.0] C:\Users\koren\.gradle\caches\transforms-3\8fff248dbe0397cca10a959cecdafd82\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 18        android:debuggable="true"
 19        android:icon="@mipmap/ic_launcher"
-19-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:9:9-43
+19-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:9:9-43
 20        android:label="@string/app_name"
-20-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:10:9-41
+20-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:10:9-41
 21        android:roundIcon="@mipmap/ic_launcher_round"
-21-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:11:9-54
+21-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:11:9-54
 22        android:supportsRtl="true"
-22-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:12:9-35
+22-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:12:9-35
 23        android:testOnly="true"
 24        android:theme="@style/Theme.Burgermunch" >
-24-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:13:9-49
+24-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:13:9-49
 25        <meta-data
-25-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:15:9-17:55
+25-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:15:9-17:55
 26            android:name="com.facebook.sdk.ApplicationId"
-26-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:16:13-58
+26-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:16:13-58
 27            android:value="@string/facebook_app_id" />
-27-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:17:13-52
+27-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:17:13-52
 28
 29        <activity
-29-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:19:9-22:48
+29-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:19:9-22:48
 30            android:name="com.facebook.FacebookActivity"
-30-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:20:13-57
+30-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:20:13-57
 31            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-31-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:21:13-96
+31-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:21:13-96
 32            android:label="@string/app_name"
-32-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:22:13-45
+32-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:22:13-45
 33            android:theme="@style/com_facebook_activity_theme" />
-33-->[com.facebook.android:facebook-common:12.2.0] /Users/liroymelamed/.gradle/caches/transforms-3/67daf9d61b5e85c44f671ef9a0be92f6/transformed/jetified-facebook-common-12.2.0/AndroidManifest.xml:33:13-63
+33-->[com.facebook.android:facebook-common:12.2.0] C:\Users\koren\.gradle\caches\transforms-3\67daf9d61b5e85c44f671ef9a0be92f6\transformed\jetified-facebook-common-12.2.0\AndroidManifest.xml:33:13-63
 34        <activity
-34-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:23:9-34:20
+34-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:23:9-34:20
 35            android:name="com.facebook.CustomTabActivity"
-35-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:24:13-58
+35-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:24:13-58
 36            android:exported="true" >
-36-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:25:13-36
+36-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:25:13-36
 37            <intent-filter>
-37-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:26:13-33:29
+37-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:26:13-33:29
 38                <action android:name="android.intent.action.VIEW" />
-38-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:27:17-69
-38-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:27:25-66
+38-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:27:17-69
+38-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:27:25-66
 39
 40                <category android:name="android.intent.category.DEFAULT" />
-40-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:29:17-76
-40-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:29:27-73
+40-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:29:17-76
+40-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:29:27-73
 41                <category android:name="android.intent.category.BROWSABLE" />
-41-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:30:17-78
-41-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:30:27-75
+41-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:30:17-78
+41-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:30:27-75
 42
 43                <data android:scheme="@string/fb_login_protocol_scheme" />
-43-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:32:17-75
-43-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:32:23-72
+43-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:32:17-75
+43-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:32:23-72
 44            </intent-filter>
 45            <intent-filter>
-45-->[com.facebook.android:facebook-common:12.2.0] /Users/liroymelamed/.gradle/caches/transforms-3/67daf9d61b5e85c44f671ef9a0be92f6/transformed/jetified-facebook-common-12.2.0/AndroidManifest.xml:39:13-48:29
+45-->[com.facebook.android:facebook-common:12.2.0] C:\Users\koren\.gradle\caches\transforms-3\67daf9d61b5e85c44f671ef9a0be92f6\transformed\jetified-facebook-common-12.2.0\AndroidManifest.xml:39:13-48:29
 46                <action android:name="android.intent.action.VIEW" />
-46-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:27:17-69
-46-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:27:25-66
+46-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:27:17-69
+46-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:27:25-66
 47
 48                <category android:name="android.intent.category.DEFAULT" />
-48-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:29:17-76
-48-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:29:27-73
+48-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:29:17-76
+48-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:29:27-73
 49                <category android:name="android.intent.category.BROWSABLE" />
-49-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:30:17-78
-49-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:30:27-75
+49-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:30:17-78
+49-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:30:27-75
 50
 51                <data
-51-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:32:17-75
+51-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:32:17-75
 52                    android:host="cct.com.example.burgermunch"
 53                    android:scheme="fbconnect" />
-53-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:32:23-72
+53-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:32:23-72
 54            </intent-filter>
 55        </activity>
 56        <activity android:name="com.example.burgermunch.Activity.ShowDetailActivity" />
-56-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:35:9-65
-56-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:35:19-62
+56-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:35:9-65
+56-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:35:19-62
 57        <activity android:name="com.example.burgermunch.Activity.CartActivity" />
-57-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:36:9-59
-57-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:36:19-56
+57-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:36:9-59
+57-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:36:19-56
 58        <activity android:name="com.example.burgermunch.Activity.LoginActivity" />
-58-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:37:9-60
-58-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:37:19-57
+58-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:37:9-60
+58-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:37:19-57
 59        <activity android:name="com.example.burgermunch.Activity.RegisterActivity" />
-59-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:38:9-63
-59-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:38:19-60
+59-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:38:9-63
+59-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:38:19-60
 60        <activity android:name="com.example.burgermunch.Activity.MainActivity" />
-60-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:39:9-59
-60-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:39:19-56
+60-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:39:9-59
+60-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:39:19-56
 61        <activity android:name="com.example.burgermunch.Activity.MenuActivity" />
-61-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:40:9-59
-61-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:40:19-56
+61-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:40:9-59
+61-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:40:19-56
 62        <activity android:name="com.example.burgermunch.Activity.MakeContactActivity" />
-62-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:41:9-66
-62-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:41:19-63
+62-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:41:9-66
+62-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:41:19-63
 63        <activity
-63-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:42:9-50:20
+63-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:42:9-50:20
 64            android:name="com.example.burgermunch.Activity.IntroActivity"
-64-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:43:13-51
+64-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:43:13-51
 65            android:exported="true" >
-65-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:44:13-36
+65-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:44:13-36
 66            <intent-filter>
-66-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:45:13-49:29
+66-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:45:13-49:29
 67                <action android:name="android.intent.action.MAIN" />
-67-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:46:17-69
-67-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:46:25-66
+67-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:46:17-69
+67-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:46:25-66
 68
 69                <category android:name="android.intent.category.LAUNCHER" />
-69-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:48:17-77
-69-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:48:27-74
+69-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:48:17-77
+69-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:48:27-74
 70            </intent-filter>
 71        </activity>
 72        <activity android:name="com.facebook.CustomTabMainActivity" />
-72-->[com.facebook.android:facebook-common:12.2.0] /Users/liroymelamed/.gradle/caches/transforms-3/67daf9d61b5e85c44f671ef9a0be92f6/transformed/jetified-facebook-common-12.2.0/AndroidManifest.xml:34:9-71
-72-->[com.facebook.android:facebook-common:12.2.0] /Users/liroymelamed/.gradle/caches/transforms-3/67daf9d61b5e85c44f671ef9a0be92f6/transformed/jetified-facebook-common-12.2.0/AndroidManifest.xml:34:19-68
+72-->[com.facebook.android:facebook-common:12.2.0] C:\Users\koren\.gradle\caches\transforms-3\67daf9d61b5e85c44f671ef9a0be92f6\transformed\jetified-facebook-common-12.2.0\AndroidManifest.xml:34:9-71
+72-->[com.facebook.android:facebook-common:12.2.0] C:\Users\koren\.gradle\caches\transforms-3\67daf9d61b5e85c44f671ef9a0be92f6\transformed\jetified-facebook-common-12.2.0\AndroidManifest.xml:34:19-68
 73        <activity
-73-->[com.google.firebase:firebase-auth:21.0.1] /Users/liroymelamed/.gradle/caches/transforms-3/3e8c8d897276edeaee0f27d0b3e470fe/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+73-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\koren\.gradle\caches\transforms-3\3e8c8d897276edeaee0f27d0b3e470fe\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
 74            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-74-->[com.google.firebase:firebase-auth:21.0.1] /Users/liroymelamed/.gradle/caches/transforms-3/3e8c8d897276edeaee0f27d0b3e470fe/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+74-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\koren\.gradle\caches\transforms-3\3e8c8d897276edeaee0f27d0b3e470fe\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
 75            android:excludeFromRecents="true"
-75-->[com.google.firebase:firebase-auth:21.0.1] /Users/liroymelamed/.gradle/caches/transforms-3/3e8c8d897276edeaee0f27d0b3e470fe/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+75-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\koren\.gradle\caches\transforms-3\3e8c8d897276edeaee0f27d0b3e470fe\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
 76            android:exported="true"
-76-->[com.google.firebase:firebase-auth:21.0.1] /Users/liroymelamed/.gradle/caches/transforms-3/3e8c8d897276edeaee0f27d0b3e470fe/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+76-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\koren\.gradle\caches\transforms-3\3e8c8d897276edeaee0f27d0b3e470fe\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
 77            android:launchMode="singleTask"
-77-->[com.google.firebase:firebase-auth:21.0.1] /Users/liroymelamed/.gradle/caches/transforms-3/3e8c8d897276edeaee0f27d0b3e470fe/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+77-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\koren\.gradle\caches\transforms-3\3e8c8d897276edeaee0f27d0b3e470fe\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
 78            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-78-->[com.google.firebase:firebase-auth:21.0.1] /Users/liroymelamed/.gradle/caches/transforms-3/3e8c8d897276edeaee0f27d0b3e470fe/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+78-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\koren\.gradle\caches\transforms-3\3e8c8d897276edeaee0f27d0b3e470fe\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
 79            <intent-filter>
-79-->[com.google.firebase:firebase-auth:21.0.1] /Users/liroymelamed/.gradle/caches/transforms-3/3e8c8d897276edeaee0f27d0b3e470fe/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+79-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\koren\.gradle\caches\transforms-3\3e8c8d897276edeaee0f27d0b3e470fe\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
 80                <action android:name="android.intent.action.VIEW" />
-80-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:27:17-69
-80-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:27:25-66
+80-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:27:17-69
+80-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:27:25-66
 81
 82                <category android:name="android.intent.category.DEFAULT" />
-82-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:29:17-76
-82-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:29:27-73
+82-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:29:17-76
+82-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:29:27-73
 83                <category android:name="android.intent.category.BROWSABLE" />
-83-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:30:17-78
-83-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:30:27-75
+83-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:30:17-78
+83-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:30:27-75
 84
 85                <data
-85-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:32:17-75
+85-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:32:17-75
 86                    android:host="firebase.auth"
 87                    android:path="/"
 88                    android:scheme="genericidp" />
-88-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:32:23-72
+88-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:32:23-72
 89            </intent-filter>
 90        </activity>
 91        <activity
-91-->[com.google.firebase:firebase-auth:21.0.1] /Users/liroymelamed/.gradle/caches/transforms-3/3e8c8d897276edeaee0f27d0b3e470fe/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+91-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\koren\.gradle\caches\transforms-3\3e8c8d897276edeaee0f27d0b3e470fe\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
 92            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-92-->[com.google.firebase:firebase-auth:21.0.1] /Users/liroymelamed/.gradle/caches/transforms-3/3e8c8d897276edeaee0f27d0b3e470fe/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+92-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\koren\.gradle\caches\transforms-3\3e8c8d897276edeaee0f27d0b3e470fe\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
 93            android:excludeFromRecents="true"
-93-->[com.google.firebase:firebase-auth:21.0.1] /Users/liroymelamed/.gradle/caches/transforms-3/3e8c8d897276edeaee0f27d0b3e470fe/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+93-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\koren\.gradle\caches\transforms-3\3e8c8d897276edeaee0f27d0b3e470fe\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
 94            android:exported="true"
-94-->[com.google.firebase:firebase-auth:21.0.1] /Users/liroymelamed/.gradle/caches/transforms-3/3e8c8d897276edeaee0f27d0b3e470fe/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+94-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\koren\.gradle\caches\transforms-3\3e8c8d897276edeaee0f27d0b3e470fe\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
 95            android:launchMode="singleTask"
-95-->[com.google.firebase:firebase-auth:21.0.1] /Users/liroymelamed/.gradle/caches/transforms-3/3e8c8d897276edeaee0f27d0b3e470fe/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+95-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\koren\.gradle\caches\transforms-3\3e8c8d897276edeaee0f27d0b3e470fe\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
 96            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-96-->[com.google.firebase:firebase-auth:21.0.1] /Users/liroymelamed/.gradle/caches/transforms-3/3e8c8d897276edeaee0f27d0b3e470fe/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+96-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\koren\.gradle\caches\transforms-3\3e8c8d897276edeaee0f27d0b3e470fe\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
 97            <intent-filter>
-97-->[com.google.firebase:firebase-auth:21.0.1] /Users/liroymelamed/.gradle/caches/transforms-3/3e8c8d897276edeaee0f27d0b3e470fe/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+97-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\koren\.gradle\caches\transforms-3\3e8c8d897276edeaee0f27d0b3e470fe\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
 98                <action android:name="android.intent.action.VIEW" />
-98-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:27:17-69
-98-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:27:25-66
+98-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:27:17-69
+98-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:27:25-66
 99
 100                <category android:name="android.intent.category.DEFAULT" />
-100-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:29:17-76
-100-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:29:27-73
+100-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:29:17-76
+100-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:29:27-73
 101                <category android:name="android.intent.category.BROWSABLE" />
-101-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:30:17-78
-101-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:30:27-75
+101-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:30:17-78
+101-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:30:27-75
 102
 103                <data
-103-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:32:17-75
+103-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:32:17-75
 104                    android:host="firebase.auth"
 105                    android:path="/"
 106                    android:scheme="recaptcha" />
-106-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:32:23-72
+106-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:32:23-72
 107            </intent-filter>
 108        </activity>
 109
 110        <service
-110-->[com.google.firebase:firebase-auth:21.0.1] /Users/liroymelamed/.gradle/caches/transforms-3/3e8c8d897276edeaee0f27d0b3e470fe/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+110-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\koren\.gradle\caches\transforms-3\3e8c8d897276edeaee0f27d0b3e470fe\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
 111            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
-111-->[com.google.firebase:firebase-auth:21.0.1] /Users/liroymelamed/.gradle/caches/transforms-3/3e8c8d897276edeaee0f27d0b3e470fe/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+111-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\koren\.gradle\caches\transforms-3\3e8c8d897276edeaee0f27d0b3e470fe\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
 112            android:enabled="true"
-112-->[com.google.firebase:firebase-auth:21.0.1] /Users/liroymelamed/.gradle/caches/transforms-3/3e8c8d897276edeaee0f27d0b3e470fe/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+112-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\koren\.gradle\caches\transforms-3\3e8c8d897276edeaee0f27d0b3e470fe\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
 113            android:exported="false" >
-113-->[com.google.firebase:firebase-auth:21.0.1] /Users/liroymelamed/.gradle/caches/transforms-3/3e8c8d897276edeaee0f27d0b3e470fe/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+113-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\koren\.gradle\caches\transforms-3\3e8c8d897276edeaee0f27d0b3e470fe\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
 114            <intent-filter>
-114-->[com.google.firebase:firebase-auth:21.0.1] /Users/liroymelamed/.gradle/caches/transforms-3/3e8c8d897276edeaee0f27d0b3e470fe/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+114-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\koren\.gradle\caches\transforms-3\3e8c8d897276edeaee0f27d0b3e470fe\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
 115                <action android:name="com.google.firebase.auth.api.gms.service.START" />
-115-->[com.google.firebase:firebase-auth:21.0.1] /Users/liroymelamed/.gradle/caches/transforms-3/3e8c8d897276edeaee0f27d0b3e470fe/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
-115-->[com.google.firebase:firebase-auth:21.0.1] /Users/liroymelamed/.gradle/caches/transforms-3/3e8c8d897276edeaee0f27d0b3e470fe/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+115-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\koren\.gradle\caches\transforms-3\3e8c8d897276edeaee0f27d0b3e470fe\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+115-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\koren\.gradle\caches\transforms-3\3e8c8d897276edeaee0f27d0b3e470fe\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
 116
 117                <category android:name="android.intent.category.DEFAULT" />
-117-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:29:17-76
-117-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:29:27-73
+117-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:29:17-76
+117-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:29:27-73
 118            </intent-filter>
 119        </service>
 120        <service
-120-->[com.google.firebase:firebase-auth:21.0.1] /Users/liroymelamed/.gradle/caches/transforms-3/3e8c8d897276edeaee0f27d0b3e470fe/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:74:9-80:19
+120-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\koren\.gradle\caches\transforms-3\3e8c8d897276edeaee0f27d0b3e470fe\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:74:9-80:19
 121            android:name="com.google.firebase.components.ComponentDiscoveryService"
-121-->[com.google.firebase:firebase-auth:21.0.1] /Users/liroymelamed/.gradle/caches/transforms-3/3e8c8d897276edeaee0f27d0b3e470fe/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:75:13-84
+121-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\koren\.gradle\caches\transforms-3\3e8c8d897276edeaee0f27d0b3e470fe\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:75:13-84
 122            android:directBootAware="true"
-122-->[com.google.firebase:firebase-common:20.0.0] /Users/liroymelamed/.gradle/caches/transforms-3/987d36dafe5f80639e90f76af634d368/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+122-->[com.google.firebase:firebase-common:20.0.0] C:\Users\koren\.gradle\caches\transforms-3\987d36dafe5f80639e90f76af634d368\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
 123            android:exported="false" >
-123-->[com.google.firebase:firebase-auth:21.0.1] /Users/liroymelamed/.gradle/caches/transforms-3/3e8c8d897276edeaee0f27d0b3e470fe/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:76:13-37
+123-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\koren\.gradle\caches\transforms-3\3e8c8d897276edeaee0f27d0b3e470fe\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:76:13-37
 124            <meta-data
-124-->[com.google.firebase:firebase-auth:21.0.1] /Users/liroymelamed/.gradle/caches/transforms-3/3e8c8d897276edeaee0f27d0b3e470fe/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
+124-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\koren\.gradle\caches\transforms-3\3e8c8d897276edeaee0f27d0b3e470fe\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
 125                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-125-->[com.google.firebase:firebase-auth:21.0.1] /Users/liroymelamed/.gradle/caches/transforms-3/3e8c8d897276edeaee0f27d0b3e470fe/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+125-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\koren\.gradle\caches\transforms-3\3e8c8d897276edeaee0f27d0b3e470fe\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
 126                android:value="com.google.firebase.components.ComponentRegistrar" />
-126-->[com.google.firebase:firebase-auth:21.0.1] /Users/liroymelamed/.gradle/caches/transforms-3/3e8c8d897276edeaee0f27d0b3e470fe/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+126-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\koren\.gradle\caches\transforms-3\3e8c8d897276edeaee0f27d0b3e470fe\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
 127            <meta-data
-127-->[com.google.firebase:firebase-database:20.0.3] /Users/liroymelamed/.gradle/caches/transforms-3/faded8ed388d6fa0264133ae8def9abf/transformed/jetified-firebase-database-20.0.3/AndroidManifest.xml:32:13-34:85
+127-->[com.google.firebase:firebase-database:20.0.3] C:\Users\koren\.gradle\caches\transforms-3\faded8ed388d6fa0264133ae8def9abf\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:32:13-34:85
 128                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-128-->[com.google.firebase:firebase-database:20.0.3] /Users/liroymelamed/.gradle/caches/transforms-3/faded8ed388d6fa0264133ae8def9abf/transformed/jetified-firebase-database-20.0.3/AndroidManifest.xml:33:17-109
+128-->[com.google.firebase:firebase-database:20.0.3] C:\Users\koren\.gradle\caches\transforms-3\faded8ed388d6fa0264133ae8def9abf\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:33:17-109
 129                android:value="com.google.firebase.components.ComponentRegistrar" />
-129-->[com.google.firebase:firebase-database:20.0.3] /Users/liroymelamed/.gradle/caches/transforms-3/faded8ed388d6fa0264133ae8def9abf/transformed/jetified-firebase-database-20.0.3/AndroidManifest.xml:34:17-82
+129-->[com.google.firebase:firebase-database:20.0.3] C:\Users\koren\.gradle\caches\transforms-3\faded8ed388d6fa0264133ae8def9abf\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:34:17-82
 130        </service>
 131
 132        <activity
-132-->[com.google.android.gms:play-services-base:17.1.0] /Users/liroymelamed/.gradle/caches/transforms-3/99fb345143c18c83053fefa4b17998f5/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
-133            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-133-->[com.google.android.gms:play-services-base:17.1.0] /Users/liroymelamed/.gradle/caches/transforms-3/99fb345143c18c83053fefa4b17998f5/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
-134            android:exported="false"
-134-->[com.google.android.gms:play-services-base:17.1.0] /Users/liroymelamed/.gradle/caches/transforms-3/99fb345143c18c83053fefa4b17998f5/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
-135            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-135-->[com.google.android.gms:play-services-base:17.1.0] /Users/liroymelamed/.gradle/caches/transforms-3/99fb345143c18c83053fefa4b17998f5/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
-136
-137        <provider
-137-->[com.google.firebase:firebase-common:20.0.0] /Users/liroymelamed/.gradle/caches/transforms-3/987d36dafe5f80639e90f76af634d368/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
-138            android:name="com.google.firebase.provider.FirebaseInitProvider"
-138-->[com.google.firebase:firebase-common:20.0.0] /Users/liroymelamed/.gradle/caches/transforms-3/987d36dafe5f80639e90f76af634d368/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
-139            android:authorities="com.example.burgermunch.firebaseinitprovider"
-139-->[com.google.firebase:firebase-common:20.0.0] /Users/liroymelamed/.gradle/caches/transforms-3/987d36dafe5f80639e90f76af634d368/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
-140            android:directBootAware="true"
-140-->[com.google.firebase:firebase-common:20.0.0] /Users/liroymelamed/.gradle/caches/transforms-3/987d36dafe5f80639e90f76af634d368/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
-141            android:exported="false"
-141-->[com.google.firebase:firebase-common:20.0.0] /Users/liroymelamed/.gradle/caches/transforms-3/987d36dafe5f80639e90f76af634d368/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
-142            android:initOrder="100" />
-142-->[com.google.firebase:firebase-common:20.0.0] /Users/liroymelamed/.gradle/caches/transforms-3/987d36dafe5f80639e90f76af634d368/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
-143
-144        <meta-data
-144-->[com.google.android.gms:play-services-basement:17.1.0] /Users/liroymelamed/.gradle/caches/transforms-3/249a703ab685c6cf905a1fdc23a4033c/transformed/jetified-play-services-basement-17.1.0/AndroidManifest.xml:23:9-25:69
-145            android:name="com.google.android.gms.version"
-145-->[com.google.android.gms:play-services-basement:17.1.0] /Users/liroymelamed/.gradle/caches/transforms-3/249a703ab685c6cf905a1fdc23a4033c/transformed/jetified-play-services-basement-17.1.0/AndroidManifest.xml:24:13-58
-146            android:value="@integer/google_play_services_version" />
-146-->[com.google.android.gms:play-services-basement:17.1.0] /Users/liroymelamed/.gradle/caches/transforms-3/249a703ab685c6cf905a1fdc23a4033c/transformed/jetified-play-services-basement-17.1.0/AndroidManifest.xml:25:13-66
-147
-148        <provider
-148-->[androidx.emoji2:emoji2:1.0.0] /Users/liroymelamed/.gradle/caches/transforms-3/b2af1edf84156eeeb2fa5bf18dab98cc/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
-149            android:name="androidx.startup.InitializationProvider"
-149-->[androidx.emoji2:emoji2:1.0.0] /Users/liroymelamed/.gradle/caches/transforms-3/b2af1edf84156eeeb2fa5bf18dab98cc/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
-150            android:authorities="com.example.burgermunch.androidx-startup"
-150-->[androidx.emoji2:emoji2:1.0.0] /Users/liroymelamed/.gradle/caches/transforms-3/b2af1edf84156eeeb2fa5bf18dab98cc/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
-151            android:exported="false" >
-151-->[androidx.emoji2:emoji2:1.0.0] /Users/liroymelamed/.gradle/caches/transforms-3/b2af1edf84156eeeb2fa5bf18dab98cc/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
-152            <meta-data
-152-->[androidx.emoji2:emoji2:1.0.0] /Users/liroymelamed/.gradle/caches/transforms-3/b2af1edf84156eeeb2fa5bf18dab98cc/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
-153                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-153-->[androidx.emoji2:emoji2:1.0.0] /Users/liroymelamed/.gradle/caches/transforms-3/b2af1edf84156eeeb2fa5bf18dab98cc/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
-154                android:value="androidx.startup" />
-154-->[androidx.emoji2:emoji2:1.0.0] /Users/liroymelamed/.gradle/caches/transforms-3/b2af1edf84156eeeb2fa5bf18dab98cc/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
-155            <meta-data
-155-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/liroymelamed/.gradle/caches/transforms-3/beb33912b30d23b4d0ccfbce77f07f56/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
-156                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-156-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/liroymelamed/.gradle/caches/transforms-3/beb33912b30d23b4d0ccfbce77f07f56/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
-157                android:value="androidx.startup" />
-157-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/liroymelamed/.gradle/caches/transforms-3/beb33912b30d23b4d0ccfbce77f07f56/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
-158        </provider>
-159        <!--
-160         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
-161         with the application context. This config is merged in with the host app's manifest,
-162         but there can only be one provider with the same authority activated at any given
-163         point; so if the end user has two or more different apps that use Facebook SDK, only the
-164         first one will be able to use the provider. To work around this problem, we use the
-165         following placeholder in the authority to identify each host application as if it was
-166         a completely different provider.
-167        -->
-168        <provider
-168-->[com.facebook.android:facebook-core:12.2.0] /Users/liroymelamed/.gradle/caches/transforms-3/0ef57ea6e88a2cd5ec0642dc059b7812/transformed/jetified-facebook-core-12.2.0/AndroidManifest.xml:39:9-42:40
-169            android:name="com.facebook.internal.FacebookInitProvider"
-169-->[com.facebook.android:facebook-core:12.2.0] /Users/liroymelamed/.gradle/caches/transforms-3/0ef57ea6e88a2cd5ec0642dc059b7812/transformed/jetified-facebook-core-12.2.0/AndroidManifest.xml:40:13-70
-170            android:authorities="com.example.burgermunch.FacebookInitProvider"
-170-->[com.facebook.android:facebook-core:12.2.0] /Users/liroymelamed/.gradle/caches/transforms-3/0ef57ea6e88a2cd5ec0642dc059b7812/transformed/jetified-facebook-core-12.2.0/AndroidManifest.xml:41:13-72
-171            android:exported="false" />
-171-->[com.facebook.android:facebook-core:12.2.0] /Users/liroymelamed/.gradle/caches/transforms-3/0ef57ea6e88a2cd5ec0642dc059b7812/transformed/jetified-facebook-core-12.2.0/AndroidManifest.xml:42:13-37
-172
-173        <receiver
-173-->[com.facebook.android:facebook-core:12.2.0] /Users/liroymelamed/.gradle/caches/transforms-3/0ef57ea6e88a2cd5ec0642dc059b7812/transformed/jetified-facebook-core-12.2.0/AndroidManifest.xml:44:9-50:20
-174            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
-174-->[com.facebook.android:facebook-core:12.2.0] /Users/liroymelamed/.gradle/caches/transforms-3/0ef57ea6e88a2cd5ec0642dc059b7812/transformed/jetified-facebook-core-12.2.0/AndroidManifest.xml:45:13-86
-175            android:exported="false" >
-175-->[com.facebook.android:facebook-core:12.2.0] /Users/liroymelamed/.gradle/caches/transforms-3/0ef57ea6e88a2cd5ec0642dc059b7812/transformed/jetified-facebook-core-12.2.0/AndroidManifest.xml:46:13-37
-176            <intent-filter>
-176-->[com.facebook.android:facebook-core:12.2.0] /Users/liroymelamed/.gradle/caches/transforms-3/0ef57ea6e88a2cd5ec0642dc059b7812/transformed/jetified-facebook-core-12.2.0/AndroidManifest.xml:47:13-49:29
-177                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
-177-->[com.facebook.android:facebook-core:12.2.0] /Users/liroymelamed/.gradle/caches/transforms-3/0ef57ea6e88a2cd5ec0642dc059b7812/transformed/jetified-facebook-core-12.2.0/AndroidManifest.xml:48:17-95
-177-->[com.facebook.android:facebook-core:12.2.0] /Users/liroymelamed/.gradle/caches/transforms-3/0ef57ea6e88a2cd5ec0642dc059b7812/transformed/jetified-facebook-core-12.2.0/AndroidManifest.xml:48:25-92
-178            </intent-filter>
-179        </receiver>
-180        <receiver
-180-->[com.facebook.android:facebook-core:12.2.0] /Users/liroymelamed/.gradle/caches/transforms-3/0ef57ea6e88a2cd5ec0642dc059b7812/transformed/jetified-facebook-core-12.2.0/AndroidManifest.xml:51:9-57:20
-181            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
-181-->[com.facebook.android:facebook-core:12.2.0] /Users/liroymelamed/.gradle/caches/transforms-3/0ef57ea6e88a2cd5ec0642dc059b7812/transformed/jetified-facebook-core-12.2.0/AndroidManifest.xml:52:13-118
-182            android:exported="false" >
-182-->[com.facebook.android:facebook-core:12.2.0] /Users/liroymelamed/.gradle/caches/transforms-3/0ef57ea6e88a2cd5ec0642dc059b7812/transformed/jetified-facebook-core-12.2.0/AndroidManifest.xml:53:13-37
-183            <intent-filter>
-183-->[com.facebook.android:facebook-core:12.2.0] /Users/liroymelamed/.gradle/caches/transforms-3/0ef57ea6e88a2cd5ec0642dc059b7812/transformed/jetified-facebook-core-12.2.0/AndroidManifest.xml:54:13-56:29
-184                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
-184-->[com.facebook.android:facebook-core:12.2.0] /Users/liroymelamed/.gradle/caches/transforms-3/0ef57ea6e88a2cd5ec0642dc059b7812/transformed/jetified-facebook-core-12.2.0/AndroidManifest.xml:55:17-103
-184-->[com.facebook.android:facebook-core:12.2.0] /Users/liroymelamed/.gradle/caches/transforms-3/0ef57ea6e88a2cd5ec0642dc059b7812/transformed/jetified-facebook-core-12.2.0/AndroidManifest.xml:55:25-100
-185            </intent-filter>
-186        </receiver>
-187    </application>
-188
-189</manifest>
+132-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\koren\.gradle\caches\transforms-3\325661fc8b7d6b5ccf7cbc9e51813bf6\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:23:9-27:75
+133            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+133-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\koren\.gradle\caches\transforms-3\325661fc8b7d6b5ccf7cbc9e51813bf6\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:24:13-93
+134            android:excludeFromRecents="true"
+134-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\koren\.gradle\caches\transforms-3\325661fc8b7d6b5ccf7cbc9e51813bf6\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:25:13-46
+135            android:exported="false"
+135-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\koren\.gradle\caches\transforms-3\325661fc8b7d6b5ccf7cbc9e51813bf6\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:26:13-37
+136            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+136-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\koren\.gradle\caches\transforms-3\325661fc8b7d6b5ccf7cbc9e51813bf6\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:27:13-72
+137        <!--
+138            Service handling Google Sign-In user revocation. For apps that do not integrate with
+139            Google Sign-In, this service will never be started.
+140        -->
+141        <service
+141-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\koren\.gradle\caches\transforms-3\325661fc8b7d6b5ccf7cbc9e51813bf6\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:33:9-37:51
+142            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+142-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\koren\.gradle\caches\transforms-3\325661fc8b7d6b5ccf7cbc9e51813bf6\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:34:13-89
+143            android:exported="true"
+143-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\koren\.gradle\caches\transforms-3\325661fc8b7d6b5ccf7cbc9e51813bf6\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:35:13-36
+144            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+144-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\koren\.gradle\caches\transforms-3\325661fc8b7d6b5ccf7cbc9e51813bf6\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:36:13-107
+145            android:visibleToInstantApps="true" />
+145-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\koren\.gradle\caches\transforms-3\325661fc8b7d6b5ccf7cbc9e51813bf6\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:37:13-48
+146
+147        <activity
+147-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\koren\.gradle\caches\transforms-3\fa1238c4e7852c7dc09ce69b52be31e6\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
+148            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+148-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\koren\.gradle\caches\transforms-3\fa1238c4e7852c7dc09ce69b52be31e6\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
+149            android:exported="false"
+149-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\koren\.gradle\caches\transforms-3\fa1238c4e7852c7dc09ce69b52be31e6\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
+150            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+150-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\koren\.gradle\caches\transforms-3\fa1238c4e7852c7dc09ce69b52be31e6\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
+151
+152        <provider
+152-->[com.google.firebase:firebase-common:20.0.0] C:\Users\koren\.gradle\caches\transforms-3\987d36dafe5f80639e90f76af634d368\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+153            android:name="com.google.firebase.provider.FirebaseInitProvider"
+153-->[com.google.firebase:firebase-common:20.0.0] C:\Users\koren\.gradle\caches\transforms-3\987d36dafe5f80639e90f76af634d368\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+154            android:authorities="com.example.burgermunch.firebaseinitprovider"
+154-->[com.google.firebase:firebase-common:20.0.0] C:\Users\koren\.gradle\caches\transforms-3\987d36dafe5f80639e90f76af634d368\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+155            android:directBootAware="true"
+155-->[com.google.firebase:firebase-common:20.0.0] C:\Users\koren\.gradle\caches\transforms-3\987d36dafe5f80639e90f76af634d368\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+156            android:exported="false"
+156-->[com.google.firebase:firebase-common:20.0.0] C:\Users\koren\.gradle\caches\transforms-3\987d36dafe5f80639e90f76af634d368\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+157            android:initOrder="100" />
+157-->[com.google.firebase:firebase-common:20.0.0] C:\Users\koren\.gradle\caches\transforms-3\987d36dafe5f80639e90f76af634d368\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+158
+159        <meta-data
+159-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\koren\.gradle\caches\transforms-3\960af365d1ce7d79103cb51621a2dfc3\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:23:9-25:69
+160            android:name="com.google.android.gms.version"
+160-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\koren\.gradle\caches\transforms-3\960af365d1ce7d79103cb51621a2dfc3\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:24:13-58
+161            android:value="@integer/google_play_services_version" />
+161-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\koren\.gradle\caches\transforms-3\960af365d1ce7d79103cb51621a2dfc3\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:25:13-66
+162
+163        <provider
+163-->[androidx.emoji2:emoji2:1.0.0] C:\Users\koren\.gradle\caches\transforms-3\b2af1edf84156eeeb2fa5bf18dab98cc\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+164            android:name="androidx.startup.InitializationProvider"
+164-->[androidx.emoji2:emoji2:1.0.0] C:\Users\koren\.gradle\caches\transforms-3\b2af1edf84156eeeb2fa5bf18dab98cc\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+165            android:authorities="com.example.burgermunch.androidx-startup"
+165-->[androidx.emoji2:emoji2:1.0.0] C:\Users\koren\.gradle\caches\transforms-3\b2af1edf84156eeeb2fa5bf18dab98cc\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+166            android:exported="false" >
+166-->[androidx.emoji2:emoji2:1.0.0] C:\Users\koren\.gradle\caches\transforms-3\b2af1edf84156eeeb2fa5bf18dab98cc\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+167            <meta-data
+167-->[androidx.emoji2:emoji2:1.0.0] C:\Users\koren\.gradle\caches\transforms-3\b2af1edf84156eeeb2fa5bf18dab98cc\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+168                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+168-->[androidx.emoji2:emoji2:1.0.0] C:\Users\koren\.gradle\caches\transforms-3\b2af1edf84156eeeb2fa5bf18dab98cc\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+169                android:value="androidx.startup" />
+169-->[androidx.emoji2:emoji2:1.0.0] C:\Users\koren\.gradle\caches\transforms-3\b2af1edf84156eeeb2fa5bf18dab98cc\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+170            <meta-data
+170-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\koren\.gradle\caches\transforms-3\beb33912b30d23b4d0ccfbce77f07f56\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+171                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+171-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\koren\.gradle\caches\transforms-3\beb33912b30d23b4d0ccfbce77f07f56\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+172                android:value="androidx.startup" />
+172-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\koren\.gradle\caches\transforms-3\beb33912b30d23b4d0ccfbce77f07f56\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+173        </provider>
+174        <!--
+175         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+176         with the application context. This config is merged in with the host app's manifest,
+177         but there can only be one provider with the same authority activated at any given
+178         point; so if the end user has two or more different apps that use Facebook SDK, only the
+179         first one will be able to use the provider. To work around this problem, we use the
+180         following placeholder in the authority to identify each host application as if it was
+181         a completely different provider.
+182        -->
+183        <provider
+183-->[com.facebook.android:facebook-core:12.2.0] C:\Users\koren\.gradle\caches\transforms-3\0ef57ea6e88a2cd5ec0642dc059b7812\transformed\jetified-facebook-core-12.2.0\AndroidManifest.xml:39:9-42:40
+184            android:name="com.facebook.internal.FacebookInitProvider"
+184-->[com.facebook.android:facebook-core:12.2.0] C:\Users\koren\.gradle\caches\transforms-3\0ef57ea6e88a2cd5ec0642dc059b7812\transformed\jetified-facebook-core-12.2.0\AndroidManifest.xml:40:13-70
+185            android:authorities="com.example.burgermunch.FacebookInitProvider"
+185-->[com.facebook.android:facebook-core:12.2.0] C:\Users\koren\.gradle\caches\transforms-3\0ef57ea6e88a2cd5ec0642dc059b7812\transformed\jetified-facebook-core-12.2.0\AndroidManifest.xml:41:13-72
+186            android:exported="false" />
+186-->[com.facebook.android:facebook-core:12.2.0] C:\Users\koren\.gradle\caches\transforms-3\0ef57ea6e88a2cd5ec0642dc059b7812\transformed\jetified-facebook-core-12.2.0\AndroidManifest.xml:42:13-37
+187
+188        <receiver
+188-->[com.facebook.android:facebook-core:12.2.0] C:\Users\koren\.gradle\caches\transforms-3\0ef57ea6e88a2cd5ec0642dc059b7812\transformed\jetified-facebook-core-12.2.0\AndroidManifest.xml:44:9-50:20
+189            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+189-->[com.facebook.android:facebook-core:12.2.0] C:\Users\koren\.gradle\caches\transforms-3\0ef57ea6e88a2cd5ec0642dc059b7812\transformed\jetified-facebook-core-12.2.0\AndroidManifest.xml:45:13-86
+190            android:exported="false" >
+190-->[com.facebook.android:facebook-core:12.2.0] C:\Users\koren\.gradle\caches\transforms-3\0ef57ea6e88a2cd5ec0642dc059b7812\transformed\jetified-facebook-core-12.2.0\AndroidManifest.xml:46:13-37
+191            <intent-filter>
+191-->[com.facebook.android:facebook-core:12.2.0] C:\Users\koren\.gradle\caches\transforms-3\0ef57ea6e88a2cd5ec0642dc059b7812\transformed\jetified-facebook-core-12.2.0\AndroidManifest.xml:47:13-49:29
+192                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+192-->[com.facebook.android:facebook-core:12.2.0] C:\Users\koren\.gradle\caches\transforms-3\0ef57ea6e88a2cd5ec0642dc059b7812\transformed\jetified-facebook-core-12.2.0\AndroidManifest.xml:48:17-95
+192-->[com.facebook.android:facebook-core:12.2.0] C:\Users\koren\.gradle\caches\transforms-3\0ef57ea6e88a2cd5ec0642dc059b7812\transformed\jetified-facebook-core-12.2.0\AndroidManifest.xml:48:25-92
+193            </intent-filter>
+194        </receiver>
+195        <receiver
+195-->[com.facebook.android:facebook-core:12.2.0] C:\Users\koren\.gradle\caches\transforms-3\0ef57ea6e88a2cd5ec0642dc059b7812\transformed\jetified-facebook-core-12.2.0\AndroidManifest.xml:51:9-57:20
+196            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+196-->[com.facebook.android:facebook-core:12.2.0] C:\Users\koren\.gradle\caches\transforms-3\0ef57ea6e88a2cd5ec0642dc059b7812\transformed\jetified-facebook-core-12.2.0\AndroidManifest.xml:52:13-118
+197            android:exported="false" >
+197-->[com.facebook.android:facebook-core:12.2.0] C:\Users\koren\.gradle\caches\transforms-3\0ef57ea6e88a2cd5ec0642dc059b7812\transformed\jetified-facebook-core-12.2.0\AndroidManifest.xml:53:13-37
+198            <intent-filter>
+198-->[com.facebook.android:facebook-core:12.2.0] C:\Users\koren\.gradle\caches\transforms-3\0ef57ea6e88a2cd5ec0642dc059b7812\transformed\jetified-facebook-core-12.2.0\AndroidManifest.xml:54:13-56:29
+199                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
+199-->[com.facebook.android:facebook-core:12.2.0] C:\Users\koren\.gradle\caches\transforms-3\0ef57ea6e88a2cd5ec0642dc059b7812\transformed\jetified-facebook-core-12.2.0\AndroidManifest.xml:55:17-103
+199-->[com.facebook.android:facebook-core:12.2.0] C:\Users\koren\.gradle\caches\transforms-3\0ef57ea6e88a2cd5ec0642dc059b7812\transformed\jetified-facebook-core-12.2.0\AndroidManifest.xml:55:25-100
+200            </intent-filter>
+201        </receiver>
+202    </application>
+203
+204</manifest>

@@ -139,8 +139,8 @@
                         android:ems="10"
                         android:inputType="textPersonName"
                         android:paddingEnd="20dp"
-                        android:text="חפשו את המנה המועדפת עליכם!"
                         android:textStyle="italic"
+                        android:hint="חפשו את המנה המועדפת עליכם!"
                         app:layout_constraintEnd_toEndOf="@+id/imageView6"
                         app:layout_constraintStart_toStartOf="@+id/imageView6"
                         app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
