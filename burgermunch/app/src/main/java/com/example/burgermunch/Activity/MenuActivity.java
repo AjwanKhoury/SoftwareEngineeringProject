@@ -22,6 +22,8 @@ public class MenuActivity extends AppCompatActivity {
         LinearLayout cartBtn=findViewById(R.id.cartBtn);
         LinearLayout connectionBtn=findViewById(R.id.connectionBtn);
         LinearLayout menuBtn=findViewById(R.id.menuBtn);
+        LinearLayout makeContactBtn=findViewById(R.id.makeContactBtn);
+
 
         homeBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -41,6 +43,14 @@ public class MenuActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MenuActivity.this,LoginActivity.class));
+            }
+        });
+
+        makeContactBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MenuActivity.this, MakeContactActivity.class));
+
             }
         });
 

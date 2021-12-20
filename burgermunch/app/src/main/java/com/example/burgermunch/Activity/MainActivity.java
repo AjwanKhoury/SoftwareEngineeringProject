@@ -7,7 +7,9 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import com.example.burgermunch.Adapter.CategoryAdapter;
 import com.example.burgermunch.Adapter.RecommendedAdapter;
@@ -36,6 +38,9 @@ private RecyclerView recyclerViewCategotyList, recyclerViewPopularList;
         LinearLayout cartBtn=findViewById(R.id.cartBtn);
         LinearLayout connectionBtn=findViewById(R.id.connectionBtn);
         LinearLayout menuBtn=findViewById(R.id.menuBtn);
+        LinearLayout makeContactBtn=findViewById(R.id.makeContactBtn);
+
+        TextView Visitor = findViewById(R.id.Visitor);
 
         homeBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -55,6 +60,14 @@ private RecyclerView recyclerViewCategotyList, recyclerViewPopularList;
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this,LoginActivity.class));
+            }
+        });
+
+        makeContactBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, MakeContactActivity.class));
+
             }
         });
 

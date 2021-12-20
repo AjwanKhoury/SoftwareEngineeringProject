@@ -23,7 +23,7 @@
                 android:layout_height="848dp">
 
                 <TextView
-                    android:id="@+id/textView4"
+                    android:id="@+id/Visitor"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="32dp"
@@ -43,8 +43,8 @@
                     android:text="טוב לראותך"
                     android:textColor="#000000"
                     android:textSize="20dp"
-                    app:layout_constraintEnd_toEndOf="@+id/textView4"
-                    app:layout_constraintTop_toBottomOf="@+id/textView4" />
+                    app:layout_constraintEnd_toEndOf="@+id/Visitor"
+                    app:layout_constraintTop_toBottomOf="@+id/Visitor" />
 
                 <ImageView
                     android:id="@+id/imageView"
@@ -54,7 +54,7 @@
                     android:src="@drawable/name"
                     app:layout_constraintBottom_toBottomOf="@+id/textView5"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="@+id/textView4" />
+                    app:layout_constraintTop_toTopOf="@+id/Visitor" />
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:id="@+id/constraintLayout2"
@@ -135,12 +135,13 @@
                         android:layout_marginTop="40dp"
                         android:background="@drawable/search_background"
                         android:drawableEnd="@drawable/searchbotton"
-                        android:drawablePadding="10dp"
+                        android:drawablePadding="15dp"
                         android:ems="10"
                         android:inputType="textPersonName"
                         android:paddingEnd="20dp"
-                        android:textStyle="italic"
                         android:hint="חפשו את המנה המועדפת עליכם!"
+                        android:textDirection="rtl"
+                        android:textStyle="italic"
                         app:layout_constraintEnd_toEndOf="@+id/imageView6"
                         app:layout_constraintStart_toStartOf="@+id/imageView6"
                         app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
