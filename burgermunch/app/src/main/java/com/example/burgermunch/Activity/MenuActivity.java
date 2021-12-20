@@ -15,6 +15,7 @@ public class MenuActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
+        bottomNavigation();
     }
     private void bottomNavigation() {
         LinearLayout homeBtn=findViewById(R.id.homeBtn);
@@ -49,6 +50,5 @@ public class MenuActivity extends AppCompatActivity {
                 startActivity(new Intent(MenuActivity.this,MenuActivity.class));
             }
         });
-
     }
 }

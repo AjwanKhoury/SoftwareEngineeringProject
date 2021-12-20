@@ -18,7 +18,7 @@ public class Customer implements ICustomer {
         this.email = "";
         this.password= "";
     }
-
+    //check login
     public Customer(String em, String pass) {
         full_name = "";
         address = "";
