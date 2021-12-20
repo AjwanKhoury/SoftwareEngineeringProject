@@ -40,6 +40,9 @@ public class CartActivity extends AppCompatActivity {
     private void bottomNavigation() {
         LinearLayout homeBtn = findViewById(R.id.homeBtn);
         LinearLayout cartBtn = findViewById(R.id.cartBtn);
+        LinearLayout connectionBtn = findViewById(R.id.connectionBtn);
+        LinearLayout menuBtn = findViewById(R.id.menuBtn);
+
 
         homeBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -52,6 +55,20 @@ public class CartActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(CartActivity.this, CartActivity.class));
+            }
+        });
+
+        connectionBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(CartActivity.this,LoginActivity.class));
+            }
+        });
+
+        menuBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(CartActivity.this, MenuActivity.class));
             }
         });
     }

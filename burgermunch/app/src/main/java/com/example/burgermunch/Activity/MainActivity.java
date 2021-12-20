@@ -35,6 +35,7 @@ private RecyclerView recyclerViewCategotyList, recyclerViewPopularList;
         LinearLayout homeBtn=findViewById(R.id.homeBtn);
         LinearLayout cartBtn=findViewById(R.id.cartBtn);
         LinearLayout connectionBtn=findViewById(R.id.connectionBtn);
+        LinearLayout menuBtn=findViewById(R.id.menuBtn);
 
         homeBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -54,6 +55,13 @@ private RecyclerView recyclerViewCategotyList, recyclerViewPopularList;
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this,LoginActivity.class));
+            }
+        });
+
+        menuBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,MenuActivity.class));
             }
         });
 
