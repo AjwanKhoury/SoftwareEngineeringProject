@@ -23,6 +23,8 @@ com/example/burgermunch/Activity/CartActivity.java
 com/example/burgermunch/Activity/LoginActivity.java
  com.example.burgermunch.Activity.LoginActivity
  com.example.burgermunch.Activity.LoginActivity$1
+ com.example.burgermunch.Activity.LoginActivity$2
+ com.example.burgermunch.Activity.LoginActivity$3
 com/example/burgermunch/Activity/ShowDetailActivity.java
  com.example.burgermunch.Activity.ShowDetailActivity
  com.example.burgermunch.Activity.ShowDetailActivity$1

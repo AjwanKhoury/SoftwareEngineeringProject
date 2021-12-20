@@ -1,7 +1,8 @@
-#Sun Dec 19 15:28:09 IST 2021
+#Sun Dec 19 20:38:21 IST 2021
 path.4=1/classes.dex
 path.3=13/classes.dex
 path.2=10/classes.dex
+renamed.9=classes10.dex
 path.1=0/classes.dex
 renamed.8=classes9.dex
 path.8=8/classes.dex
@@ -18,6 +19,8 @@ renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
+base.9=C\:\\Users\\koren\\OneDrive\\Desktop\\BurgerMunchProject\\GitHub\\SoftwareEngineeringProject\\burgermunch\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+path.9=classes2.dex
 renamed.7=classes8.dex
 base.8=C\:\\Users\\koren\\OneDrive\\Desktop\\BurgerMunchProject\\GitHub\\SoftwareEngineeringProject\\burgermunch\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
 renamed.6=classes7.dex
