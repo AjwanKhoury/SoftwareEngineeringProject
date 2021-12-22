@@ -39,6 +39,7 @@ private RecyclerView recyclerViewCategotyList, recyclerViewPopularList;
         LinearLayout connectionBtn=findViewById(R.id.connectionBtn);
         LinearLayout menuBtn=findViewById(R.id.menuBtn);
         LinearLayout makeContactBtn=findViewById(R.id.makeContactBtn);
+        TextView Seats = findViewById(R.id.order_seats);
 
         TextView Visitor = findViewById(R.id.Visitor);
 
@@ -75,6 +76,12 @@ private RecyclerView recyclerViewCategotyList, recyclerViewPopularList;
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this,MenuActivity.class));
+            }
+        });
+        Seats.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,SeatsActivity.class));
             }
         });
 

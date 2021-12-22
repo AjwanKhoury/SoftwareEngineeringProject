@@ -46,15 +46,6 @@
                     app:layout_constraintEnd_toEndOf="@+id/Visitor"
                     app:layout_constraintTop_toBottomOf="@+id/Visitor" />
 
-                <ImageView
-                    android:id="@+id/imageView"
-                    android:layout_width="73dp"
-                    android:layout_height="71dp"
-                    android:layout_marginStart="32dp"
-                    android:src="@drawable/name"
-                    app:layout_constraintBottom_toBottomOf="@+id/textView5"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="@+id/Visitor" />
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:id="@+id/constraintLayout2"
@@ -203,6 +194,20 @@
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+                    <TextView
+                        android:id="@+id/order_seats"
+                        android:layout_width="128dp"
+                        android:layout_height="44dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/orange_background"
+                        android:text="הזמינו מקומות ישיבה"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="@+id/imageView6"
+                        app:layout_constraintTop_toTopOf="@+id/imageView6" />
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
