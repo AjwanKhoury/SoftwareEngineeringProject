@@ -4,11 +4,10 @@ import android.content.Context;
 import android.widget.Toast;
 
 import com.example.burgermunch.Domain.FoodDomain;
-import com.example.burgermunch.Interface.ChangeNumberItemsListener;
 
 import java.util.ArrayList;
 
-public class ManagementCart {
+public class ManagementCart{
     private Context context;
     private TinyDB tinyDB;
 

@@ -2,7 +2,7 @@ package com.example.burgermunch.Domain;
 
 import java.io.Serializable;
 
-public class FoodDomain implements Serializable {
+public class FoodDomain implements Serializable,IFoodDomain {
     private String title;
     private String pic;
     private String description;

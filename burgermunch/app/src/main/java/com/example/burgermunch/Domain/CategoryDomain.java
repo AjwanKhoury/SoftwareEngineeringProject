@@ -1,6 +1,6 @@
 package com.example.burgermunch.Domain;
 
-public class CategoryDomain {
+public class CategoryDomain implements ICategoryDomain{
     private String title;
     private String pic;
 

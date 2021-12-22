@@ -13,7 +13,7 @@ import android.widget.TextView;
 
 import com.example.burgermunch.Adapter.CartListAdapter;
 import com.example.burgermunch.Helper.ManagementCart;
-import com.example.burgermunch.Interface.ChangeNumberItemsListener;
+import com.example.burgermunch.Helper.ChangeNumberItemsListener;
 import com.example.burgermunch.R;
 
 public class CartActivity extends AppCompatActivity {
