@@ -14,6 +14,7 @@
         android:layout_marginBottom="264dp"
         android:ems="10"
         android:hint="שם מלא"
+        android:maxLength="1"
         android:inputType="text"
         android:singleLine="true"
         android:textAlignment="center"
