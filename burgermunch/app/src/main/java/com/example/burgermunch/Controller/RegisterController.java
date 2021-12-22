@@ -19,7 +19,6 @@ public class RegisterController implements IRegisterController, Observer {
     public RegisterController(IRegisterView view) {
         this.view = view;
         model = new RegisterModel();
-
         ((RegisterModel)model).addObserver(this);
     }
 

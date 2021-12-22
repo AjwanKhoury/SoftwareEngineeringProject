@@ -14,8 +14,8 @@ public class Customer implements ICustomer {
         full_name = "";
         address = "";
         phone_number = "";
-        this.email = "";
-        this.password= "";
+        email = "";
+        password= "";
     }
     //check login
     public Customer(String em, String pass) {
@@ -112,7 +112,7 @@ public class Customer implements ICustomer {
     }
 
     //Full Name
-    private static boolean onlyAlphabetic(String s) {
+    public static boolean onlyAlphabetic(String s) {
         char[] chars = s.toCharArray();
         for(char c : chars){
             if(Character.isDigit(c))

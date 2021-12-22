@@ -2265,6 +2265,7 @@ int id homeAsUp 0x7f080105
 int id homeBtn 0x7f080106
 int id honorRequest 0x7f080107
 int id horizontal_only 0x7f080108
+int id hourSeats 0x7f080268
 int id icon 0x7f080109
 int id icon_group 0x7f08010a
 int id icon_only 0x7f08010b

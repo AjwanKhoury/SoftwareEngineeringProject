@@ -7,39 +7,6 @@
     android:background="@drawable/background"
     tools:context=".Activity.SeatsActivity">
 
-    <EditText
-        android:id="@+id/fullnameSeats"
-        android:layout_width="206dp"
-        android:layout_height="57dp"
-        android:layout_marginBottom="264dp"
-        android:ems="10"
-        android:hint="שם מלא"
-        android:maxLength="1"
-        android:inputType="text"
-        android:singleLine="true"
-        android:textAlignment="center"
-        app:layout_constraintBottom_toTopOf="@+id/coordinatorLayout"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/NumSeats" />
-
-    <EditText
-        android:id="@+id/phoneSeats"
-        android:layout_width="206dp"
-        android:layout_height="57dp"
-        android:ems="10"
-        android:hint="טלפון"
-        android:inputType="text"
-        android:singleLine="true"
-        android:textAlignment="center"
-        app:layout_constraintBottom_toTopOf="@+id/imageView16"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/NumSeats"
-        app:layout_constraintVertical_bias="0.694" />
-
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:id="@+id/coordinatorLayout"
         android:layout_width="match_parent"
@@ -194,17 +161,68 @@
         android:id="@+id/NumSeats"
         android:layout_width="206dp"
         android:layout_height="57dp"
-        android:layout_marginBottom="340dp"
+        android:layout_marginBottom="376dp"
         android:ems="10"
         android:hint="מספר מקומות"
-        android:inputType="number"
+        android:inputType="none|numberSigned"
         android:maxLength="1"
         android:singleLine="true"
         android:textAlignment="center"
         app:layout_constraintBottom_toTopOf="@+id/coordinatorLayout"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/fullnameSeats"
+        android:layout_width="206dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="264dp"
+        android:ems="10"
+        android:hint="שם מלא"
+        android:inputType="text"
+        android:singleLine="true"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/coordinatorLayout"
+        app:layout_constraintEnd_toEndOf="@+id/NumSeats"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/NumSeats"
+        app:layout_constraintTop_toBottomOf="@+id/NumSeats"
+        app:layout_constraintVertical_bias="0.142" />
+
+    <EditText
+        android:id="@+id/phoneSeats"
+        android:layout_width="206dp"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:hint="טלפון"
+        android:inputType="number"
+        android:maxLength="10"
+        android:singleLine="true"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/imageView16"
+        app:layout_constraintEnd_toEndOf="@+id/fullnameSeats"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/fullnameSeats"
+        app:layout_constraintTop_toBottomOf="@+id/fullnameSeats"
+        app:layout_constraintVertical_bias="0.101" />
+
+    <EditText
+        android:id="@+id/hourSeats"
+        android:layout_width="206dp"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:hint="שעה"
+        android:inputType="datetime|time"
+        android:maxLength="5"
+        android:singleLine="true"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/imageView16"
+        app:layout_constraintEnd_toEndOf="@+id/phoneSeats"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/phoneSeats"
+        app:layout_constraintTop_toBottomOf="@+id/phoneSeats"
+        app:layout_constraintVertical_bias="0.12" />
 
     <ImageView
         android:id="@+id/imageView14"
@@ -218,28 +236,28 @@
 
     <TextView
         android:id="@+id/textView12"
-        android:layout_width="376dp"
-        android:layout_height="wrap_content"
-        android:text="ניתן להזמין עד 4 מקומות ישיבה.\n להזמנת 5 מקומות ישיבה ומעלה יש לבצע הזמנה טלפונית.\nשמירת המקומות תתבטל לאחר איחור של חצי שעה."
+        android:layout_width="369dp"
+        android:layout_height="87dp"
+        android:layout_marginBottom="12dp"
+        android:text="ניתן להזמין עד 4 מקומות ישיבה.\n להזמנת 5 מקומות ישיבה ומעלה יש לבצע הזמנה טלפונית.\nשמירת המקומות תתבטל לאחר איחור של חצי שעה.\nשמירת המקומות הינה לאותו היום בלבד."
         android:textAlignment="center"
         android:textColor="#FF7700"
         app:layout_constraintBottom_toTopOf="@+id/coordinatorLayout"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.485"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/NumSeats"
-        app:layout_constraintVertical_bias="0.882" />
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/imageView16"
         android:layout_width="136dp"
         android:layout_height="27dp"
-        android:layout_marginBottom="58dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="Liroy"
         app:layout_constraintBottom_toTopOf="@+id/textView12"
-        app:layout_constraintEnd_toEndOf="@+id/phoneSeats"
-        app:layout_constraintHorizontal_bias="0.528"
-        app:layout_constraintStart_toStartOf="@+id/phoneSeats"
-        app:srcCompat="@drawable/orange_background" />
+        app:layout_constraintEnd_toEndOf="@+id/hourSeats"
+        app:layout_constraintStart_toStartOf="@+id/hourSeats"
+        app:srcCompat="@drawable/orange_background"
+        tools:ignore="OnClick,UsingOnClickInXml" />
 
     <TextView
         android:id="@+id/textView20"

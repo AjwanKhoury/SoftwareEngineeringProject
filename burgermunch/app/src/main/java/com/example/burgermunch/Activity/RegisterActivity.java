@@ -26,7 +26,6 @@ public class RegisterActivity extends AppCompatActivity implements IRegisterView
 
         controllerSignUp = new RegisterController(this);
 
-        ImageView registerBtn=findViewById(R.id.registerBtn);
         TextView recover_pass_txt=findViewById(R.id.recover_pass_txt);
         full_name = findViewById(R.id.name_txt);
         address = findViewById(R.id.address_txt);

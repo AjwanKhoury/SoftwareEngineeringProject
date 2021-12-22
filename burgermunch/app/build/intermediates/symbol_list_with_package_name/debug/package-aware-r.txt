@@ -2266,6 +2266,7 @@ id homeAsUp
 id homeBtn
 id honorRequest
 id horizontal_only
+id hourSeats
 id icon
 id icon_group
 id icon_only
