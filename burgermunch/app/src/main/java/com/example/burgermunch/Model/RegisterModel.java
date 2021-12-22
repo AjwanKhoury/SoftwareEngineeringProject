@@ -1,7 +1,6 @@
 package com.example.burgermunch.Model;
 
-import com.example.burgermunch.Interface.ICustomer;
-import com.example.burgermunch.Interface.IRegisterModel;
+import com.example.burgermunch.Object.ICustomer;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;

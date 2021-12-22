@@ -10,7 +10,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.burgermunch.Controller.IRegisterController;
 import com.example.burgermunch.Controller.RegisterController;
 import com.example.burgermunch.Interface.IRegisterView;
 import com.example.burgermunch.R;
@@ -18,7 +17,7 @@ import com.example.burgermunch.R;
 
 public class RegisterActivity extends AppCompatActivity implements IRegisterView {
     private EditText full_name, phone_number,address, email, password;
-    private IRegisterController controllerSignUp;
+    private RegisterController controllerSignUp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

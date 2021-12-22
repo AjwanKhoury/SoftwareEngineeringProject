@@ -1868,6 +1868,7 @@ drawable burger
 drawable burger_large
 drawable button
 drawable button_start
+drawable call
 drawable card_background
 drawable cart_white
 drawable cat_11
@@ -1938,6 +1939,7 @@ drawable ic_mtrl_chip_close_circle
 drawable logofull
 drawable logoround
 drawable logotranspert
+drawable mail
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -2014,6 +2016,7 @@ id SYM
 id TOP_END
 id TOP_START
 id VicaloriesTxt
+id Visitor
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -2115,6 +2118,7 @@ id browser_actions_menu_view
 id button
 id buttonPanel
 id cache_measures
+id call
 id callMeasure
 id cancel_action
 id cancel_button
@@ -2127,6 +2131,10 @@ id center_horizontal
 id center_vertical
 id chain
 id chains
+id checkBox2
+id checkBox3
+id checkBox4
+id checkBox5
 id checkbox
 id checked
 id chip
@@ -2304,6 +2312,7 @@ id listMode
 id list_item
 id loginBtn
 id login_txt
+id mail
 id mainLayout
 id makeContactBtn
 id masked
@@ -2523,6 +2532,7 @@ id textTop
 id textView
 id textView1
 id textView10
+id textView11
 id textView13
 id textView14
 id textView15
