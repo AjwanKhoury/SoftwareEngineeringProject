@@ -9,12 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88d53be5-8176-42e9-9443-83ebaaed1217" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/burgermunch/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/burgermunch/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/burgermunch/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/burgermunch/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/burgermunch/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/burgermunch/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/burgermunch/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/burgermunch/local.properties" afterDir="false" />
-    </list>
+    <list default="true" id="88d53be5-8176-42e9-9443-83ebaaed1217" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

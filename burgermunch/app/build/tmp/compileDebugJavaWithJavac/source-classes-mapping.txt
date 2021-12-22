@@ -1,7 +1,13 @@
 com/example/burgermunch/Interface/ChangeNumberItemsListener.java
  com.example.burgermunch.Interface.ChangeNumberItemsListener
-com/example/burgermunch/Interface/IRegisterView.java
- com.example.burgermunch.Interface.IRegisterView
+com/example/burgermunch/Activity/MainActivity.java
+ com.example.burgermunch.Activity.MainActivity
+ com.example.burgermunch.Activity.MainActivity$1
+ com.example.burgermunch.Activity.MainActivity$2
+ com.example.burgermunch.Activity.MainActivity$3
+ com.example.burgermunch.Activity.MainActivity$4
+ com.example.burgermunch.Activity.MainActivity$5
+ com.example.burgermunch.Activity.MainActivity$6
 com/example/burgermunch/Activity/LoginActivity.java
  com.example.burgermunch.Activity.LoginActivity
  com.example.burgermunch.Activity.LoginActivity$1
@@ -22,8 +28,10 @@ com/example/burgermunch/Helper/TinyDB.java
  com.example.burgermunch.Helper.TinyDB
 com/example/burgermunch/Model/IRegisterModel.java
  com.example.burgermunch.Model.IRegisterModel
-com/example/burgermunch/Controller/RegisterController.java
- com.example.burgermunch.Controller.RegisterController
+com/example/burgermunch/Activity/MakeContactActivity.java
+ com.example.burgermunch.Activity.MakeContactActivity
+ com.example.burgermunch.Activity.MakeContactActivity$1
+ com.example.burgermunch.Activity.MakeContactActivity$2
 com/example/burgermunch/Domain/FoodDomain.java
  com.example.burgermunch.Domain.FoodDomain
 com/example/burgermunch/Interface/IRegisterController.java
@@ -44,24 +52,6 @@ com/example/burgermunch/Model/RegisterModel.java
 com/example/burgermunch/Adapter/CartListAdapter.java
  com.example.burgermunch.Adapter.CartListAdapter
  com.example.burgermunch.Adapter.CartListAdapter$ViewHolder
-com/example/burgermunch/Adapter/RecommendedAdapter.java
- com.example.burgermunch.Adapter.RecommendedAdapter
- com.example.burgermunch.Adapter.RecommendedAdapter$ViewHolder
-com/example/burgermunch/Activity/IntroActivity.java
- com.example.burgermunch.Activity.IntroActivity
- com.example.burgermunch.Activity.IntroActivity$1
-com/example/burgermunch/Model/LoginModel.java
- com.example.burgermunch.Model.LoginModel
-com/example/burgermunch/Model/ILoginModel.java
- com.example.burgermunch.Model.ILoginModel
-com/example/burgermunch/BuildConfig.java
- com.example.burgermunch.BuildConfig
-com/example/burgermunch/Activity/RegisterActivity.java
- com.example.burgermunch.Activity.RegisterActivity
-com/example/burgermunch/Activity/MakeContactActivity.java
- com.example.burgermunch.Activity.MakeContactActivity
- com.example.burgermunch.Activity.MakeContactActivity$1
- com.example.burgermunch.Activity.MakeContactActivity$2
 com/example/burgermunch/Activity/CartActivity.java
  com.example.burgermunch.Activity.CartActivity
  com.example.burgermunch.Activity.CartActivity$1
@@ -70,13 +60,6 @@ com/example/burgermunch/Activity/CartActivity.java
  com.example.burgermunch.Activity.CartActivity$4
  com.example.burgermunch.Activity.CartActivity$5
  com.example.burgermunch.Activity.CartActivity$6
-com/example/burgermunch/Activity/MainActivity.java
- com.example.burgermunch.Activity.MainActivity
- com.example.burgermunch.Activity.MainActivity$1
- com.example.burgermunch.Activity.MainActivity$2
- com.example.burgermunch.Activity.MainActivity$3
- com.example.burgermunch.Activity.MainActivity$4
- com.example.burgermunch.Activity.MainActivity$5
 com/example/burgermunch/Activity/MenuActivity.java
  com.example.burgermunch.Activity.MenuActivity
  com.example.burgermunch.Activity.MenuActivity$1
@@ -84,3 +67,28 @@ com/example/burgermunch/Activity/MenuActivity.java
  com.example.burgermunch.Activity.MenuActivity$3
  com.example.burgermunch.Activity.MenuActivity$4
  com.example.burgermunch.Activity.MenuActivity$5
+com/example/burgermunch/Model/LoginModel.java
+ com.example.burgermunch.Model.LoginModel
+com/example/burgermunch/Model/ILoginModel.java
+ com.example.burgermunch.Model.ILoginModel
+com/example/burgermunch/BuildConfig.java
+ com.example.burgermunch.BuildConfig
+com/example/burgermunch/Activity/RegisterActivity.java
+ com.example.burgermunch.Activity.RegisterActivity
+com/example/burgermunch/Activity/IntroActivity.java
+ com.example.burgermunch.Activity.IntroActivity
+ com.example.burgermunch.Activity.IntroActivity$1
+com/example/burgermunch/Activity/SeatsActivity.java
+ com.example.burgermunch.Activity.SeatsActivity
+ com.example.burgermunch.Activity.SeatsActivity$1
+ com.example.burgermunch.Activity.SeatsActivity$2
+ com.example.burgermunch.Activity.SeatsActivity$3
+ com.example.burgermunch.Activity.SeatsActivity$4
+ com.example.burgermunch.Activity.SeatsActivity$5
+com/example/burgermunch/Interface/IRegisterView.java
+ com.example.burgermunch.Interface.IRegisterView
+com/example/burgermunch/Adapter/RecommendedAdapter.java
+ com.example.burgermunch.Adapter.RecommendedAdapter
+ com.example.burgermunch.Adapter.RecommendedAdapter$ViewHolder
+com/example/burgermunch/Controller/RegisterController.java
+ com.example.burgermunch.Controller.RegisterController

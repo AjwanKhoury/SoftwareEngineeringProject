@@ -1938,6 +1938,7 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable logofull
 drawable logoround
+drawable logosmall
 drawable logotranspert
 drawable mail
 drawable material_cursor_drawable
@@ -2008,6 +2009,7 @@ id FUNCTION
 id FacebookBtn
 id META
 id NO_DEBUG
+id NumSeats
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -2245,6 +2247,7 @@ id foodPic
 id forever
 id fragment_container_view_tag
 id frost
+id fullnameSeats
 id ghost_view
 id ghost_view_holder
 id glide_custom_view_target_tag
@@ -2270,12 +2273,13 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imageView
 id imageView1
 id imageView10
 id imageView11
 id imageView12
+id imageView14
 id imageView15
+id imageView16
 id imageView18
 id imageView2
 id imageView3
@@ -2398,6 +2402,7 @@ id off
 id on
 id onInterceptTouchReturnSwipe
 id open_graph
+id order_seats
 id outline
 id outward
 id overshoot
@@ -2415,6 +2420,7 @@ id pathRelative
 id peekHeight
 id percent
 id phoneNum_txt
+id phoneSeats
 id pic
 id pin
 id plusCardBtn
@@ -2533,6 +2539,7 @@ id textView
 id textView1
 id textView10
 id textView11
+id textView12
 id textView13
 id textView14
 id textView15
@@ -2541,6 +2548,7 @@ id textView17
 id textView18
 id textView19
 id textView2
+id textView20
 id textView21
 id textView3
 id textView4
@@ -2684,6 +2692,7 @@ layout activity_main
 layout activity_make_contact
 layout activity_menu
 layout activity_register
+layout activity_seats
 layout activity_show_detail
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
