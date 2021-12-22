@@ -31,8 +31,9 @@
         <entry key="app/src/main/res/layout/activity_make_contact.xml" value="0.15949453551912568" />
         <entry key="app/src/main/res/layout/activity_menu.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/activity_seats.xml" value="0.335" />
         <entry key="app/src/main/res/layout/activity_show_detail.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/viewholder_cart.xml" value="0.6288814498468468" />
+        <entry key="app/src/main/res/layout/viewholder_cart.xml" value="0.165" />
         <entry key="app/src/main/res/layout/viewholder_category.xml" value="0.35706930981061985" />
         <entry key="app/src/main/res/layout/viewholder_recommended.xml" value="0.5" />
       </map>

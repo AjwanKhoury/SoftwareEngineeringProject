@@ -14,7 +14,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
 import com.example.burgermunch.Domain.FoodDomain;
 import com.example.burgermunch.Helper.ManagementCart;
-import com.example.burgermunch.Interface.ChangeNumberItemsListener;
+import com.example.burgermunch.Helper.ChangeNumberItemsListener;
 import com.example.burgermunch.R;
 
 import java.util.ArrayList;

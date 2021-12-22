@@ -40,20 +40,20 @@ public class ShowDetailActivity extends AppCompatActivity {
                 .into(picFood);
 
         titleTxt.setText(object.getTitle());
-        feeTxt.setText("$" + object.getFee());
+        feeTxt.setText(object.getFee()+" ש״ח");
         descriptionTxt.setText(object.getDescription());
         numberOrderTxt.setText(String.valueOf(numberOrder));
         caloryTxt.setText(object.getCalories() + " Calories");
         starTxt.setText(object.getStar() + "");
         timeTxt.setText(object.getTime() + " minutes");
-        totalPriceTxt.setText("$"+Math.round(numberOrder * object.getFee()));
+        totalPriceTxt.setText(Math.round(numberOrder * object.getFee())+" ש״ח");
 
         plusBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 numberOrder = numberOrder + 1;
                 numberOrderTxt.setText(String.valueOf(numberOrder));
-                totalPriceTxt.setText("$"+Math.round(numberOrder * object.getFee()));
+                totalPriceTxt.setText(Math.round(numberOrder * object.getFee())+" ש״ח");
             }
         });
 
@@ -64,7 +64,7 @@ public class ShowDetailActivity extends AppCompatActivity {
                     numberOrder = numberOrder - 1;
                 }
                 numberOrderTxt.setText(String.valueOf(numberOrder));
-                totalPriceTxt.setText("$"+Math.round(numberOrder * object.getFee()));
+                totalPriceTxt.setText(Math.round(numberOrder * object.getFee())+" ש״ח");
             }
         });
 
