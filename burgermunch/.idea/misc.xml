@@ -34,7 +34,7 @@
         <entry key="app/src/main/res/layout/activity_show_detail.xml" value="0.2848659862422866" />
         <entry key="app/src/main/res/layout/viewholder_cart.xml" value="0.5318181818181819" />
         <entry key="app/src/main/res/layout/viewholder_category.xml" value="0.35706930981061985" />
-        <entry key="app/src/main/res/layout/viewholder_recommended.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/viewholder_recommended.xml" value="0.1" />
       </map>
     </option>
   </component>
