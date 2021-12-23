@@ -1926,7 +1926,7 @@ drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable grey_bar
 drawable grey_btn_background
-drawable home_meal
+drawable home_meal1
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -1981,8 +1981,6 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable orange_background
 drawable password
-drawable pizza1
-drawable pizza3
 drawable plus
 drawable plus_circle
 drawable profile
