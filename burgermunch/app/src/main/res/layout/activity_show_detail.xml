@@ -25,7 +25,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="375dp"
                 android:layout_margin="5dp"
-                app:srcCompat="@drawable/burger_large" />
+                app:srcCompat="@drawable/sergeant_large" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -236,32 +236,39 @@
                     android:orientation="horizontal">
 
                     <CheckBox
-                        android:id="@+id/checkBox2"
+                        android:layoutDirection="rtl"
+                        android:textDirection="rtl"                        android:id="@+id/checkBox2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="CheckBox" />
+                        android:text="מלפפון חמוץ" />
 
                     <CheckBox
+                        android:layoutDirection="rtl"
+                        android:textDirection="rtl"
                         android:id="@+id/checkBox3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="CheckBox" />
+                        android:text="בצל סגול" />
 
                     <CheckBox
+                        android:layoutDirection="rtl"
+                        android:textDirection="rtl"
                         android:id="@+id/checkBox4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="CheckBox" />
+                        android:text="חסה" />
 
                     <CheckBox
+                        android:layoutDirection="rtl"
+                        android:textDirection="rtl"
                         android:id="@+id/checkBox5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="CheckBox" />
+                        android:text="עגבנייה" />
                 </LinearLayout>
 
                 <LinearLayout

@@ -1,7 +1,5 @@
 package com.example.burgermunch.Object;
 
-import java.util.HashMap;
-
 public class Order implements IOrder{
     private String Date;
     private String Status;
