@@ -1,5 +1,5 @@
-com/example/burgermunch/Object/IOrder.java
- com.example.burgermunch.Object.IOrder
+com/example/burgermunch/Object/Seats.java
+ com.example.burgermunch.Object.Seats
 com/example/burgermunch/Model/LoginModel.java
  com.example.burgermunch.Model.LoginModel
 com/example/burgermunch/Model/IRegisterModel.java
@@ -106,8 +106,10 @@ com/example/burgermunch/Activity/SeatsActivity.java
  com.example.burgermunch.Activity.SeatsActivity$5
 com/example/burgermunch/Model/ISeatsModel.java
  com.example.burgermunch.Model.ISeatsModel
-com/example/burgermunch/Object/Seats.java
- com.example.burgermunch.Object.Seats
+com/example/burgermunch/Object/IOrder.java
+ com.example.burgermunch.Object.IOrder
+com/example/burgermunch/Object/Order.java
+ com.example.burgermunch.Object.Order
 com/example/burgermunch/Controller/SeatsController.java
  com.example.burgermunch.Controller.SeatsController
 com/example/burgermunch/Model/SeatsModel.java
