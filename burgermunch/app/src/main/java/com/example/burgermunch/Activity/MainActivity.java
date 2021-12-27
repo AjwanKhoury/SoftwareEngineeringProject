@@ -15,7 +15,6 @@ import com.example.burgermunch.Adapter.RecommendedAdapter;
 import com.example.burgermunch.Domain.CategoryDomain;
 import com.example.burgermunch.Domain.OrderDetails;
 import com.example.burgermunch.R;
-
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
@@ -93,9 +92,9 @@ private RecyclerView recyclerViewCategotyList, recyclerViewPopularList;
         recyclerViewPopularList.setLayoutManager(linearLayoutManager);
 
         ArrayList<OrderDetails> foodlist = new ArrayList<>();
-        foodlist.add(new OrderDetails("מנת הבית", "home_meal1", "220 גרם בשר בקר, אווז מעושן, ריבת בצל, רוטב קארי, עגבנייה, חסה, בצל סגול ומלפפון חמוץ", 55, 5, 7, 600));
-        foodlist.add(new OrderDetails("סמל ראשון", "sergeant", "440 גרם בקר, 250 גרם אנטריקוט, אווז מעושן, בית עין, בצל מטוגן, עגבנייה, חסה, בצל סגול ומלפפון חמוץ", 87, 4.8, 8, 1490));
-        foodlist.add(new OrderDetails("סמל", "sergent", "250 גרם אנטריקוט, אווז מעושן, חלפיניו, עגבנייה, חסה, בצל סגול ומלפפון חמוץ",  83, 4.6, 7, 1270));
+        foodlist.add(new OrderDetails("מנת הבית", "home_meal1", "220 גרם בשר בקר, אווז מעושן, ריבת בצל, רוטב קארי", 55, 5, 7, 600));
+        foodlist.add(new OrderDetails("סמל ראשון", "sergeant", "440 גרם בקר, 250 גרם אנטריקוט, אווז מעושן, ביצת עין, בצל מטוגן", 87, 4.8, 8, 1490));
+        foodlist.add(new OrderDetails("סמל", "sergent", "250 גרם אנטריקוט, אווז מעושן, חלפיניו",  83, 4.6, 7, 1270));
 
         adapter2 = new RecommendedAdapter(foodlist);
         recyclerViewPopularList.setAdapter(adapter2);

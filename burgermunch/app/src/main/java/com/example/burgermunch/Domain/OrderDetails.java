@@ -3,6 +3,7 @@ package com.example.burgermunch.Domain;
 import java.io.Serializable;
 
 public class OrderDetails implements Serializable, IOrderDetails {
+    private int id = 0;
     private String title;
     private String pic;
     private String description;
@@ -13,6 +14,7 @@ public class OrderDetails implements Serializable, IOrderDetails {
     private int numberInCart = 1;
 
     public OrderDetails(String title, String pic, String description, int fee, double star, int time, int calories) {
+        id++;
         this.title = title;
         this.pic = pic;
         this.description = description;
