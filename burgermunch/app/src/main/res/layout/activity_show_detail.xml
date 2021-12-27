@@ -149,7 +149,7 @@
                         android:orientation="horizontal">
 
                         <ImageView
-                            android:id="@+id/imageView18"
+                            android:id="@+id/imageView20"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             app:srcCompat="@drawable/star" />
@@ -175,7 +175,7 @@
                         android:orientation="horizontal">
 
                         <ImageView
-                            android:id="@+id/imageView18"
+                            android:id="@+id/imageView19"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             app:srcCompat="@drawable/chronometer" />
