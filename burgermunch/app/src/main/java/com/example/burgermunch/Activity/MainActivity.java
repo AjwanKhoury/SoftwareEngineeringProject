@@ -7,7 +7,6 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -94,9 +93,9 @@ private RecyclerView recyclerViewCategotyList, recyclerViewPopularList;
         recyclerViewPopularList.setLayoutManager(linearLayoutManager);
 
         ArrayList<FoodDomain> foodlist = new ArrayList<>();
-        foodlist.add(new FoodDomain("מנת הבית", "pizza1", "220 גרם בשר בקר, אווז מעושן, ריבת בצל, רוטב קארי, עגבנייה, חסה, בצל סגול ומלפפון חמוץ", 55, 5, 7, 600));
-        foodlist.add(new FoodDomain("סמל ראשון", "burger", "440 גרם בקר, 250 גרם אנטריקוט, אווז מעושן, בית עין, בצל מטוגן, עגבנייה, חסה, בצל סגול ומלפפון חמוץ", 87, 4.8, 8, 1490));
-        foodlist.add(new FoodDomain("סמל", "pizza3", "250 גרם אנטריקוט, אווז מעושן, חלפיניו, עגבנייה, חסה, בצל סגול ומלפפון חמוץ",  83, 4.6, 7, 1270));
+        foodlist.add(new FoodDomain("מנת הבית", "home_meal1", "220 גרם בשר בקר, אווז מעושן, ריבת בצל, רוטב קארי, עגבנייה, חסה, בצל סגול ומלפפון חמוץ", 55, 5, 7, 600));
+        foodlist.add(new FoodDomain("סמל ראשון", "sergeant", "440 גרם בקר, 250 גרם אנטריקוט, אווז מעושן, בית עין, בצל מטוגן, עגבנייה, חסה, בצל סגול ומלפפון חמוץ", 87, 4.8, 8, 1490));
+        foodlist.add(new FoodDomain("סמל", "sergent", "250 גרם אנטריקוט, אווז מעושן, חלפיניו, עגבנייה, חסה, בצל סגול ומלפפון חמוץ",  83, 4.6, 7, 1270));
 
         adapter2 = new RecommendedAdapter(foodlist);
         recyclerViewPopularList.setAdapter(adapter2);

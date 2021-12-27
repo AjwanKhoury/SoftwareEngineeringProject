@@ -103,22 +103,18 @@ public class CartActivity extends AppCompatActivity {
     }
 
     private void calculateCard() {
-        double percentTax = 0.02;  //you can change this item for tax price
         double delivery = 10;     //you can change this item you need price for delivery
 
-        tax = Math.round((managementCart.getTotalFee() * percentTax) * 100.0) / 100.0;
         double total = Math.round((managementCart.getTotalFee() + tax + delivery) * 100.0) / 100.0;
         double itemTotal = Math.round(managementCart.getTotalFee() * 100.0) / 100.0;
 
-        totalFeeTxt.setText("$" + itemTotal);
-        taxTxt.setText("$" + tax);
-        deliveryTxt.setText("$" + delivery);
-        totalTxt.setText("$" + total);
+        totalFeeTxt.setText(itemTotal+" ש״ח");
+        deliveryTxt.setText(delivery+" ש״ח");
+        totalTxt.setText(total+" ש״ח");
     }
 
     private void initView() {
         totalFeeTxt = findViewById(R.id.totalFeeTxt);
-        taxTxt = findViewById(R.id.taxTxt);
         deliveryTxt = findViewById(R.id.deliveryTxt);
         totalTxt = findViewById(R.id.totalTxt);
         recyclerViewList = findViewById(R.id.view);

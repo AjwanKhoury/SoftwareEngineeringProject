@@ -25,7 +25,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="375dp"
                 android:layout_margin="5dp"
-                app:srcCompat="@drawable/burger_large" />
+                app:srcCompat="@drawable/sergeant_large" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -231,8 +231,8 @@
                     android:textSize="20sp" />
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
                     <CheckBox
@@ -240,28 +240,36 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="CheckBox" />
+                        android:layoutDirection="rtl"
+                        android:text="מלפפון חמוץ"
+                        android:textDirection="rtl" />
 
                     <CheckBox
                         android:id="@+id/checkBox3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="CheckBox" />
+                        android:layoutDirection="rtl"
+                        android:text="בצל סגול"
+                        android:textDirection="rtl" />
 
                     <CheckBox
                         android:id="@+id/checkBox4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="CheckBox" />
+                        android:layoutDirection="rtl"
+                        android:text="חסה"
+                        android:textDirection="rtl" />
 
                     <CheckBox
                         android:id="@+id/checkBox5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="CheckBox" />
+                        android:layoutDirection="rtl"
+                        android:text="עגבנייה"
+                        android:textDirection="rtl" />
                 </LinearLayout>
 
                 <LinearLayout
