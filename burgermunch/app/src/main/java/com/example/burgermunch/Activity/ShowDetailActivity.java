@@ -8,7 +8,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.example.burgermunch.Domain.FoodDomain;
+import com.example.burgermunch.Domain.OrderDetails;
 import com.example.burgermunch.Helper.ManagementCart;
 import com.example.burgermunch.R;
 
@@ -16,7 +16,7 @@ public class ShowDetailActivity extends AppCompatActivity {
     private TextView addToCartBtn;
     private TextView titleTxt, feeTxt, descriptionTxt, numberOrderTxt, totalPriceTxt, starTxt, caloryTxt, timeTxt;
     private ImageView plusBtn, minusBtn, picFood;
-    private FoodDomain object;
+    private OrderDetails object;
     private int numberOrder = 1;
     private ManagementCart managementCart;
 
@@ -32,7 +32,7 @@ public class ShowDetailActivity extends AppCompatActivity {
     }
 
     private void getBundle() {
-        object = (FoodDomain) getIntent().getSerializableExtra("object");
+        object = (OrderDetails) getIntent().getSerializableExtra("object");
 
         int drawableResourceId = this.getResources().getIdentifier(object.getPic(), "drawable", this.getPackageName());
         Glide.with(this)

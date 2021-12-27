@@ -1,6 +1,6 @@
 package com.example.burgermunch.Domain;
 
-public interface IFoodDomain {
+public interface IOrderDetails {
     public int getNumberInCart();
 
     public void setNumberInCart(int numberInCart);

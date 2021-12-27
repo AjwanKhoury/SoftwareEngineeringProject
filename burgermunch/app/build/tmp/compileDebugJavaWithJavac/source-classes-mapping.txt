@@ -10,13 +10,13 @@ com/example/burgermunch/Activity/MainActivity.java
  com.example.burgermunch.Activity.MainActivity$4
  com.example.burgermunch.Activity.MainActivity$5
  com.example.burgermunch.Activity.MainActivity$6
+com/example/burgermunch/Interface/ISeatsController.java
+ com.example.burgermunch.Interface.ISeatsController
 com/example/burgermunch/Activity/LoginActivity.java
  com.example.burgermunch.Activity.LoginActivity
  com.example.burgermunch.Activity.LoginActivity$1
  com.example.burgermunch.Activity.LoginActivity$2
  com.example.burgermunch.Activity.LoginActivity$3
-com/example/burgermunch/Interface/ISeatsController.java
- com.example.burgermunch.Interface.ISeatsController
 com/example/burgermunch/Object/Seats.java
  com.example.burgermunch.Object.Seats
 com/example/burgermunch/Model/SeatsModel.java
@@ -32,10 +32,10 @@ com/example/burgermunch/Domain/CategoryDomain.java
  com.example.burgermunch.Domain.CategoryDomain
 com/example/burgermunch/Helper/ManagementCart.java
  com.example.burgermunch.Helper.ManagementCart
-com/example/burgermunch/Helper/TinyDB.java
- com.example.burgermunch.Helper.TinyDB
 com/example/burgermunch/Model/IRegisterModel.java
  com.example.burgermunch.Model.IRegisterModel
+com/example/burgermunch/Helper/TinyDB.java
+ com.example.burgermunch.Helper.TinyDB
 com/example/burgermunch/Object/Order.java
  com.example.burgermunch.Object.Order
 com/example/burgermunch/Activity/MakeContactActivity.java

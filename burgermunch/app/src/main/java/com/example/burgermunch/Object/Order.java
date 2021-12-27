@@ -1,24 +1,34 @@
 package com.example.burgermunch.Object;
 
+import com.example.burgermunch.Domain.OrderDetails;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class Order implements IOrder{
     private String Date;
     private String Status;
     private String CusPhone;
     private String OrderID;
+    private int TotalPrice;
+    private List<OrderDetails> meals;
 
     public Order(){
         Date ="";
         Status ="";
         CusPhone ="";
         OrderID ="";
+        meals = new ArrayList<OrderDetails>();
     }
 
-    public Order(String Da,String St, String Cus, String Or){
+    public Order(String Da,String St, String Cus, String Or , List<OrderDetails> list){
         this.Date= Da;
         this.Status= St;
         this.CusPhone= Cus;
         this.OrderID= Or;
+        this.meals = list;
     }
+
 
     @Override
     public String getDate() {
@@ -48,6 +58,17 @@ public class Order implements IOrder{
     public String getCusPhone() {
         return CusPhone;
     }
+
+    @Override
+    public int getTotalPrice() {
+        if(meals.isEmpty()) return 0;
+        int price=0;
+        for (int i=0; i<meals.size(); i++){
+            price += meals.get(i).getFee();
+        }
+        return price;
+    }
+
     public void setCusPhone(String cusPhone) {
         this.CusPhone = cusPhone;
     }

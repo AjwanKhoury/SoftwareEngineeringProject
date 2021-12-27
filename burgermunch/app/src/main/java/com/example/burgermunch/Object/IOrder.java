@@ -5,4 +5,5 @@ public interface IOrder {
     public String getStatus();
     public String getOrderID();
     public String getCusPhone();
+    public int getTotalPrice();
 }

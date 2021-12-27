@@ -3,8 +3,7 @@ package com.example.burgermunch.Helper;
 import android.content.Context;
 import android.widget.Toast;
 
-import com.example.burgermunch.Domain.FoodDomain;
-import com.example.burgermunch.Helper.TinyDB;
+import com.example.burgermunch.Domain.OrderDetails;
 
 import java.util.ArrayList;
 
@@ -17,8 +16,8 @@ public class ManagementCart{
         this.tinyDB = new TinyDB(context);
     }
 
-    public void insertFood(FoodDomain item) {
-        ArrayList<FoodDomain> listFood = getListCart();
+    public void insertFood(OrderDetails item) {
+        ArrayList<OrderDetails> listFood = getListCart();
         boolean existAlready = false;
         int n = 0;
         for (int i = 0; i < listFood.size(); i++) {
@@ -39,11 +38,11 @@ public class ManagementCart{
         Toast.makeText(context, "נוסף לעגלה", Toast.LENGTH_SHORT).show();
     }
 
-    public ArrayList<FoodDomain> getListCart() {
+    public ArrayList<OrderDetails> getListCart() {
         return tinyDB.getListObject("CardList");
     }
 
-    public void minusNumberFood(ArrayList<FoodDomain> listfood, int position, ChangeNumberItemsListener changeNumberItemsListener) {
+    public void minusNumberFood(ArrayList<OrderDetails> listfood, int position, ChangeNumberItemsListener changeNumberItemsListener) {
         if (listfood.get(position).getNumberInCart() == 1) {
             listfood.remove(position);
         } else {
@@ -53,14 +52,14 @@ public class ManagementCart{
         changeNumberItemsListener.changed();
     }
 
-    public void plusNumberFood(ArrayList<FoodDomain> listfood, int position, ChangeNumberItemsListener changeNumberItemsListener) {
+    public void plusNumberFood(ArrayList<OrderDetails> listfood, int position, ChangeNumberItemsListener changeNumberItemsListener) {
         listfood.get(position).setNumberInCart(listfood.get(position).getNumberInCart() + 1);
         tinyDB.putListObject("CardList", listfood);
         changeNumberItemsListener.changed();
     }
 
     public Double getTotalFee() {
-        ArrayList<FoodDomain> listfood2 = getListCart();
+        ArrayList<OrderDetails> listfood2 = getListCart();
         double fee = 0;
         for (int i = 0; i < listfood2.size(); i++) {
             fee = fee + (listfood2.get(i).getFee() * listfood2.get(i).getNumberInCart());

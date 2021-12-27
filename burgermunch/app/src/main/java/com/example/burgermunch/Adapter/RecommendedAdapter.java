@@ -9,21 +9,19 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.example.burgermunch.Activity.ShowDetailActivity;
-import com.example.burgermunch.Domain.FoodDomain;
-import com.example.burgermunch.Domain.CategoryDomain;
+import com.example.burgermunch.Domain.OrderDetails;
 import com.example.burgermunch.R;
 
 import java.util.ArrayList;
 
 public class RecommendedAdapter extends RecyclerView.Adapter<RecommendedAdapter.ViewHolder> {
-    ArrayList<FoodDomain> RecommendedDomains;
+    ArrayList<OrderDetails> RecommendedDomains;
 
-    public RecommendedAdapter(ArrayList<FoodDomain> RecommendedDomains) {
+    public RecommendedAdapter(ArrayList<OrderDetails> RecommendedDomains) {
         this.RecommendedDomains = RecommendedDomains;
     }
 
