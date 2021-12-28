@@ -24,7 +24,6 @@ public class ShowDetailActivity extends AppCompatActivity {
     private int numberOrder = 1;
     private ManagementCart managementCart;
     private CheckBox tomato,lettuce,onion,pickle,pepper,friedOnion, friedEgg,mushroom,onionJelly,chickenBrest,DoubleChicken;
-    ScrollView addOns;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
