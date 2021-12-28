@@ -20,8 +20,7 @@ public class CartActivity extends AppCompatActivity {
     private RecyclerView.Adapter adapter;
     private RecyclerView recyclerViewList;
     private ManagementCart managementCart;
-    private TextView totalFeeTxt, taxTxt, deliveryTxt, totalTxt, emptyTxt;
-    private double tax;
+    private TextView totalFeeTxt, deliveryTxt, totalTxt, emptyTxt;
     private ScrollView scrollView;
 
     @Override
@@ -105,7 +104,7 @@ public class CartActivity extends AppCompatActivity {
     private void calculateCard() {
         double delivery = 10;     //you can change this item you need price for delivery
 
-        double total = Math.round((managementCart.getTotalFee() + tax + delivery) * 100.0) / 100.0;
+        double total = Math.round((managementCart.getTotalFee() + delivery) * 100.0) / 100.0;
         double itemTotal = Math.round(managementCart.getTotalFee() * 100.0) / 100.0;
 
         totalFeeTxt.setText(itemTotal+" ש״ח");

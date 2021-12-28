@@ -42,9 +42,11 @@ public class CartListAdapter extends RecyclerView.Adapter<CartListAdapter.ViewHo
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         holder.title.setText(listFoodSelected.get(position).getTitle());
         holder.feeEachItem.setText(listFoodSelected.get(position).getFee()+" ש״ח");
-        holder.totalEachItem.setText(Math.round((listFoodSelected.get(position).getNumberInCart() * listFoodSelected.get(position).getFee()))+" ש״ח");
-        holder.num.setText(String.valueOf(listFoodSelected.get(position).getNumberInCart()));
-
+        holder.description.setText(listFoodSelected.get(position).getDescription());
+        holder.minusItem.setOnClickListener(v -> managementCart.minusNumberFood(listFoodSelected, position, () -> {
+            notifyDataSetChanged();
+            changeNumberItemsListener.changed();
+        }));
 
         int drawableReourceId = holder.itemView.getContext().getResources()
                 .getIdentifier(listFoodSelected.get(position).getPic(), "drawable",
@@ -53,16 +55,6 @@ public class CartListAdapter extends RecyclerView.Adapter<CartListAdapter.ViewHo
         Glide.with(holder.itemView.getContext())
                 .load(drawableReourceId)
                 .into(holder.pic);
-
-        holder.plusItem.setOnClickListener(v -> managementCart.plusNumberFood(listFoodSelected, position, () -> {
-            notifyDataSetChanged();
-            changeNumberItemsListener.changed();
-        }));
-
-        holder.minusItem.setOnClickListener(v -> managementCart.minusNumberFood(listFoodSelected, position, () -> {
-            notifyDataSetChanged();
-            changeNumberItemsListener.changed();
-        }));
 
     }
 
@@ -73,20 +65,16 @@ public class CartListAdapter extends RecyclerView.Adapter<CartListAdapter.ViewHo
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
-        TextView title, feeEachItem;
-        ImageView pic, plusItem, minusItem;
-        TextView totalEachItem, num;
+        TextView title, feeEachItem,description;
+        ImageView pic, minusItem;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             title = itemView.findViewById(R.id.titleTxt);
             pic = itemView.findViewById(R.id.pic);
             feeEachItem = itemView.findViewById(R.id.feeEachItem);
-            totalEachItem = itemView.findViewById(R.id.totalEachItem);
-            plusItem = itemView.findViewById(R.id.plusCardBtn);
             minusItem = itemView.findViewById(R.id.minusCardBtn);
-            num = itemView.findViewById(R.id.numberItemTxt);
-
+            description = itemView.findViewById(R.id.Description);
         }
     }
 }

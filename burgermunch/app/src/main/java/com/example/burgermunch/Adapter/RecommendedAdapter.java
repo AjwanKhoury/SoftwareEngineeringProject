@@ -71,6 +71,7 @@ public class RecommendedAdapter extends RecyclerView.Adapter<RecommendedAdapter.
             pic = itemView.findViewById(R.id.pic);
             fee = itemView.findViewById(R.id.fee);
             addBtn = itemView.findViewById(R.id.addBtn);
+
         }
     }
 }

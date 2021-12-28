@@ -2006,6 +2006,7 @@ id ALT
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
+id Description
 id FUNCTION
 id FacebookBtn
 id META
@@ -2079,6 +2080,7 @@ id actions
 id activity_chooser_view_content
 id add
 id addBtn
+id addOns
 id addToCartBtn
 id address_txt
 id adjust_height
@@ -2134,12 +2136,9 @@ id center_horizontal
 id center_vertical
 id chain
 id chains
-id checkBox2
-id checkBox3
-id checkBox4
-id checkBox5
 id checkbox
 id checked
+id chickenBreast
 id chip
 id chip1
 id chip2
@@ -2207,6 +2206,7 @@ id disablePostScroll
 id disableScroll
 id disjoint
 id display_always
+id doubleChicken
 id dragAnticlockwise
 id dragClockwise
 id dragDown
@@ -2247,6 +2247,8 @@ id floating
 id foodPic
 id forever
 id fragment_container_view_tag
+id friedAgg
+id friedOnion
 id frost
 id fullnameSeats
 id ghost_view
@@ -2291,7 +2293,6 @@ id imageView4
 id imageView5
 id imageView6
 id imageView7
-id imageView8
 id immediateStop
 id included
 id info
@@ -2312,6 +2313,7 @@ id layout
 id left
 id leftToRight
 id legacy
+id lettuce
 id light
 id line1
 id line3
@@ -2383,6 +2385,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id mushroom
 id name_txt
 id navigation_bar_item_icon_view
 id navigation_bar_item_labels_group
@@ -2401,10 +2404,11 @@ id north
 id notification_background
 id notification_main_column
 id notification_main_column_container
-id numberItemTxt
 id off
 id on
 id onInterceptTouchReturnSwipe
+id onion
+id onionJelly
 id open_graph
 id order_seats
 id outline
@@ -2422,12 +2426,13 @@ id password_txt
 id path
 id pathRelative
 id peekHeight
+id pepper
 id percent
 id phoneNum_txt
 id phoneSeats
 id pic
+id piccle
 id pin
-id plusCardBtn
 id position
 id postLayout
 id priceTxt
@@ -2577,9 +2582,9 @@ id titleDividerNoCustom
 id titleTxt
 id title_template
 id toggle
+id tomato
 id top
 id topPanel
-id totalEachItem
 id totalFeeTxt
 id totalPriceTxt
 id totalTxt

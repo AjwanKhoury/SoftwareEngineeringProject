@@ -45,80 +45,11 @@
                     android:textStyle="bold" />
 
                 <androidx.constraintlayout.widget.ConstraintLayout
-                    android:layout_width="230dp"
+                    android:layout_width="145dp"
                     android:layout_height="40dp"
                     android:layout_gravity="center_horizontal"
                     android:layout_margin="8dp"
                     android:background="@drawable/grey_bar">
-
-                    <androidx.constraintlayout.widget.ConstraintLayout
-                        android:id="@+id/constraintLayout3"
-                        android:layout_width="140dp"
-                        android:layout_height="40dp"
-                        android:background="@drawable/yellow_bar"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="1.0"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/titleTxt">
-
-                        <ImageView
-                            android:id="@+id/plusCardBtn"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="8dp"
-                            android:layout_marginEnd="8dp"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toEndOf="@+id/constraintLayout2"
-                            app:layout_constraintTop_toTopOf="parent"
-                            app:srcCompat="@drawable/plus" />
-
-                        <ImageView
-                            android:id="@+id/minusCardBtn"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="8dp"
-                            android:layout_marginEnd="8dp"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toStartOf="@+id/constraintLayout2"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent"
-                            app:srcCompat="@drawable/minus" />
-
-                        <androidx.constraintlayout.widget.ConstraintLayout
-                            android:id="@+id/constraintLayout2"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent">
-
-                            <ImageView
-                                android:id="@+id/imageView8"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                app:layout_constraintBottom_toBottomOf="parent"
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toTopOf="parent"
-                                app:srcCompat="@drawable/white_circle" />
-
-                            <TextView
-                                android:id="@+id/numberItemTxt"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="1"
-                                android:textColor="#373b54"
-                                android:textSize="18sp"
-                                android:textStyle="bold"
-                                app:layout_constraintBottom_toBottomOf="@+id/imageView8"
-                                app:layout_constraintEnd_toEndOf="@+id/imageView8"
-                                app:layout_constraintStart_toStartOf="@+id/imageView8"
-                                app:layout_constraintTop_toTopOf="@+id/imageView8" />
-                        </androidx.constraintlayout.widget.ConstraintLayout>
-                    </androidx.constraintlayout.widget.ConstraintLayout>
 
                     <TextView
                         android:id="@+id/priceTxt"
@@ -128,7 +59,7 @@
                         android:textColor="#000000"
                         android:textSize="20sp"
                         app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toStartOf="@+id/constraintLayout3"
+                        app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
@@ -230,47 +161,143 @@
                     android:textColor="#686868"
                     android:textSize="20sp" />
 
-                <LinearLayout
-                    android:layout_width="400dp"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
+                <HorizontalScrollView
+                    android:id="@+id/addOns"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layoutDirection="rtl">
 
-                    <CheckBox
-                        android:id="@+id/checkBox2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layoutDirection="rtl"
-                        android:text="מלפפון חמוץ"
-                        android:textDirection="rtl" />
 
-                    <CheckBox
-                        android:id="@+id/checkBox3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layoutDirection="rtl"
-                        android:text="בצל סגול"
-                        android:textDirection="rtl" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
 
-                    <CheckBox
-                        android:id="@+id/checkBox4"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layoutDirection="rtl"
-                        android:text="חסה"
-                        android:textDirection="rtl" />
 
-                    <CheckBox
-                        android:id="@+id/checkBox5"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layoutDirection="rtl"
-                        android:text="עגבנייה"
-                        android:textDirection="rtl" />
-                </LinearLayout>
+                        <CheckBox
+                            android:id="@+id/lettuce"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:layoutDirection="rtl"
+                            android:text="חסה"
+                            android:textDirection="rtl" />
+
+                        <CheckBox
+                            android:id="@+id/tomato"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:layoutDirection="rtl"
+                            android:text="עגבנייה"
+                            android:textDirection="rtl" />
+
+                        <CheckBox
+                            android:id="@+id/onion"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:layoutDirection="rtl"
+                            android:text="בצל סגול"
+                            android:textDirection="rtl" />
+
+                        <CheckBox
+                            android:id="@+id/piccle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:layoutDirection="rtl"
+                            android:text="מלפפון חמוץ"
+                            android:textDirection="rtl" />
+
+                        <CheckBox
+                            android:id="@+id/pepper"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:layoutDirection="rtl"
+                            android:text="חלפיניו 6 ש״ח"
+                            android:textDirection="rtl" />
+
+                        <CheckBox
+                            android:id="@+id/friedOnion"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:layoutDirection="rtl"
+                            android:text="בצל מטוגן 6 ש״ח"
+                            android:textDirection="rtl" />
+
+                        <CheckBox
+                            android:id="@+id/friedAgg"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:layoutDirection="rtl"
+                            android:text="ביצת עין 7 ש״ח"
+                            android:textDirection="rtl" />
+
+                        <CheckBox
+                            android:id="@+id/onionJelly"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:layoutDirection="rtl"
+                            android:text="ריבת בצל 9 ש״ח"
+                            android:textDirection="rtl" />
+
+                        <CheckBox
+                            android:id="@+id/mushroom"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:layoutDirection="rtl"
+                            android:text="פטריות 7 ש״ח"
+                            android:textDirection="rtl" />
+
+                        <CheckBox
+                            android:id="@+id/chickenBreast"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:layoutDirection="rtl"
+                            android:text="חזה אווז מעושן 13 ש״ח"
+                            android:textDirection="rtl" />
+
+                        <CheckBox
+                            android:id="@+id/doubleChicken"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:layoutDirection="rtl"
+                            android:text="דאבל חזה אווז מעושן 23 ש״ח"
+                            android:textDirection="rtl" />
+                    </LinearLayout>
+                </HorizontalScrollView>
 
                 <LinearLayout
                     android:layout_width="match_parent"
