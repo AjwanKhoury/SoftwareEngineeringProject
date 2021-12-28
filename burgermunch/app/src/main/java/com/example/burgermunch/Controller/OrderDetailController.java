@@ -7,6 +7,8 @@ import com.example.burgermunch.Model.IOrderModel;
 import com.example.burgermunch.Model.ISeatsModel;
 import com.example.burgermunch.Model.OrderModel;
 import com.example.burgermunch.Model.SeatsModel;
+import com.example.burgermunch.Object.Order;
+import com.example.burgermunch.Object.Seats;
 
 import java.util.Observable;
 import java.util.Observer;
@@ -24,7 +26,8 @@ public class OrderDetailController implements IOrderDetailController, Observer {
 
     @Override
     public void OnOrder(String title, String pic, String description, int fee) {
-
+        Order od = new Seats(title , pic , description , fee);
+        model.addOrder(od);
     }
 
     @Override
