@@ -29,7 +29,6 @@ public class RecommendedAdapter extends RecyclerView.Adapter<RecommendedAdapter.
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View inflate = LayoutInflater.from(parent.getContext()).inflate(R.layout.viewholder_recommended, parent, false);
-
         return new ViewHolder(inflate);
     }
 
@@ -60,7 +59,7 @@ public class RecommendedAdapter extends RecyclerView.Adapter<RecommendedAdapter.
         return RecommendedDomains.size();
     }
 
-    public class ViewHolder extends RecyclerView.ViewHolder {
+    public static class ViewHolder extends RecyclerView.ViewHolder {
         TextView title, fee;
         ImageView pic;
         ImageView addBtn;

@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Burgermunch" >
         <activity
-            android:name=".Activity.SeatsManagement"
+            android:name=".Activity.Management"
             android:exported="false" />
         <activity
             android:name=".Activity.SeatsActivity"

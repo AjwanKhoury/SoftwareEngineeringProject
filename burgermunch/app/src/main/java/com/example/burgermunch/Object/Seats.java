@@ -11,6 +11,7 @@ public class Seats implements ISeats{
     private String full_name;
     private String phone_number;
     private String time;
+    private int status = 1;
 
     public Seats(){
         num_seats =0;
@@ -40,9 +41,15 @@ public class Seats implements ISeats{
     }
 
     @Override
+    public void setNumSeats(int num) { this.num_seats = num; }
+
+    @Override
     public String getFullName() {
         return full_name;
     }
+
+    @Override
+    public void setFullName(String s) { this.full_name = s; }
 
     @Override
     public String getPhoneNumber() {
@@ -50,7 +57,16 @@ public class Seats implements ISeats{
     }
 
     @Override
+    public int getStatus() { return status; }
+
+    @Override
+    public void setStatus(int flag) {this.status = flag;}
+
+    @Override
     public String getTime() { return time; }
+
+    @Override
+    public void setTime(String t) { this.time = t; }
 
     @Override
     public int isValid() {
@@ -86,6 +102,7 @@ public class Seats implements ISeats{
         }
         return flag;
     }
+
 
 
 }
