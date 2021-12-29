@@ -157,13 +157,14 @@
             </LinearLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="checkOutBtn"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_margin="16dp"
                 android:background="@drawable/yellow_btn_background">
 
                 <TextView
-                    android:id="@+id/textView16"
+                    android:id="@+id/check"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="CheckOut"

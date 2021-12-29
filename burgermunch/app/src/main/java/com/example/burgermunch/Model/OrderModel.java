@@ -1,5 +1,6 @@
 package com.example.burgermunch.Model;
 
+import com.example.burgermunch.Domain.IOrderDetails;
 import com.example.burgermunch.Object.IOrder;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
@@ -13,7 +14,7 @@ public class OrderModel extends Observable implements IOrderModel {
 
     public OrderModel(){
         FirebaseDatabase db = FirebaseDatabase.getInstance();
-        this.databaseReference = db.getReference("tempOrder");
+        this.databaseReference = db.getReference("Orders");
         this.mAuth = FirebaseAuth.getInstance();
     }
 

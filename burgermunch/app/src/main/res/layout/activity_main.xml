@@ -278,7 +278,7 @@
                         app:srcCompat="@drawable/bottom_btn2" />
 
                     <TextView
-                        android:id="@+id/textView16"
+                        android:id="@+id/check"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="החשבון שלי"

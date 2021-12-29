@@ -2,7 +2,7 @@ package com.example.burgermunch.Domain;
 
 import java.io.Serializable;
 
-public class OrderDetails implements Serializable, IOrderDetails {
+public class OrderDetails implements IOrderDetails, Serializable {
     private int id = 0;
     private String title;
     private String pic;
@@ -12,6 +12,13 @@ public class OrderDetails implements Serializable, IOrderDetails {
     private int time;
     private int calories;
     private int numberInCart = 1;
+
+    public OrderDetails(String title ,String pic ,String description ,int fee){
+        this.title = title;
+        this.pic = pic;
+        this.description = description;
+        this.fee = fee;
+    }
 
     public OrderDetails(String title, String pic, String description, int fee, double star, int time, int calories) {
         id++;
