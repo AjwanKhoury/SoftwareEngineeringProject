@@ -2,41 +2,37 @@ package com.example.burgermunch.Object;
 
 import com.example.burgermunch.Domain.OrderDetails;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import java.util.TimeZone;
 
 public class Order implements IOrder{
-    private String Date;
+    private SimpleDateFormat Now;
+    private String date;
     private String Status;
     private String CusPhone;
-    private String OrderID;
     private int TotalPrice;
     private List<OrderDetails> meals;
 
     public Order(){
-        Date ="";
-        Status ="";
+        Date date = new Date();
+        Status ="נשלח למסעדה";
         CusPhone ="";
-        OrderID ="";
         meals = new ArrayList<OrderDetails>();
     }
 
-    public Order(String Da,String St, String Cus, String Or , List<OrderDetails> list){
-        this.Date= Da;
-        this.Status= St;
+    public Order(String Cus, List<OrderDetails> list){
+        this.date= Now.format(date);
         this.CusPhone= Cus;
-        this.OrderID= Or;
         this.meals = list;
     }
 
 
     @Override
     public String getDate() {
-        return Date;
-    }
-    public void setDate(String Sd){
-        this.Date=Sd;
+        return date;
     }
 
     @Override
@@ -48,17 +44,17 @@ public class Order implements IOrder{
     }
 
     @Override
-    public String getOrderID() {
-        return OrderID;
-    }
-    public void setOrderID(String orderID) {
-        this.OrderID = orderID;
-    }
-
-    @Override
     public String getCusPhone() {
         return CusPhone;
     }
+    public void setCusPhone(String cusPhone) {
+        this.CusPhone = cusPhone;
+    }
+
+    @Override
+    public List<OrderDetails> getList() { return meals; }
+    public void setList(List<OrderDetails> OdL){ this.meals= OdL; }
+
 
     @Override
     public int getTotalPrice() {
@@ -70,8 +66,5 @@ public class Order implements IOrder{
         return price;
     }
 
-    public void setCusPhone(String cusPhone) {
-        this.CusPhone = cusPhone;
-    }
 
 }

@@ -1,6 +1,7 @@
 package com.example.burgermunch.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -12,21 +13,33 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 
 import com.example.burgermunch.Adapter.CartListAdapter;
+import com.example.burgermunch.Domain.OrderDetails;
 import com.example.burgermunch.Helper.ManagementCart;
 import com.example.burgermunch.Helper.ChangeNumberItemsListener;
 import com.example.burgermunch.R;
+
+import java.util.List;
 
 public class CartActivity extends AppCompatActivity {
     private RecyclerView.Adapter adapter;
     private RecyclerView recyclerViewList;
     private ManagementCart managementCart;
-    private TextView totalFeeTxt, deliveryTxt, totalTxt, emptyTxt;
+    private TextView totalFeeTxt, deliveryTxt, totalTxt, emptyTxt,check;
     private ScrollView scrollView;
+    private String Da,St,Cus,Or;
+    private List<OrderDetails> list;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cart);
+        check = findViewById(R.id.check);
+        check.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(CartActivity.this,CheckOutActivity.class));
+            }
+        });
 
         managementCart = new ManagementCart(this);
 
@@ -42,7 +55,6 @@ public class CartActivity extends AppCompatActivity {
         LinearLayout connectionBtn = findViewById(R.id.connectionBtn);
         LinearLayout menuBtn = findViewById(R.id.menuBtn);
         LinearLayout makeContactBtn=findViewById(R.id.makeContactBtn);
-
 
         homeBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -79,7 +91,11 @@ public class CartActivity extends AppCompatActivity {
                 startActivity(new Intent(CartActivity.this, MenuActivity.class));
             }
         });
+
     }
+
+
+
 
     private void initList() {
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
@@ -120,4 +136,5 @@ public class CartActivity extends AppCompatActivity {
         scrollView = findViewById(R.id.scrollView);
         emptyTxt = findViewById(R.id.emptyTxt);
     }
+
 }

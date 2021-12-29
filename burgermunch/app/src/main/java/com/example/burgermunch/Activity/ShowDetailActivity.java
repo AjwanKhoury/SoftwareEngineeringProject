@@ -8,15 +8,16 @@ import android.view.View;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.ImageView;
-import android.widget.ScrollView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.example.burgermunch.Controller.OrderController;
 import com.example.burgermunch.Domain.OrderDetails;
 import com.example.burgermunch.Helper.ManagementCart;
+import com.example.burgermunch.Interface.IOrderView;
 import com.example.burgermunch.R;
 
-public class ShowDetailActivity extends AppCompatActivity {
+public class ShowDetailActivity extends AppCompatActivity implements IOrderView {
     private TextView addToCartBtn;
     private TextView titleTxt, feeTxt, descriptionTxt, numberOrderTxt, totalPriceTxt, starTxt, caloryTxt, timeTxt;
     private ImageView picFood;
@@ -24,6 +25,8 @@ public class ShowDetailActivity extends AppCompatActivity {
     private int numberOrder = 1;
     private ManagementCart managementCart;
     private CheckBox tomato,lettuce,onion,pickle,pepper,friedOnion, friedEgg,mushroom,onionJelly,chickenBrest,DoubleChicken;
+    private OrderController controllerOrder;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,15 +38,6 @@ public class ShowDetailActivity extends AppCompatActivity {
         iniView();
         getBundle();
         Checked();
-    }
-
-    private void updatePrice() {
-        if(object.getDescription().contains("ריבת בצל")){
-            object.setFee(object.getFee()+9);
-        }
-        if(object.getDescription().contains("פטריות")) {
-            object.setFee(object.getFee()+7);
-        }
     }
 
     private void Checked() {
@@ -244,7 +238,6 @@ public class ShowDetailActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 object.setNumberInCart(numberOrder);
-                //updatePrice();
                 managementCart.insertFood(object);
                 startActivity(new Intent(ShowDetailActivity.this,MainActivity.class));
             }
@@ -262,5 +255,13 @@ public class ShowDetailActivity extends AppCompatActivity {
         caloryTxt = findViewById(R.id.VicaloriesTxt);
         timeTxt = findViewById(R.id.timeTxt);
 
+    }
+
+    @Override
+    public void OrderSuccess(String msg) {
+    }
+
+    @Override
+    public void OrderError(String msg) {
     }
 }
