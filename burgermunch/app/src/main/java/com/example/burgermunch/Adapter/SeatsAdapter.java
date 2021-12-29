@@ -10,11 +10,15 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import com.example.burgermunch.Object.Seats;
 import com.example.burgermunch.R;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.ArrayList;
 
 public class SeatsAdapter extends RecyclerView.Adapter<SeatsAdapter.ViewHolder> {
     ArrayList<Seats> SeatsDomains;
+    FirebaseDatabase db = FirebaseDatabase.getInstance();
+    private DatabaseReference databaseReference;
 
     public SeatsAdapter(ArrayList<Seats> SeatsDomains) {
         this.SeatsDomains = SeatsDomains;
@@ -32,9 +36,12 @@ public class SeatsAdapter extends RecyclerView.Adapter<SeatsAdapter.ViewHolder> 
         holder.numSeatsTxt.setText(SeatsDomains.get(position).getNumSeats());
         holder.timeSeatstxt.setText(SeatsDomains.get(position).getTime());
         updateStatusBtn(holder , position);
+        this.databaseReference = db.getReference();
+        String checkphone = SeatsDomains.get(position).getPhoneNumber();
         holder.confirmSeat.setOnClickListener(v -> {
             SeatsDomains.get(position).setStatus(2);
             updateStatusBtn(holder , position);
+            //databaseReference.child("seats").
         });
         holder.rejectSeat.setOnClickListener(v -> {
             SeatsDomains.get(position).setStatus(0);
