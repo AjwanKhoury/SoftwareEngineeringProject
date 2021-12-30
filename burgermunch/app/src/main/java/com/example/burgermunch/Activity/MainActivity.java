@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -39,8 +40,16 @@ private RecyclerView recyclerViewCategotyList, recyclerViewPopularList;
         LinearLayout menuBtn=findViewById(R.id.menuBtn);
         LinearLayout makeContactBtn=findViewById(R.id.makeContactBtn);
         TextView Seats = findViewById(R.id.order_seats);
+        Button managment = findViewById(R.id.Managment);
 
         TextView Visitor = findViewById(R.id.Visitor);
+
+        managment.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,Management.class));
+            }
+        });
 
         homeBtn.setOnClickListener(new View.OnClickListener() {
             @Override

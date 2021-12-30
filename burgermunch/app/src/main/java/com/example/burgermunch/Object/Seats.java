@@ -39,7 +39,6 @@ public class Seats implements ISeats{
     public int getNumSeats() {
         return num_seats;
     }
-
     @Override
     public void setNumSeats(int num) { this.num_seats = num; }
 
@@ -56,6 +55,10 @@ public class Seats implements ISeats{
         return phone_number;
     }
 
+    public void setPhoneNumber(String s) {
+        this.phone_number = s;
+    }
+
     @Override
     public int getStatus() { return status; }
 
@@ -68,7 +71,6 @@ public class Seats implements ISeats{
     @Override
     public void setTime(String t) { this.time = t; }
 
-    @Override
     public int isValid() {
         if(this == null)
             return 0;

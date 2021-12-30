@@ -13,7 +13,7 @@ public class SeatsModel extends Observable implements ISeatsModel {
 
     public SeatsModel() {
         FirebaseDatabase db = FirebaseDatabase.getInstance();
-        this.databaseReference = db.getReference("seats");
+        this.databaseReference = db.getReference("Seats");
         this.mAuth = FirebaseAuth.getInstance();
     }
 
@@ -23,10 +23,8 @@ public class SeatsModel extends Observable implements ISeatsModel {
 
     @Override
     public void addSeats(ISeats se) {
-//צריך להוסיף פה בדיקה האם יש כבר בdatabase הזמנה עם המספר טלפון הזה
-// ובמידה וכן אז לא להכניס את הנתונים (שלא תהיה אפשרות לשמור מקומות בשעות שונות עם אותו מספר טלפון)
 
-        databaseReference.push().setValue(se).addOnSuccessListener(suc->{
+        databaseReference.child(se.getPhoneNumber()).setValue(se).addOnSuccessListener(suc->{
             //success to add data to the realtime database
             setChanged();
             notifyObservers(-1);

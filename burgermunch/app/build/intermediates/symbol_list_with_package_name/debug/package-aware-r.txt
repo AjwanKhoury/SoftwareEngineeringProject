@@ -1992,6 +1992,9 @@ drawable sergeant
 drawable sergeant_large
 drawable sergent
 drawable star
+drawable status0
+drawable status1
+drawable status2
 drawable test_custom_background
 drawable test_level_drawable
 drawable tooltip_frame_dark
@@ -2006,10 +2009,13 @@ id ALT
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
+id Date
 id Description
 id FUNCTION
 id FacebookBtn
+id Hour
 id META
+id Managment
 id NO_DEBUG
 id NumSeats
 id SHIFT
@@ -2136,6 +2142,7 @@ id center_horizontal
 id center_vertical
 id chain
 id chains
+id check
 id checkbox
 id checked
 id chickenBreast
@@ -2162,6 +2169,7 @@ id com_facebook_smart_instructions_or
 id com_facebook_tooltip_bubble_view_bottom_pointer
 id com_facebook_tooltip_bubble_view_text_body
 id com_facebook_tooltip_bubble_view_top_pointer
+id confirmSeat
 id confirm_button
 id confirmation_code
 id connectionBtn
@@ -2386,6 +2394,7 @@ id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
 id mushroom
+id nameTxt
 id name_txt
 id navigation_bar_item_icon_view
 id navigation_bar_item_labels_group
@@ -2404,6 +2413,7 @@ id north
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id numSeatsTxt
 id off
 id on
 id onInterceptTouchReturnSwipe
@@ -2411,6 +2421,7 @@ id onion
 id onionJelly
 id open_graph
 id order_seats
+id ordersView
 id outline
 id outward
 id overshoot
@@ -2425,6 +2436,7 @@ id password_toggle
 id password_txt
 id path
 id pathRelative
+id payBtn
 id peekHeight
 id pepper
 id percent
@@ -2445,6 +2457,7 @@ id recover_pass_txt
 id rectangles
 id registerBtn
 id register_txt
+id rejectSeat
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2472,6 +2485,8 @@ id search_mag_icon
 id search_plate
 id search_src_text
 id search_voice_btn
+id seatsTxt
+id seatsView
 id select_dialog_listview
 id selected
 id selection_type
@@ -2512,6 +2527,7 @@ id startVertical
 id startbtn
 id staticLayout
 id staticPostLayout
+id statusBtn
 id status_bar_latest_event_content
 id stop
 id stretch
@@ -2551,13 +2567,14 @@ id textView12
 id textView13
 id textView14
 id textView15
-id textView16
 id textView17
 id textView18
 id textView19
 id textView2
 id textView20
 id textView21
+id textView23
+id textView24
 id textView3
 id textView4
 id textView5
@@ -2575,6 +2592,7 @@ id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
 id time
+id timeSeatstxt
 id timeTxt
 id title
 id title1
@@ -2694,6 +2712,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_cart
+layout activity_check_out
 layout activity_intro
 layout activity_login
 layout activity_main

@@ -14,7 +14,7 @@ public class RegisterModel extends Observable implements IRegisterModel {
 
     public RegisterModel() {
         FirebaseDatabase db = FirebaseDatabase.getInstance();
-        this.databaseReference = db.getReference("customer");
+        this.databaseReference = db.getReference("Customer");
         this.mAuth = FirebaseAuth.getInstance();
     }
 
@@ -26,7 +26,7 @@ public class RegisterModel extends Observable implements IRegisterModel {
     public void addCustomer(ICustomer cus) {
         mAuth.createUserWithEmailAndPassword(cus.getEmail(), cus.getPassword())
                 .addOnSuccessListener(suc->{
-                    databaseReference.child(mAuth.getUid()).setValue(cus)
+                    databaseReference.child(cus.getPhoneNumber()).setValue(cus)
                             .addOnSuccessListener(suc2->{
                                 //success to add user to authentication database and realtime database.users.
                                 setChanged();

@@ -8,7 +8,6 @@ public interface ISeats {
     public String getPhoneNumber();
     public String getTime();
     public void setTime(String t);
-    int isValid();
     public boolean checkTime(String time);
     public boolean checkPhone(String phone);
     public int getStatus();
