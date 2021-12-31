@@ -23,8 +23,8 @@ public class OrderController implements IOrderController, Observer {
     }
 
     @Override
-    public void OnOrder(String Cus, List<OrderDetails> list) {
-        Order od = new Order(Cus, list);
+    public void OnOrder(String Cus, String add, List<OrderDetails> list) {
+        Order od = new Order(Cus,add,list);
         model.addOrder(od);
     }
 

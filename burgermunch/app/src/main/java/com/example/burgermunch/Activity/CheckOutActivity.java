@@ -7,19 +7,25 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.example.burgermunch.Controller.OrderController;
 import com.example.burgermunch.Helper.ManagementCart;
+import com.example.burgermunch.Interface.IOrderView;
 import com.example.burgermunch.R;
 
-public class CheckOutActivity extends AppCompatActivity {
+import java.util.List;
+
+public class CheckOutActivity extends AppCompatActivity implements IOrderView {
     private ManagementCart managementCart;
     private TextView totalFeeTxt, deliveryTxt, totalTxt, payBtn;
     private EditText phoneNum,creditName,cardNum,textDate,CVV, address;
+    private OrderController setOrder;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_check_out);
         managementCart = new ManagementCart(this);
+        setOrder = new OrderController(this);
 
         initView();
         calculateCard();
@@ -30,7 +36,10 @@ public class CheckOutActivity extends AppCompatActivity {
         payBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                String phone =phoneNum.getText().toString();
+                String add=  address.getText().toString();
+                List list = managementCart.getListCart();
+                setOrder.OnOrder(phone,add,list);
             }
         });
     }
@@ -60,4 +69,13 @@ public class CheckOutActivity extends AppCompatActivity {
         address=findViewById(R.id.addres);
     }
 
+    @Override
+    public void OrderSuccess(String msg) {
+
+    }
+
+    @Override
+    public void OrderError(String msg) {
+
+    }
 }

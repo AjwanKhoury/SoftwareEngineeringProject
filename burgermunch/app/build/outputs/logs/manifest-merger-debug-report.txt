@@ -164,12 +164,12 @@ ADDED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/ap
 		ADDED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:16:13-37
 	android:name
 		ADDED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:15:13-54
-activity#com.example.burgermunch.Activity.SeatsManagement
+activity#com.example.burgermunch.Activity.Management
 ADDED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:17:9-19:40
 	android:exported
 		ADDED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:19:13-37
 	android:name
-		ADDED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:18:13-53
+		ADDED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:18:13-48
 activity#com.example.burgermunch.Activity.SeatsActivity
 ADDED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:20:9-22:40
 	android:exported

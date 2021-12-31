@@ -13,6 +13,7 @@ public class Order implements IOrder{
     private String date;
     private String Status;
     private String CusPhone;
+    private String address;
     private int TotalPrice;
     private List<OrderDetails> meals;
 
@@ -20,12 +21,13 @@ public class Order implements IOrder{
         Date date = new Date();
         Status ="נשלח למסעדה";
         CusPhone ="";
+        address ="";
         meals = new ArrayList<OrderDetails>();
     }
 
-    public Order(String Cus, List<OrderDetails> list){
-        this.date= Now.format(date);
+    public Order(String Cus,String add, List<OrderDetails> list){
         this.CusPhone= Cus;
+        this.address=add;
         this.meals = list;
     }
 

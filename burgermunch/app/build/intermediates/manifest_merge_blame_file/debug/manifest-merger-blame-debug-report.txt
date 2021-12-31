@@ -46,8 +46,8 @@
 27-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:16:13-37
 28        <activity
 28-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:17:9-19:40
-29            android:name="com.example.burgermunch.Activity.SeatsManagement"
-29-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:18:13-53
+29            android:name="com.example.burgermunch.Activity.Management"
+29-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:18:13-48
 30            android:exported="false" />
 30-->/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:19:13-37
 31        <activity
