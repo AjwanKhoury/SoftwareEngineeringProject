@@ -26,7 +26,6 @@ public class CartActivity extends AppCompatActivity {
     private ManagementCart managementCart;
     private TextView totalFeeTxt, deliveryTxt, totalTxt, emptyTxt,check;
     private ScrollView scrollView;
-    private String Da,St,Cus,Or;
     private List<OrderDetails> list;
 
     @Override
