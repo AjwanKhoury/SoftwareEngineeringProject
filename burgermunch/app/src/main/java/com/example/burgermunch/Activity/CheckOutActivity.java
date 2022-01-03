@@ -39,7 +39,16 @@ public class CheckOutActivity extends AppCompatActivity implements IOrderView {
                 String phone =phoneNum.getText().toString();
                 String add=  address.getText().toString();
                 List list = managementCart.getListCart();
+                //TODO varify purchase
                 setOrder.OnOrder(phone,add,list);
+                //TODO moving to home page after checkout
+                //TODO add shipment cost
+                //TODO manager user ang login user page
+                //TODO add order date variable
+                //TODO screenshots after changes
+                //TODO change "list" to "OrderDetails"
+
+
             }
         });
     }
@@ -71,7 +80,7 @@ public class CheckOutActivity extends AppCompatActivity implements IOrderView {
 
     @Override
     public void OrderSuccess(String msg) {
-
+        //TODO order
     }
 
     @Override

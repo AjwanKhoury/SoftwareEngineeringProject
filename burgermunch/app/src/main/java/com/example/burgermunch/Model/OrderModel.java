@@ -24,7 +24,6 @@ public class OrderModel extends Observable implements IOrderModel {
 
     @Override
     public void addOrder(IOrder od) {
-
         databaseReference.push().setValue(od).addOnSuccessListener(suc->{
             //success to add data to the realtime database
             setChanged();
