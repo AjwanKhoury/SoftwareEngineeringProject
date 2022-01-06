@@ -1,5 +1,7 @@
 package com.example.burgermunch.Controller;
 
+import static com.example.burgermunch.Object.Customer.onlyAlphabetic;
+
 import android.util.Log;
 
 import com.example.burgermunch.Interface.ISeatsController;
@@ -26,7 +28,7 @@ public class SeatsController implements ISeatsController , Observer {
     @Override
     public void OnSeats(int seats, String fn, String pn , String time) {
         Seats st = new Seats(seats , fn , pn , time);
-        int seatsCode = st.isValid();
+        int seatsCode = isValid(st);
 
         if(seatsCode == 0){
             Log.e("st","Seats order can not be null");
@@ -62,5 +64,23 @@ public class SeatsController implements ISeatsController , Observer {
         }else if(keyCode == 1){
             Log.e("firebase", "failed to put data on realtime database");
         }
+    }
+    //check if Seat attributes are valid
+    public int isValid(Seats s) {
+        if(s == null)
+            return 0;
+        if(s.getNumSeats()>4)
+            return 1;
+        if(s.getFullName().length() < 2 || !onlyAlphabetic(s.getFullName()))
+            return 2;
+        if(s.getPhoneNumber().length() < 10)
+            return 3;
+        if(s.getNumSeats()<1)
+            return 4;
+        if(!s.checkTime(s.getTime()))
+            return 5;
+        if(!s.checkPhone(s.getPhoneNumber()))
+            return 6;
+        return -1;
     }
 }

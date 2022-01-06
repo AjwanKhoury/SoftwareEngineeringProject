@@ -15,7 +15,7 @@
             android:name=".Activity.CheckOutActivity"
             android:exported="false" />
         <activity
-            android:name=".Activity.Management"
+            android:name=".Activity.ManagementActivity"
             android:exported="false" />
         <activity
             android:name=".Activity.SeatsActivity"

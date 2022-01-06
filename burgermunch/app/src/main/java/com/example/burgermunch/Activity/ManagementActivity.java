@@ -20,9 +20,10 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 
 
-public class Management extends AppCompatActivity {
+public class ManagementActivity extends AppCompatActivity {
     private RecyclerView.Adapter adapter;
     private RecyclerView recyclerViewSeatsList;
     FirebaseDatabase db = FirebaseDatabase.getInstance();
@@ -44,21 +45,32 @@ public class Management extends AppCompatActivity {
     }
 
     private void recyclerViewSeats() {
-        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, true);
+        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
         recyclerViewSeatsList = findViewById(R.id.seatsView);
         recyclerViewSeatsList.setLayoutManager(linearLayoutManager);
         ArrayList<Seats> seatslist = new ArrayList<>();
         this.databaseReference = db.getReference();
         databaseReference.child("Seats").addValueEventListener(new ValueEventListener() {
+            @RequiresApi(api = Build.VERSION_CODES.N)
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 seatslist.clear();
                 for (DataSnapshot snapshot : dataSnapshot.getChildren()) {
                     Seats seat = snapshot.getValue(Seats.class);
-                    seatslist.add(seat);
-                    adapter = new SeatsAdapter(seatslist);
-                    recyclerViewSeatsList.setAdapter(adapter);
+
+                    seatslist.add(0,seat);
                 }
+                //compare seats object by time.
+                Comparator<Seats> comp = (o1, o2) -> {
+                    String a = o1.getTime();
+                    String b = o2.getTime();
+                    if(a.length()<b.length()) return -1;
+                    if(b.length()<a.length()) return 1;
+                    return a.compareTo(b);
+                };
+                seatslist.sort(comp);
+                adapter = new SeatsAdapter(seatslist);
+                recyclerViewSeatsList.setAdapter(adapter);
             }
 
             @Override

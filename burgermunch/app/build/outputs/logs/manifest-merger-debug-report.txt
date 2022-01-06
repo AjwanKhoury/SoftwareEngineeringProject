@@ -164,12 +164,12 @@ ADDED from C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEng
 		ADDED from C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:16:13-37
 	android:name
 		ADDED from C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:15:13-54
-activity#com.example.burgermunch.Activity.Management
+activity#com.example.burgermunch.Activity.ManagementActivity
 ADDED from C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:17:9-19:40
 	android:exported
 		ADDED from C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:19:13-37
 	android:name
-		ADDED from C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:18:13-48
+		ADDED from C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:18:13-56
 activity#com.example.burgermunch.Activity.SeatsActivity
 ADDED from C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:20:9-22:40
 	android:exported

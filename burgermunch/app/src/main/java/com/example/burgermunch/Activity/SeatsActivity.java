@@ -77,7 +77,7 @@ public class SeatsActivity extends AppCompatActivity implements ISeatsView {
         });
 
     }
-    public void Liroy(View view) {
+    public void ConfirmSeatsBtn(View view) {
         String tempSeats = seats.getText().toString();
         int seatsS;
         try {

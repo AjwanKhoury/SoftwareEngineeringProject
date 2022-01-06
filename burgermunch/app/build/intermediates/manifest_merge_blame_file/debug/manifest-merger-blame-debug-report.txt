@@ -46,8 +46,8 @@
 27-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:16:13-37
 28        <activity
 28-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:17:9-19:40
-29            android:name="com.example.burgermunch.Activity.Management"
-29-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:18:13-48
+29            android:name="com.example.burgermunch.Activity.ManagementActivity"
+29-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:18:13-56
 30            android:exported="false" />
 30-->C:\Users\koren\OneDrive\Desktop\BurgerMunchProject\GitHub\SoftwareEngineeringProject\burgermunch\app\src\main\AndroidManifest.xml:19:13-37
 31        <activity

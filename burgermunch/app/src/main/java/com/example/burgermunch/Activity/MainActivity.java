@@ -47,7 +47,7 @@ private RecyclerView recyclerViewCategotyList, recyclerViewPopularList;
         managment.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this,Management.class));
+                startActivity(new Intent(MainActivity.this, ManagementActivity.class));
             }
         });
 
