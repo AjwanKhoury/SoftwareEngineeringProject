@@ -2,6 +2,7 @@ package com.example.burgermunch.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -38,13 +39,14 @@ public class CheckOutActivity extends AppCompatActivity implements IOrderView {
             public void onClick(View v) {
                 String phone =phoneNum.getText().toString();
                 String add=  address.getText().toString();
-                List list = managementCart.getListCart();
+                List OrderDetail = managementCart.getListCart();
                 //TODO varify purchase
-                setOrder.OnOrder(phone,add,list);
+                setOrder.OnOrder(phone,add,OrderDetail);
+                startActivity(new Intent(CheckOutActivity.this,MainActivity.class));
                 //TODO add shipment cost
                 //TODO manager user ang login user page
                 //TODO add order date variable
-
+                //TODO screenshots after changes
 
             }
         });

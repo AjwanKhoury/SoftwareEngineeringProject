@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Burgermunch">
         <activity
+            android:name=".Activity.CustomerPageActivity"
+            android:exported="false" />
+        <activity
             android:name=".Activity.CheckOutActivity"
             android:exported="false" />
         <activity

@@ -23,6 +23,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.Burgermunch" >
         <activity
+            android:name="com.example.burgermunch.Activity.CustomerPageActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.burgermunch.Activity.CheckOutActivity"
             android:exported="false" />
         <activity
