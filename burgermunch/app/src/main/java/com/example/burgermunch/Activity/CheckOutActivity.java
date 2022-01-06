@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.example.burgermunch.Controller.OrderController;
@@ -20,6 +21,7 @@ public class CheckOutActivity extends AppCompatActivity implements IOrderView {
     private TextView totalFeeTxt, deliveryTxt, totalTxt, payBtn;
     private EditText phoneNum,creditName,cardNum,textDate,CVV, address;
     private OrderController setOrder;
+    private ProgressBar progressBar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,7 +42,8 @@ public class CheckOutActivity extends AppCompatActivity implements IOrderView {
                 String phone =phoneNum.getText().toString();
                 String add=  address.getText().toString();
                 List OrderDetail = managementCart.getListCart();
-                //TODO varify purchase
+                progressBar = findViewById(R.id.progressBar);
+                progressBar.setVisibility(View.VISIBLE);
                 setOrder.OnOrder(phone,add,OrderDetail);
                 startActivity(new Intent(CheckOutActivity.this,MainActivity.class));
                 //TODO add shipment cost
