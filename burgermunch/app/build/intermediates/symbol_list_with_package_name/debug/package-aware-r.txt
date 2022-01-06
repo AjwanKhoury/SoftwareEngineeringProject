@@ -2183,6 +2183,7 @@ id constraintLayout
 id constraintLayout2
 id constraintLayout3
 id constraintLayout4
+id constraintLayout5
 id container
 id content
 id contentPanel
@@ -2456,6 +2457,7 @@ id pin
 id position
 id postLayout
 id priceTxt
+id progressBar
 id progress_bar
 id progress_circular
 id progress_horizontal
