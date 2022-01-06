@@ -2724,6 +2724,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_cart
 layout activity_check_out
+layout activity_customer_page
 layout activity_intro
 layout activity_login
 layout activity_main

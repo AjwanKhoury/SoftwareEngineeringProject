@@ -16,12 +16,16 @@ import com.example.burgermunch.Adapter.RecommendedAdapter;
 import com.example.burgermunch.Domain.CategoryDomain;
 import com.example.burgermunch.Domain.OrderDetails;
 import com.example.burgermunch.R;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 private RecyclerView.Adapter adapter,adapter2;
 private RecyclerView recyclerViewCategotyList, recyclerViewPopularList;
+FirebaseAuth firebaseAuth;
+FirebaseUser firebaseUser;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +38,7 @@ private RecyclerView recyclerViewCategotyList, recyclerViewPopularList;
     }
 
     private void bottomNavigation() {
+        firebaseAuth = FirebaseAuth.getInstance();
         LinearLayout homeBtn=findViewById(R.id.homeBtn);
         LinearLayout cartBtn=findViewById(R.id.cartBtn);
         LinearLayout connectionBtn=findViewById(R.id.connectionBtn);
@@ -68,7 +73,12 @@ private RecyclerView recyclerViewCategotyList, recyclerViewPopularList;
         connectionBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this,LoginActivity.class));
+                if (firebaseAuth.getCurrentUser() !=null) {
+                    startActivity(new Intent(MainActivity.this, CustomerPageActivity.class));
+                }
+                else {
+                    startActivity(new Intent(MainActivity.this, LoginActivity.class));
+                }
             }
         });
 
