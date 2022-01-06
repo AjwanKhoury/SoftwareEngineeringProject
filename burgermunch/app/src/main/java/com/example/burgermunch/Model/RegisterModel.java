@@ -26,7 +26,7 @@ public class RegisterModel extends Observable implements IRegisterModel {
     public void addCustomer(ICustomer cus) {
         mAuth.createUserWithEmailAndPassword(cus.getEmail(), cus.getPassword())
                 .addOnSuccessListener(suc->{
-                    databaseReference.child(cus.getPhoneNumber()).setValue(cus)
+                    databaseReference.child(mAuth.getUid()).setValue(cus)
                             .addOnSuccessListener(suc2->{
                                 //success to add user to authentication database and realtime database.users.
                                 setChanged();

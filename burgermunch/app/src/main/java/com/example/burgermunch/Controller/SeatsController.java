@@ -1,6 +1,5 @@
 package com.example.burgermunch.Controller;
 
-import static com.example.burgermunch.Object.Customer.onlyAlphabetic;
 
 import android.util.Log;
 
@@ -82,5 +81,14 @@ public class SeatsController implements ISeatsController , Observer {
         if(!s.checkPhone(s.getPhoneNumber()))
             return 6;
         return -1;
+    }
+
+    public boolean onlyAlphabetic(String s) {
+        char[] chars = s.toCharArray();
+        for(char c : chars){
+            if(Character.isDigit(c))
+                return false;
+        }
+        return true;
     }
 }

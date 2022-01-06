@@ -43,7 +43,9 @@ public class LoginActivity extends AppCompatActivity implements ILoginView {
         FacebookBtn.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
             @Override
             public void onSuccess(LoginResult loginResult) {
-
+                String message = ("Logged in Successfully");
+                Toast.makeText(LoginActivity.this,message,Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(LoginActivity.this,MainActivity.class));
             }
 
             @Override
@@ -76,7 +78,6 @@ public class LoginActivity extends AppCompatActivity implements ILoginView {
                 String emailS = email_txt.getText().toString();
                 String passwordS = password_txt.getText().toString();
                 controller.OnLogin(emailS, passwordS);
-                startActivity(new Intent(LoginActivity.this, MainActivity.class));
             }
         });
     }
@@ -90,6 +91,5 @@ public class LoginActivity extends AppCompatActivity implements ILoginView {
     @Override
     public void LoginFail(String message) {
         Toast.makeText(LoginActivity.this,message, Toast.LENGTH_SHORT).show();
-
     }
 }

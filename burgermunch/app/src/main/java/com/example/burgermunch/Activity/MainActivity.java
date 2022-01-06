@@ -1,5 +1,7 @@
 package com.example.burgermunch.Activity;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -15,23 +17,33 @@ import com.example.burgermunch.Adapter.CategoryAdapter;
 import com.example.burgermunch.Adapter.RecommendedAdapter;
 import com.example.burgermunch.Domain.CategoryDomain;
 import com.example.burgermunch.Domain.OrderDetails;
+import com.example.burgermunch.Object.Customer;
+import com.example.burgermunch.Object.ICustomer;
+import com.example.burgermunch.Object.Seats;
 import com.example.burgermunch.R;
+import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.ChildEventListener;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
-private RecyclerView.Adapter adapter,adapter2;
-private RecyclerView recyclerViewCategotyList, recyclerViewPopularList;
-FirebaseAuth firebaseAuth;
-FirebaseUser firebaseUser;
+    private RecyclerView.Adapter adapter,adapter2;
+    private RecyclerView recyclerViewCategotyList, recyclerViewPopularList;
+    FirebaseAuth firebaseAuth;
+    FirebaseUser firebaseUser;
+    FirebaseDatabase db = FirebaseDatabase.getInstance();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         recyclerViewCategoty();
         recyclerViewPopular();
         bottomNavigation();
@@ -46,7 +58,6 @@ FirebaseUser firebaseUser;
         LinearLayout makeContactBtn=findViewById(R.id.makeContactBtn);
         TextView Seats = findViewById(R.id.order_seats);
         Button managment = findViewById(R.id.Managment);
-
         TextView Visitor = findViewById(R.id.Visitor);
 
         managment.setOnClickListener(new View.OnClickListener() {
@@ -102,7 +113,18 @@ FirebaseUser firebaseUser;
                 startActivity(new Intent(MainActivity.this,SeatsActivity.class));
             }
         });
-
+        if (firebaseAuth.getCurrentUser() !=null) {
+            String key = firebaseAuth.getCurrentUser().getUid();
+            db.getReference("Customer").child(key).addValueEventListener(new ValueEventListener() {
+                @Override
+                public void onDataChange(@NonNull DataSnapshot snapshot) {
+                    ICustomer user = snapshot.getValue(Customer.class);
+                    Visitor.setText(user.getFullName()+" היי ");
+                }
+                @Override
+                public void onCancelled(@NonNull DatabaseError error) {}
+            });
+        }
     }
 
     private void recyclerViewPopular() {

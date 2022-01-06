@@ -25,7 +25,7 @@ public class RegisterController implements IRegisterController, Observer {
     @Override
     public void OnRegister(String full_name,String address, String phone_number, String email, String password) {
         Customer customer = new Customer(full_name,address, phone_number, email, password);
-        int signupCode = customer.isValid();
+        int signupCode = isValid(customer);
 
         if(signupCode == 0){
             Log.e("customer","user cant be null");
@@ -61,6 +61,20 @@ public class RegisterController implements IRegisterController, Observer {
         }else if (keyCode == 2){
             view.RegisterError("Email already exists!");
         }
-
+    }
+    public int isValid(Customer c) {
+        if(c == null)
+            return 0;
+        if(c.getFullName().length() < 2 || !c.onlyAlphabetic(c.getFullName()))
+            return 1;
+        if(c.getPhoneNumber().length() != 10)
+            return 2;
+        if(!c.isEmail(c.getEmail()))
+            return 3;
+        if (c.getPassword().length() < 6)
+            return 4;
+        if(c.getAddress()==null)
+            return 5;
+        return -1;
     }
 }

@@ -6,5 +6,4 @@ public interface ICustomer {
     public String getAddress();
     public String getEmail();
     public String getPassword();
-    public int isValid();
 }

@@ -94,25 +94,8 @@ public class Customer implements ICustomer {
         return new Customer(fn, ad, pn, em,p);
     }
 
-    @Override
-    public int isValid() {
-        if(this == null)
-            return 0;
-        if(getFullName().length() < 2 || !onlyAlphabetic(getFullName()))
-            return 1;
-        if(getPhoneNumber().length() != 10)
-            return 2;
-        if(!isEmail(getEmail()))
-            return 3;
-        if (getPassword().length() < 6)
-            return 4;
-        if(getAddress()==null)
-            return 5;
-        return -1;
-    }
-
     //Full Name
-    public static boolean onlyAlphabetic(String s) {
+    public boolean onlyAlphabetic(String s) {
         char[] chars = s.toCharArray();
         for(char c : chars){
             if(Character.isDigit(c))
@@ -121,7 +104,7 @@ public class Customer implements ICustomer {
         return true;
     }
 
-    private static boolean isEmail(String s) {
+    public boolean isEmail(String s) {
         String email = "^[a-zA-Z0-9_+&*-]+(?:\\."+
                 "[a-zA-Z0-9_+&*-]+)*@" +
                 "(?:[a-zA-Z0-9-]+\\.)+[a-z" +

@@ -1,7 +1,5 @@
 package com.example.burgermunch.Object;
 
-import static com.example.burgermunch.Object.Customer.onlyAlphabetic;
-
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
 import java.util.HashMap;
@@ -71,23 +69,6 @@ public class Seats implements ISeats{
     @Override
     public void setTime(String t) { this.time = t; }
 
-//    public int isValid() {
-//        if(this == null)
-//            return 0;
-//        if(getNumSeats()>4)
-//            return 1;
-//        if(getFullName().length() < 2 || !onlyAlphabetic(getFullName()))
-//            return 2;
-//        if(getPhoneNumber().length() < 10)
-//            return 3;
-//        if(getNumSeats()<1)
-//            return 4;
-//        if(!checkTime(time))
-//            return 5;
-//        if(!checkPhone(getPhoneNumber()))
-//            return 6;
-//        return -1;
-//    }
 
     @Override
     public boolean checkTime(String time) {
