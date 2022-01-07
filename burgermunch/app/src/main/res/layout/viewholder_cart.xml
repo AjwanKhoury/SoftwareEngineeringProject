@@ -47,7 +47,6 @@
         app:layout_constraintTop_toTopOf="@+id/pic" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout3"
         android:layout_width="28dp"
         android:layout_height="24dp"
         android:layout_marginStart="5dp"
@@ -69,7 +68,6 @@
             app:srcCompat="@drawable/minus" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/constraintLayout2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constraintBottom_toBottomOf="parent"

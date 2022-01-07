@@ -8,10 +8,9 @@
     tools:context=".Activity.CheckOutActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="22dp"
+        android:layout_marginTop="15dp"
         android:background="@drawable/yellow_btn_background"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -44,14 +43,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <EditText
         android:id="@+id/phoneNum"
         android:layout_width="324dp"
         android:layout_height="49dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/background_category"
         android:ems="10"
         android:inputType="phone"
+        android:padding="10dp"
         app:layout_constraintEnd_toEndOf="@+id/textView24"
         app:layout_constraintTop_toBottomOf="@+id/textView24" />
 
@@ -59,7 +60,7 @@
         android:id="@+id/textView24"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="22dp"
+        android:layout_marginTop="15dp"
         android:text="מספר פלאפון"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@+id/textView23"
@@ -69,7 +70,7 @@
         android:id="@+id/textView25"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="22dp"
+        android:layout_marginTop="15dp"
         android:text="שם בעל הכרטיס"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@+id/phoneNum"
@@ -79,10 +80,11 @@
         android:id="@+id/CreditName"
         android:layout_width="324dp"
         android:layout_height="49dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/background_category"
         android:ems="10"
         android:inputType="textPersonName"
+        android:padding="10dp"
         app:layout_constraintEnd_toEndOf="@+id/textView25"
         app:layout_constraintTop_toBottomOf="@+id/textView25" />
 
@@ -90,7 +92,7 @@
         android:id="@+id/textView26"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="22dp"
+        android:layout_marginTop="15dp"
         android:text="פרטי כרטיס"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@+id/CreditName"
@@ -100,7 +102,7 @@
         android:id="@+id/constraintLayout4"
         android:layout_width="324dp"
         android:layout_height="49dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/background_category"
         app:layout_constraintEnd_toEndOf="@+id/textView26"
         app:layout_constraintTop_toBottomOf="@+id/textView26">
@@ -111,6 +113,7 @@
             android:layout_height="40dp"
             android:ems="10"
             android:inputType="number"
+            android:padding="10dp"
             android:textSize="12sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -124,6 +127,7 @@
             android:ems="10"
             android:hint="MM/YY"
             android:inputType="date"
+            android:padding="5dp"
             android:textAlignment="center"
             android:textSize="12sp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -138,6 +142,7 @@
             android:ems="10"
             android:hint="CVV"
             android:inputType="number"
+            android:padding="10dp"
             android:textAlignment="center"
             android:textSize="10sp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -149,7 +154,7 @@
         android:id="@+id/textView27"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="22dp"
+        android:layout_marginTop="15dp"
         android:text="כתובת למשלוח"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@+id/constraintLayout4"
@@ -159,24 +164,38 @@
         android:id="@+id/addres"
         android:layout_width="324dp"
         android:layout_height="49dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/background_category"
         android:ems="10"
+        android:hint="רחוב ומספר"
         android:inputType="textPersonName"
+        android:padding="10dp"
         app:layout_constraintEnd_toEndOf="@+id/textView27"
         app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+    <TextView
+        android:id="@+id/chooseBtn"
+        android:layout_width="68dp"
+        android:layout_height="21dp"
+        android:onClick="createPopup"
+        android:text="בחירת עיר"
+        android:textColor="#FF9800"
+        app:layout_constraintBottom_toBottomOf="@+id/addres"
+        app:layout_constraintEnd_toEndOf="@+id/addres"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="@+id/addres"
+        app:layout_constraintTop_toTopOf="@+id/addres" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="324dp"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="15dp"
         android:background="@drawable/card_background"
         android:elevation="3dp"
         android:orientation="vertical"
-        app:layout_constraintEnd_toEndOf="@+id/addres"
-        app:layout_constraintStart_toStartOf="@+id/addres"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/addres">
 
         <LinearLayout
@@ -198,7 +217,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView14"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -228,7 +246,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -252,7 +269,6 @@
         </LinearLayout>
 
         <View
-            android:id="@+id/view3"
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_marginStart="16dp"
@@ -280,7 +296,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"

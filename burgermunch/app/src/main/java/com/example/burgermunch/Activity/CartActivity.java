@@ -24,9 +24,8 @@ public class CartActivity extends AppCompatActivity {
     private RecyclerView.Adapter adapter;
     private RecyclerView recyclerViewList;
     private ManagementCart managementCart;
-    private TextView totalFeeTxt, deliveryTxt, totalTxt, emptyTxt,check;
+    private TextView totalFeeTxt, totalTxt, emptyTxt,check;
     private ScrollView scrollView;
-    private List<OrderDetails> list;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -117,19 +116,16 @@ public class CartActivity extends AppCompatActivity {
     }
 
     private void calculateCard() {
-        double delivery = 10;     //you can change this item you need price for delivery
 
-        double total = Math.round((managementCart.getTotalFee() + delivery) * 100.0) / 100.0;
+        double total = Math.round((managementCart.getTotalFee()) * 100.0) / 100.0;
         double itemTotal = Math.round(managementCart.getTotalFee() * 100.0) / 100.0;
 
         totalFeeTxt.setText(itemTotal+" ש״ח");
-        deliveryTxt.setText(delivery+" ש״ח");
         totalTxt.setText(total+" ש״ח");
     }
 
     private void initView() {
         totalFeeTxt = findViewById(R.id.totalFeeTxt);
-        deliveryTxt = findViewById(R.id.deliveryTxt);
         totalTxt = findViewById(R.id.totalTxt);
         recyclerViewList = findViewById(R.id.view);
         scrollView = findViewById(R.id.scrollView);
