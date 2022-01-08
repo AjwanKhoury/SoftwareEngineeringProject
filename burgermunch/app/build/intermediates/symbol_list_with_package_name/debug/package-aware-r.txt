@@ -1869,6 +1869,10 @@ drawable call
 drawable card_background
 drawable cart_white
 drawable cat_11
+drawable cat_12
+drawable cat_13
+drawable cat_14
+drawable cat_15
 drawable chronometer
 drawable com_facebook_auth_dialog_background
 drawable com_facebook_auth_dialog_cancel_background
@@ -1977,6 +1981,7 @@ drawable search_background
 drawable searchbotton
 drawable sergeant
 drawable sergeant_large
+drawable sergent
 drawable star
 drawable status0
 drawable status1
@@ -2268,6 +2273,7 @@ id hourSeats
 id icon
 id icon_group
 id icon_only
+id idtxt
 id ifRoom
 id ignore
 id ignoreRequest
@@ -2542,6 +2548,7 @@ id textView24
 id textView25
 id textView26
 id textView27
+id textView28
 id textView4
 id textView5
 id textView6
