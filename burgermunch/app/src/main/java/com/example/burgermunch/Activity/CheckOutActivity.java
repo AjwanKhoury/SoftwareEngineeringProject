@@ -55,7 +55,7 @@ public class CheckOutActivity extends AppCompatActivity implements IOrderView {
                 List OrderDetail = managementCart.getListCart();
                 progressBar = findViewById(R.id.progressBar);
                 progressBar.setVisibility(View.VISIBLE);
-                setOrder.OnOrder(phone,add,OrderDetail);
+                setOrder.OnOrder(phone,add,deliveryCost,OrderDetail);
                 startActivity(new Intent(CheckOutActivity.this,MainActivity.class));
                 //TODO manager user ang login user page
                 //TODO add order date variable

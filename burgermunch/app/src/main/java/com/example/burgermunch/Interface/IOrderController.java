@@ -5,5 +5,5 @@ import com.example.burgermunch.Domain.OrderDetails;
 import java.util.List;
 
 public interface IOrderController {
-    public void OnOrder(String Cus ,String add, List<OrderDetails> list);
+    public void OnOrder(String Cus ,String add,int dc, List<OrderDetails> list);
 }
