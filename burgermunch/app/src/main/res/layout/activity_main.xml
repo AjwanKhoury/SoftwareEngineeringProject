@@ -48,7 +48,6 @@
 
 
                 <androidx.constraintlayout.widget.ConstraintLayout
-                    android:id="@+id/constraintLayout2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     tools:layout_editor_absoluteX="0dp"
@@ -172,7 +171,6 @@
                         app:layout_constraintTop_toBottomOf="@+id/view1" />
 
                     <TextView
-                        android:id="@+id/textView15"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="32dp"
@@ -236,7 +234,6 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <com.google.android.material.bottomappbar.BottomAppBar
-            android:id="@+id/app_bar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
@@ -260,14 +257,12 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/imageView1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/bottom_btn1" />
 
                     <TextView
-                        android:id="@+id/textView14"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="בית"
@@ -284,7 +279,6 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/imageView15"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         app:srcCompat="@drawable/bottom_btn2" />
@@ -315,7 +309,6 @@
                         app:srcCompat="@drawable/bottom_btn5" />
 
                     <TextView
-                        android:id="@+id/textView17"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="העגלה שלי"
@@ -332,14 +325,12 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/imageView4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/bottom_btn3" />
 
                     <TextView
-                        android:id="@+id/textView18"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="צור קשר"
@@ -356,14 +347,12 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/menu_btn"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/menu_btn" />
 
                     <TextView
-                        android:id="@+id/textView19"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="תפריט"

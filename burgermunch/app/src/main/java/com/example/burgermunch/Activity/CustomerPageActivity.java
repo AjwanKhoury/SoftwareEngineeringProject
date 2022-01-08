@@ -12,14 +12,14 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 
 public class CustomerPageActivity extends AppCompatActivity {
-    private LinearLayout LogOutBtn;
+    private LinearLayout logOutBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_customer_page);
-        LogOutBtn = findViewById(R.id.LogOutBtn);
-        LogOutBtn.setOnClickListener(new View.OnClickListener() {
+        logOutBtn = findViewById(R.id.LogOutBtn);
+        logOutBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 FirebaseAuth.getInstance().signOut();

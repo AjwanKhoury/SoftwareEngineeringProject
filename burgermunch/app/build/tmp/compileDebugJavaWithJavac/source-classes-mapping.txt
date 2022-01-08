@@ -1,5 +1,6 @@
 com/example/burgermunch/Activity/CustomerPageActivity.java
  com.example.burgermunch.Activity.CustomerPageActivity
+ com.example.burgermunch.Activity.CustomerPageActivity$1
 com/example/burgermunch/Domain/OrderDetails.java
  com.example.burgermunch.Domain.OrderDetails
 com/example/burgermunch/Controller/OrderController.java
@@ -146,3 +147,4 @@ com/example/burgermunch/Activity/CartActivity.java
 com/example/burgermunch/Activity/CheckOutActivity.java
  com.example.burgermunch.Activity.CheckOutActivity
  com.example.burgermunch.Activity.CheckOutActivity$1
+ com.example.burgermunch.Activity.CheckOutActivity$2
