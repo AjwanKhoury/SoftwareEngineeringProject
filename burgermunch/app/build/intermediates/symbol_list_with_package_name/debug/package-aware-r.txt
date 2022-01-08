@@ -2268,7 +2268,6 @@ id hourSeats
 id icon
 id icon_group
 id icon_only
-id idtxt
 id ifRoom
 id ignore
 id ignoreRequest
@@ -2543,7 +2542,6 @@ id textView24
 id textView25
 id textView26
 id textView27
-id textView28
 id textView4
 id textView5
 id textView6
