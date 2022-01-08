@@ -199,7 +199,7 @@
         app:layout_constraintTop_toBottomOf="@+id/addres" />
 
     <EditText
-        android:id="@+id/idtxt"
+        android:id="@+id/idtxt1"
         android:layout_width="324dp"
         android:layout_height="49dp"
         android:layout_marginTop="6dp"
@@ -230,9 +230,9 @@
         android:background="@drawable/card_background"
         android:elevation="3dp"
         android:orientation="vertical"
-        app:layout_constraintEnd_toEndOf="@+id/idtxt"
-        app:layout_constraintStart_toStartOf="@+id/idtxt"
-        app:layout_constraintTop_toBottomOf="@+id/idtxt">
+        app:layout_constraintEnd_toEndOf="@+id/idtxt1"
+        app:layout_constraintStart_toStartOf="@+id/idtxt1"
+        app:layout_constraintTop_toBottomOf="@+id/idtxt1">
 
         <LinearLayout
             android:layout_width="match_parent"
