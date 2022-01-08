@@ -1,18 +1,18 @@
 package com.example.burgermunch.Activity;
 
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.LinearLayout;
-import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.burgermunch.Controller.RegisterController;
 import com.example.burgermunch.Controller.SeatsController;
-import com.example.burgermunch.Interface.ISeatsView;
+import com.example.burgermunch.View.ISeatsView;
 import com.example.burgermunch.R;
 
 public class SeatsActivity extends AppCompatActivity implements ISeatsView {
@@ -77,6 +77,7 @@ public class SeatsActivity extends AppCompatActivity implements ISeatsView {
         });
 
     }
+    @RequiresApi(api = Build.VERSION_CODES.O)
     public void ConfirmSeatsBtn(View view) {
         String tempSeats = seats.getText().toString();
         int seatsS;

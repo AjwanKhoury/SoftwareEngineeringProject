@@ -14,7 +14,7 @@ import com.bumptech.glide.Glide;
 import com.example.burgermunch.Controller.OrderController;
 import com.example.burgermunch.Domain.OrderDetails;
 import com.example.burgermunch.Helper.ManagementCart;
-import com.example.burgermunch.Interface.IOrderView;
+import com.example.burgermunch.View.IOrderView;
 import com.example.burgermunch.R;
 
 public class ShowDetailActivity extends AppCompatActivity implements IOrderView {

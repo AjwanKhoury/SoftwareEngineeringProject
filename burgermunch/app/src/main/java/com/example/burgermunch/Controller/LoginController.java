@@ -2,7 +2,7 @@ package com.example.burgermunch.Controller;
 
 import android.util.Log;
 
-import com.example.burgermunch.Interface.ILoginView;
+import com.example.burgermunch.View.ILoginView;
 import com.example.burgermunch.Model.ILoginModel;
 import com.example.burgermunch.Model.LoginModel;
 import com.example.burgermunch.Object.Customer;

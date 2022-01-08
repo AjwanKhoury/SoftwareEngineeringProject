@@ -1,13 +1,19 @@
 package com.example.burgermunch.Object;
 
+import android.os.Build;
+
+import androidx.annotation.RequiresApi;
+
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
 import java.util.HashMap;
 
+@RequiresApi(api = Build.VERSION_CODES.O)
 public class Seats implements ISeats{
     private int num_seats;
     private String full_name;
     private String phone_number;
+    private final String date = java.time.LocalDate.now().toString();
     private String time;
     private int status = 1;
 
@@ -67,23 +73,25 @@ public class Seats implements ISeats{
     public String getTime() { return time; }
 
     @Override
+    public String getDate() {
+        return date;
+    }
+
+    @Override
     public void setTime(String t) { this.time = t; }
 
 
     @Override
     public boolean checkTime(String time) {
-        return time.matches("^([0-9]|0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]$");
+        return time.matches("^(0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]$");
     }
 
     @Override
     public boolean checkPhone(String phone) {
-        boolean flag = true;
-        char temp;
         for (int i=0; i<phone.length(); i++) {
-            temp = phone.charAt(i);
-            if(!Character.isDigit(temp)) flag = false;
+            if(!Character.isDigit(phone.charAt(i))) return false;
         }
-        return flag;
+        return true;
     }
 
 

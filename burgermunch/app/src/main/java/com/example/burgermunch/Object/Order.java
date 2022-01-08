@@ -1,25 +1,21 @@
 package com.example.burgermunch.Object;
 
+import android.os.Build;
+import androidx.annotation.RequiresApi;
 import com.example.burgermunch.Domain.OrderDetails;
-
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
-import java.util.TimeZone;
 
+@RequiresApi(api = Build.VERSION_CODES.O)
 public class Order implements IOrder{
-    private SimpleDateFormat Now;
-    private String date;
-    private String Status;
+    private final String date = java.time.LocalDate.now().toString();
+    private String Status = "נשלח למסעדה";
     private String CusPhone;
     private String address;
-    private int TotalPrice;
     private List<OrderDetails> meals;
 
     public Order(){
-        Date date = new Date();
-        Status ="נשלח למסעדה";
+        Status ="";
         CusPhone ="";
         address ="";
         meals = new ArrayList<OrderDetails>();
@@ -41,6 +37,7 @@ public class Order implements IOrder{
     public String getStatus() {
         return Status;
     }
+
     public void setStatus(String status) {
         this.Status = status;
     }
@@ -56,7 +53,6 @@ public class Order implements IOrder{
     @Override
     public List<OrderDetails> getList() { return meals; }
     public void setList(List<OrderDetails> OdL){ this.meals= OdL; }
-
 
     @Override
     public int getTotalPrice() {

@@ -1,10 +1,12 @@
 package com.example.burgermunch.Controller;
 
 
+import android.os.Build;
 import android.util.Log;
 
-import com.example.burgermunch.Interface.ISeatsController;
-import com.example.burgermunch.Interface.ISeatsView;
+import androidx.annotation.RequiresApi;
+
+import com.example.burgermunch.View.ISeatsView;
 import com.example.burgermunch.Model.ISeatsModel;
 import com.example.burgermunch.Model.SeatsModel;
 import com.example.burgermunch.Object.Seats;
@@ -24,6 +26,7 @@ public class SeatsController implements ISeatsController , Observer {
     }
 
 
+    @RequiresApi(api = Build.VERSION_CODES.O)
     @Override
     public void OnSeats(int seats, String fn, String pn , String time) {
         Seats st = new Seats(seats , fn , pn , time);
@@ -65,6 +68,7 @@ public class SeatsController implements ISeatsController , Observer {
         }
     }
     //check if Seat attributes are valid
+    @RequiresApi(api = Build.VERSION_CODES.O)
     public int isValid(Seats s) {
         if(s == null)
             return 0;

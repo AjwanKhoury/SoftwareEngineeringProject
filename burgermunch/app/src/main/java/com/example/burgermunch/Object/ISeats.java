@@ -7,6 +7,7 @@ public interface ISeats {
     public void setFullName(String s);
     public String getPhoneNumber();
     public String getTime();
+    public String getDate();
     public void setTime(String t);
     public boolean checkTime(String time);
     public boolean checkPhone(String phone);

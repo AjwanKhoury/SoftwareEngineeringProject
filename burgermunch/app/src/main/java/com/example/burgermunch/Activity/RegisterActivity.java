@@ -6,12 +6,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.burgermunch.Controller.RegisterController;
-import com.example.burgermunch.Interface.IRegisterView;
+import com.example.burgermunch.View.IRegisterView;
 import com.example.burgermunch.R;
 
 

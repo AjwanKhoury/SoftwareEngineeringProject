@@ -1,10 +1,12 @@
 package com.example.burgermunch.Activity;
 
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -13,10 +15,12 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.burgermunch.Controller.OrderController;
 import com.example.burgermunch.Helper.ManagementCart;
-import com.example.burgermunch.Interface.IOrderView;
+import com.example.burgermunch.Object.CCinfo;
+import com.example.burgermunch.View.IOrderView;
 import com.example.burgermunch.R;
 
 import java.util.List;
@@ -24,7 +28,8 @@ import java.util.List;
 public class CheckOutActivity extends AppCompatActivity implements IOrderView {
     private ManagementCart managementCart;
     private TextView totalFeeTxt, deliveryTxt, totalTxt, payBtn;
-    private EditText phoneNum,creditName,cardNum,textDate,CVV, address;
+    private EditText phoneNum,creditName,cardNum,textDate,CVV,ID,address;
+    private CCinfo creditCard;
     private OrderController setOrder;
     private ProgressBar progressBar;
     private AlertDialog.Builder build;
@@ -48,19 +53,19 @@ public class CheckOutActivity extends AppCompatActivity implements IOrderView {
 
     private void buttonNavi() {
         payBtn.setOnClickListener(new View.OnClickListener() {
+            @RequiresApi(api = Build.VERSION_CODES.O)
             @Override
             public void onClick(View v) {
                 String phone =phoneNum.getText().toString();
                 String add=  address.getText().toString();
                 List OrderDetail = managementCart.getListCart();
                 progressBar = findViewById(R.id.progressBar);
-                progressBar.setVisibility(View.VISIBLE);
-                setOrder.OnOrder(phone,add,OrderDetail);
-                startActivity(new Intent(CheckOutActivity.this,MainActivity.class));
+                creditCard = new CCinfo(creditName.getText().toString(),phone,
+                        cardNum.getText().toString(),textDate.getText().toString(),
+                        CVV.getText().toString(),"123");
+                setOrder.OnOrder(phone,add,OrderDetail,creditCard);
                 //TODO manager user ang login user page
-                //TODO add order date variable
                 //TODO screenshots after changes
-
             }
         });
     }
@@ -81,139 +86,132 @@ public class CheckOutActivity extends AppCompatActivity implements IOrderView {
         deliveryList = popUpView.findViewById(R.id.delivery);
 
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1,delivery);
-        
         deliveryList.setAdapter(adapter);
         adapter.notifyDataSetChanged();
-
         build.setView(popUpView);
         popUpDelivery = build.create();
         popUpDelivery.show();
 
-        deliveryList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                if (delivery[position]== "ישוב תפוח - מינימום 100 ש״ח, משלוח 10 ש״ח") {
-                    deliveryCost = 10;
-                    calculateCard();
-                    popUpDelivery.cancel();
-                }
-                if (delivery[position]== "רחלים - מינימום 120 ש״ח, משלוח 15 ש״ח"){
-                    deliveryCost = 15;
-                    calculateCard();
-                    popUpDelivery.cancel();
-                }
-                if (delivery[position]== "חטמ״ר שומרון - מינימום 150 ש״ח, משלוח 15 ש״ח") {
-                    deliveryCost = 15;
-                    calculateCard();
-                    popUpDelivery.cancel();
-                }
-                if (delivery[position]== "יצהר - מינימום 150 ש״ח, משלוח 15 ש״ח") {
-                    deliveryCost = 15;
-                    calculateCard();
-                    popUpDelivery.cancel();
-                }
-                if (delivery[position]== "מגדלים - מינימום 150 ש״ח, משלוח 15 ש״ח") {
-                    deliveryCost = 15;
-                    calculateCard();
-                    popUpDelivery.cancel();
-                }
-                if (delivery[position]== "מעלה לבונה - מינימום 150 ש״ח, משלוח 20 ש״ח"){
-                    deliveryCost = 20;
-                    calculateCard();
-                    popUpDelivery.cancel();
-                }
-                if (delivery[position]== "עלי - מינימום 150 ש״ח, משלוח 20 ש״ח"){
-                    deliveryCost = 20;
-                    calculateCard();
-                    popUpDelivery.cancel();
-                }
-                if (delivery[position]== "איתמר - מינימום 150 ש״ח, משלוח 20 ש״ח"){
-                    deliveryCost = 20;
-                    calculateCard();
-                    popUpDelivery.cancel();
-                }
-                if (delivery[position]== "הר ברכה - מינימום 150 ש״ח, משלוח 20 ש״ח"){
-                    deliveryCost = 20;
-                    calculateCard();
-                    popUpDelivery.cancel();
-                }
-                if (delivery[position]== "גבעת איתמר - מינימום 350 ש״ח, משלוח 30 ש״ח"){
-                    deliveryCost = 30;
-                    calculateCard();
-                    popUpDelivery.cancel();
-                }
-                if (delivery[position]== "אלון מורה - מינימום 350 ש״ח, משלוח 30 ש״ח"){
-                    deliveryCost = 30;
-                    calculateCard();
-                    popUpDelivery.cancel();
-                }
-                if (delivery[position]== "שילה - מינימום 350 ש״ח, משלוח 30 ש״ח"){
-                    deliveryCost = 30;
-                    calculateCard();
-                    popUpDelivery.cancel();
-                }
-                if (delivery[position]== "נריה  – מינימום 50 ש״ח"){
-                    deliveryCost = 0;
-                    calculateCard();
-                    popUpDelivery.cancel();
-                }
-                if (delivery[position]== "טלמון  – מינימום 50 ש״ח"){
-                    deliveryCost = 0;
-                    calculateCard();
-                    popUpDelivery.cancel();
-                }
-                if (delivery[position]== "בסיס חורש ירון - מינימום 75 ש״ח"){
-                    deliveryCost = 0;
-                    calculateCard();
-                    popUpDelivery.cancel();
-                }
-                if (delivery[position]== "דולב - מינימום 120 ש״ח, משלוח 12 ש״ח"){
-                    deliveryCost = 12;
-                    calculateCard();
-                    popUpDelivery.cancel();
-                }
-                if (delivery[position]== "חורשה - מינימום 120 ש״ח, משלוח 12 ש״ח"){
-                    deliveryCost = 12;
-                    calculateCard();
-                    popUpDelivery.cancel();
-                }
-                if (delivery[position]== "כרם רעים - מינימום 150 ש״ח, משלוח 12 ש״ח") {
-                    deliveryCost = 12;
-                    calculateCard();
-                    popUpDelivery.cancel();
-                }
-                if (delivery[position]== "נעלה - מינימום 150 ש״ח, משלוח 12 ש״ח") {
-                    deliveryCost = 12;
-                    calculateCard();
-                    popUpDelivery.cancel();
-                }
-                if (delivery[position]== "ניל״י - מינימום 150 ש״ח, משלוח 12 ש״ח") {
-                    deliveryCost = 12;
-                    calculateCard();
-                    popUpDelivery.cancel();
-                }
-                if (delivery[position]== "נווה צוף(חלמיש) - מינימום 200 ש״ח, משלוח 12 ש״ח") {
-                    deliveryCost = 12;
-                    calculateCard();
-                    popUpDelivery.cancel();
-                }
-                if (delivery[position]== "עטרת - מינימום 250 ש״ח, משלוח 12 ש״ח") {
-                    deliveryCost = 12;
-                    calculateCard();
-                    popUpDelivery.cancel();
-                }
-                if (delivery[position]== "מוצב נווה יאיר - מינימום 300 ש״ח, משלוח 12 ש״ח") {
-                    deliveryCost = 12;
-                    calculateCard();
-                    popUpDelivery.cancel();
-                }
-                if (delivery[position]== " כל מקום אחר לחץ כאן ליצירת קשר "){
-                    Intent intent = new Intent(Intent.ACTION_DIAL);
-                    intent.setData(Uri.parse("tel:*2395"));
-                    startActivity(intent);
-                }
-
-
+        deliveryList.setOnItemClickListener((parent, view, position, id) -> {
+            if (delivery[position].equals("ישוב תפוח - מינימום 100 ש״ח, משלוח 10 ש״ח")) {
+                deliveryCost = 10;
+                calculateCard();
+                popUpDelivery.cancel();
+            }
+            if (delivery[position].equals("רחלים - מינימום 120 ש״ח, משלוח 15 ש״ח")){
+                deliveryCost = 15;
+                calculateCard();
+                popUpDelivery.cancel();
+            }
+            if (delivery[position].equals("חטמ״ר שומרון - מינימום 150 ש״ח, משלוח 15 ש״ח")) {
+                deliveryCost = 15;
+                calculateCard();
+                popUpDelivery.cancel();
+            }
+            if (delivery[position].equals("יצהר - מינימום 150 ש״ח, משלוח 15 ש״ח")) {
+                deliveryCost = 15;
+                calculateCard();
+                popUpDelivery.cancel();
+            }
+            if (delivery[position].equals("מגדלים - מינימום 150 ש״ח, משלוח 15 ש״ח")) {
+                deliveryCost = 15;
+                calculateCard();
+                popUpDelivery.cancel();
+            }
+            if (delivery[position].equals("מעלה לבונה - מינימום 150 ש״ח, משלוח 20 ש״ח")){
+                deliveryCost = 20;
+                calculateCard();
+                popUpDelivery.cancel();
+            }
+            if (delivery[position].equals("עלי - מינימום 150 ש״ח, משלוח 20 ש״ח")){
+                deliveryCost = 20;
+                calculateCard();
+                popUpDelivery.cancel();
+            }
+            if (delivery[position].equals("איתמר - מינימום 150 ש״ח, משלוח 20 ש״ח")){
+                deliveryCost = 20;
+                calculateCard();
+                popUpDelivery.cancel();
+            }
+            if (delivery[position].equals("הר ברכה - מינימום 150 ש״ח, משלוח 20 ש״ח")){
+                deliveryCost = 20;
+                calculateCard();
+                popUpDelivery.cancel();
+            }
+            if (delivery[position].equals("גבעת איתמר - מינימום 350 ש״ח, משלוח 30 ש״ח")){
+                deliveryCost = 30;
+                calculateCard();
+                popUpDelivery.cancel();
+            }
+            if (delivery[position].equals("אלון מורה - מינימום 350 ש״ח, משלוח 30 ש״ח")){
+                deliveryCost = 30;
+                calculateCard();
+                popUpDelivery.cancel();
+            }
+            if (delivery[position].equals("שילה - מינימום 350 ש״ח, משלוח 30 ש״ח")){
+                deliveryCost = 30;
+                calculateCard();
+                popUpDelivery.cancel();
+            }
+            if (delivery[position].equals("נריה  – מינימום 50 ש״ח")){
+                deliveryCost = 0;
+                calculateCard();
+                popUpDelivery.cancel();
+            }
+            if (delivery[position].equals("טלמון  – מינימום 50 ש״ח")){
+                deliveryCost = 0;
+                calculateCard();
+                popUpDelivery.cancel();
+            }
+            if (delivery[position].equals("בסיס חורש ירון - מינימום 75 ש״ח")){
+                deliveryCost = 0;
+                calculateCard();
+                popUpDelivery.cancel();
+            }
+            if (delivery[position].equals("דולב - מינימום 120 ש״ח, משלוח 12 ש״ח")){
+                deliveryCost = 12;
+                calculateCard();
+                popUpDelivery.cancel();
+            }
+            if (delivery[position].equals("חורשה - מינימום 120 ש״ח, משלוח 12 ש״ח")){
+                deliveryCost = 12;
+                calculateCard();
+                popUpDelivery.cancel();
+            }
+            if (delivery[position].equals("כרם רעים - מינימום 150 ש״ח, משלוח 12 ש״ח")) {
+                deliveryCost = 12;
+                calculateCard();
+                popUpDelivery.cancel();
+            }
+            if (delivery[position].equals("נעלה - מינימום 150 ש״ח, משלוח 12 ש״ח")) {
+                deliveryCost = 12;
+                calculateCard();
+                popUpDelivery.cancel();
+            }
+            if (delivery[position].equals("ניל״י - מינימום 150 ש״ח, משלוח 12 ש״ח")) {
+                deliveryCost = 12;
+                calculateCard();
+                popUpDelivery.cancel();
+            }
+            if (delivery[position].equals("נווה צוף(חלמיש) - מינימום 200 ש״ח, משלוח 12 ש״ח")) {
+                deliveryCost = 12;
+                calculateCard();
+                popUpDelivery.cancel();
+            }
+            if (delivery[position].equals("עטרת - מינימום 250 ש״ח, משלוח 12 ש״ח")) {
+                deliveryCost = 12;
+                calculateCard();
+                popUpDelivery.cancel();
+            }
+            if (delivery[position].equals("מוצב נווה יאיר - מינימום 300 ש״ח, משלוח 12 ש״ח")) {
+                deliveryCost = 12;
+                calculateCard();
+                popUpDelivery.cancel();
+            }
+            if (delivery[position].equals(" כל מקום אחר לחץ כאן ליצירת קשר ")){
+                Intent intent = new Intent(Intent.ACTION_DIAL);
+                intent.setData(Uri.parse("tel:*2395"));
+                startActivity(intent);
             }
         });
     }
@@ -228,16 +226,19 @@ public class CheckOutActivity extends AppCompatActivity implements IOrderView {
         cardNum=findViewById(R.id.CardNum);
         textDate=findViewById(R.id.TextDate);
         CVV=findViewById(R.id.CVV);
+        //ID=findViewById(R.id.idtxt);
         address=findViewById(R.id.addres);
     }
 
     @Override
     public void OrderSuccess(String msg) {
-        //TODO order
+        progressBar.setVisibility(View.VISIBLE);
+        Toast.makeText(CheckOutActivity.this, msg, Toast.LENGTH_SHORT).show();
+        startActivity(new Intent(CheckOutActivity.this,MainActivity.class));
     }
 
     @Override
     public void OrderError(String msg) {
-
+        Toast.makeText(CheckOutActivity.this, msg, Toast.LENGTH_SHORT).show();
     }
 }

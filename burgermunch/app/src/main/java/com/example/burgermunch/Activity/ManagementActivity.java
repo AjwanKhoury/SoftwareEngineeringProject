@@ -51,13 +51,12 @@ public class ManagementActivity extends AppCompatActivity {
         ArrayList<Seats> seatslist = new ArrayList<>();
         this.databaseReference = db.getReference();
         databaseReference.child("Seats").addValueEventListener(new ValueEventListener() {
-            @RequiresApi(api = Build.VERSION_CODES.N)
+            @RequiresApi(api = Build.VERSION_CODES.O)
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 seatslist.clear();
                 for (DataSnapshot snapshot : dataSnapshot.getChildren()) {
                     Seats seat = snapshot.getValue(Seats.class);
-
                     seatslist.add(0,seat);
                 }
                 //compare seats object by time.

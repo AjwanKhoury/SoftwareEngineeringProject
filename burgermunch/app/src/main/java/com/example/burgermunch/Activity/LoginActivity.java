@@ -13,18 +13,13 @@ import android.widget.Toast;
 
 import com.example.burgermunch.Controller.ILoginController;
 import com.example.burgermunch.Controller.LoginController;
-import com.example.burgermunch.Interface.ILoginView;
-import com.example.burgermunch.Model.ILoginModel;
+import com.example.burgermunch.View.ILoginView;
 import com.example.burgermunch.R;
 import com.facebook.CallbackManager;
 import com.facebook.FacebookCallback;
 import com.facebook.FacebookException;
 import com.facebook.login.LoginResult;
 import com.facebook.login.widget.LoginButton;
-import com.google.android.gms.common.ConnectionResult;
-import com.google.android.gms.common.SignInButton;
-import com.google.android.gms.common.api.GoogleApi;
-import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class LoginActivity extends AppCompatActivity implements ILoginView {
@@ -35,7 +30,6 @@ public class LoginActivity extends AppCompatActivity implements ILoginView {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-
         fAuth = FirebaseAuth.getInstance();
 
         LoginButton FacebookBtn=findViewById(R.id.FacebookBtn);
