@@ -11,6 +11,7 @@ import com.example.burgermunch.View.IOrderView;
 import com.example.burgermunch.Model.IOrderModel;
 import com.example.burgermunch.Model.OrderModel;
 import com.example.burgermunch.Object.Order;
+
 import java.util.List;
 import java.util.Observable;
 import java.util.Observer;
@@ -52,6 +53,9 @@ public class OrderController implements IOrderController, Observer {
         if(orderCode == -1){
             model.addOrder(od);
         }
+    public void OnOrder(String Cus, String add,int dc, List<OrderDetails> list) {
+        Order od = new Order(Cus,add,dc,list);
+        model.addOrder(od);
     }
 
     @RequiresApi(api = Build.VERSION_CODES.O)
@@ -107,6 +111,4 @@ public class OrderController implements IOrderController, Observer {
         }
         return true;
     }
-
-
 }
