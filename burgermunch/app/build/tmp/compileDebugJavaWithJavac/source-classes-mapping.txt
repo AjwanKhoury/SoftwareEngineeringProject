@@ -19,9 +19,10 @@ com/example/burgermunch/Activity/MakeContactActivity.java
  com.example.burgermunch.Activity.MakeContactActivity
  com.example.burgermunch.Activity.MakeContactActivity$1
  com.example.burgermunch.Activity.MakeContactActivity$2
-com/example/burgermunch/Adapter/RecommendedAdapter.java
- com.example.burgermunch.Adapter.RecommendedAdapter
- com.example.burgermunch.Adapter.RecommendedAdapter$ViewHolder
+com/example/burgermunch/Activity/CheckOutActivity.java
+ com.example.burgermunch.Activity.CheckOutActivity
+ com.example.burgermunch.Activity.CheckOutActivity$1
+ com.example.burgermunch.Activity.CheckOutActivity$2
 com/example/burgermunch/Adapter/CategoryAdapter.java
  com.example.burgermunch.Adapter.CategoryAdapter
  com.example.burgermunch.Adapter.CategoryAdapter$ViewHolder
@@ -32,8 +33,15 @@ com/example/burgermunch/Interface/ILoginView.java
 com/example/burgermunch/Adapter/CartListAdapter.java
  com.example.burgermunch.Adapter.CartListAdapter
  com.example.burgermunch.Adapter.CartListAdapter$ViewHolder
-com/example/burgermunch/Domain/ICategoryDomain.java
- com.example.burgermunch.Domain.ICategoryDomain
+com/example/burgermunch/Activity/CartActivity.java
+ com.example.burgermunch.Activity.CartActivity
+ com.example.burgermunch.Activity.CartActivity$1
+ com.example.burgermunch.Activity.CartActivity$2
+ com.example.burgermunch.Activity.CartActivity$3
+ com.example.burgermunch.Activity.CartActivity$4
+ com.example.burgermunch.Activity.CartActivity$5
+ com.example.burgermunch.Activity.CartActivity$6
+ com.example.burgermunch.Activity.CartActivity$7
 com/example/burgermunch/Helper/ChangeNumberItemsListener.java
  com.example.burgermunch.Helper.ChangeNumberItemsListener
 com/example/burgermunch/Activity/MenuActivity.java
@@ -135,16 +143,8 @@ com/example/burgermunch/Interface/IRegisterView.java
  com.example.burgermunch.Interface.IRegisterView
 com/example/burgermunch/Model/ISeatsModel.java
  com.example.burgermunch.Model.ISeatsModel
-com/example/burgermunch/Activity/CartActivity.java
- com.example.burgermunch.Activity.CartActivity
- com.example.burgermunch.Activity.CartActivity$1
- com.example.burgermunch.Activity.CartActivity$2
- com.example.burgermunch.Activity.CartActivity$3
- com.example.burgermunch.Activity.CartActivity$4
- com.example.burgermunch.Activity.CartActivity$5
- com.example.burgermunch.Activity.CartActivity$6
- com.example.burgermunch.Activity.CartActivity$7
-com/example/burgermunch/Activity/CheckOutActivity.java
- com.example.burgermunch.Activity.CheckOutActivity
- com.example.burgermunch.Activity.CheckOutActivity$1
- com.example.burgermunch.Activity.CheckOutActivity$2
+com/example/burgermunch/Adapter/RecommendedAdapter.java
+ com.example.burgermunch.Adapter.RecommendedAdapter
+ com.example.burgermunch.Adapter.RecommendedAdapter$ViewHolder
+com/example/burgermunch/Domain/ICategoryDomain.java
+ com.example.burgermunch.Domain.ICategoryDomain

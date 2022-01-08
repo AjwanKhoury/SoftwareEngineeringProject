@@ -25,7 +25,7 @@
         <entry key="app/src/main/res/drawable/yellow_bar.xml" value="0.19166666666666668" />
         <entry key="app/src/main/res/drawable/yellow_btn_background.xml" value="0.11666666666666667" />
         <entry key="app/src/main/res/layout/activity_cart.xml" value="0.2810658990188495" />
-        <entry key="app/src/main/res/layout/activity_check_out.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_check_out.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_customer_page.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_intro.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.24166666666666667" />
