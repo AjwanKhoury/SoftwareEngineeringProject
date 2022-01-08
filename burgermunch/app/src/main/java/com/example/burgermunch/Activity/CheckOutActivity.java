@@ -62,8 +62,8 @@ public class CheckOutActivity extends AppCompatActivity implements IOrderView {
                 progressBar = findViewById(R.id.progressBar);
                 creditCard = new CCinfo(creditName.getText().toString(),phone,
                         cardNum.getText().toString(),textDate.getText().toString(),
-                        CVV.getText().toString(),"123");
-                setOrder.OnOrder(phone,add,OrderDetail,creditCard);
+                        CVV.getText().toString(),ID.getText().toString());
+                setOrder.OnOrder(phone,add,deliveryCost,OrderDetail,creditCard);
                 //TODO manager user ang login user page
                 //TODO screenshots after changes
             }
@@ -226,7 +226,7 @@ public class CheckOutActivity extends AppCompatActivity implements IOrderView {
         cardNum=findViewById(R.id.CardNum);
         textDate=findViewById(R.id.TextDate);
         CVV=findViewById(R.id.CVV);
-        //ID=findViewById(R.id.idtxt);
+        ID=findViewById(R.id.idtxt1);
         address=findViewById(R.id.addres);
     }
 

@@ -6,5 +6,5 @@ import com.example.burgermunch.Object.CCinfo;
 import java.util.List;
 
 public interface IOrderController {
-    public void OnOrder(String Cus , String add, List<OrderDetails> list, CCinfo creditCard);
+    public void OnOrder(String Cus , String add, int dc, List<OrderDetails> list, CCinfo creditCard);
 }
