@@ -37,7 +37,6 @@ public class MainActivity extends AppCompatActivity {
     private RecyclerView.Adapter adapter,adapter2;
     private RecyclerView recyclerViewCategotyList, recyclerViewPopularList;
     FirebaseAuth firebaseAuth;
-    FirebaseUser firebaseUser;
     FirebaseDatabase db = FirebaseDatabase.getInstance();
 
     @Override

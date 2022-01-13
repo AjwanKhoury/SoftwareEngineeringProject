@@ -16,6 +16,7 @@ public class Order implements IOrder{
     private String Status = "נשלח למסעדה";
     private String CusPhone;
     private String address;
+    private int points;
     private int deliveryCost;
     private List<OrderDetails> meals;
 
@@ -24,6 +25,7 @@ public class Order implements IOrder{
         CusPhone ="";
         address ="";
         deliveryCost = 0;
+        points = 0;
         meals = new ArrayList<OrderDetails>();
     }
 
@@ -60,6 +62,13 @@ public class Order implements IOrder{
     public List<OrderDetails> getList() { return meals; }
     public void setList(List<OrderDetails> OdL){ this.meals= OdL; }
 
+    @Override
+    public int getPoints() {
+        return this.points;
+    }
+    public void setPoints(){
+        this.points = points + getTotalPrice()/10;
+    }
 
     @Override
     public int getTotalPrice() {
@@ -70,6 +79,7 @@ public class Order implements IOrder{
         }
         return price+deliveryCost;
     }
+
 
 
 }

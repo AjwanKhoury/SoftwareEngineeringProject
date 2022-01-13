@@ -2273,7 +2273,7 @@ id hourSeats
 id icon
 id icon_group
 id icon_only
-id idtxt
+id idtxt1
 id ifRoom
 id ignore
 id ignoreRequest

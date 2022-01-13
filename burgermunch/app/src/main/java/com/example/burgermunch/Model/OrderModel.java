@@ -33,6 +33,5 @@ public class OrderModel extends Observable implements IOrderModel {
             setChanged();
             notifyObservers(1);
         });
-
     }
 }

@@ -9,6 +9,7 @@ public interface IOrder {
     public String getStatus();
     public String getCusPhone();
     public int getTotalPrice();
+    public int getPoints();
     public List<OrderDetails> getList();
 
 }

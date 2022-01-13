@@ -1,4 +1,4 @@
-#Fri Jan 07 19:33:48 EET 2022
+#Wed Jan 12 11:55:50 EET 2022
 path.4=13/classes.dex
 path.3=10/classes.dex
 path.2=1/classes.dex
@@ -9,6 +9,7 @@ path.8=8/classes.dex
 path.7=7/classes.dex
 path.6=5/classes.dex
 path.5=3/classes.dex
+renamed.10=classes11.dex
 path.0=classes.dex
 base.4=/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/build/intermediates/dex/debug/mergeProjectDexDebug/13/classes.dex
 base.3=/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/build/intermediates/dex/debug/mergeProjectDexDebug/10/classes.dex
@@ -18,9 +19,10 @@ base.0=/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/bu
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
+path.10=classes2.dex
 renamed.0=classes.dex
-base.9=/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
-path.9=classes2.dex
+base.9=/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/build/intermediates/dex/debug/mergeProjectDexDebug/9/classes.dex
+path.9=9/classes.dex
 renamed.7=classes8.dex
 base.8=/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/build/intermediates/dex/debug/mergeProjectDexDebug/8/classes.dex
 renamed.6=classes7.dex
@@ -29,3 +31,4 @@ renamed.5=classes6.dex
 base.6=/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/build/intermediates/dex/debug/mergeProjectDexDebug/5/classes.dex
 renamed.4=classes5.dex
 base.5=/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/build/intermediates/dex/debug/mergeProjectDexDebug/3/classes.dex
+base.10=/Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex

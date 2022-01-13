@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@drawable/white_recommended_btn"
+    android:elevation="3dp">
+
+    <TextView
+        android:id="@+id/orderDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="תאריך ההזמנה"
+        android:textColor="#451611"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/statusIMG"
+        android:layout_width="27dp"
+        android:layout_height="19dp"
+        app:layout_constraintEnd_toEndOf="@+id/orderDate"
+        app:layout_constraintTop_toTopOf="@+id/statustxt"
+        app:srcCompat="@drawable/status1" />
+
+    <TextView
+        android:id="@+id/statustxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="סטטוס"
+        app:layout_constraintEnd_toStartOf="@+id/statusIMG"
+        app:layout_constraintTop_toBottomOf="@+id/orderDate" />
+
+    <TextView
+        android:id="@+id/addtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="כתובת למשלוח"
+        app:layout_constraintEnd_toEndOf="@+id/statusIMG"
+        app:layout_constraintTop_toBottomOf="@+id/statusIMG" />
+
+    <TextView
+        android:id="@+id/phoneNumtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="מספר פלאפון"
+        app:layout_constraintEnd_toEndOf="@+id/addtxt"
+        app:layout_constraintTop_toBottomOf="@+id/addtxt" />
+
+    <TextView
+        android:id="@+id/fee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="16dp"
+        android:text="0.0 ש״ח"
+        android:textColor="#451611"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/orderDate"
+        app:layout_constraintTop_toBottomOf="@+id/phoneNumtxt" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

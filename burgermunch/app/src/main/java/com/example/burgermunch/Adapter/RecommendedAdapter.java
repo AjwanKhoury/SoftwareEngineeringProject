@@ -66,7 +66,7 @@ public class RecommendedAdapter extends RecyclerView.Adapter<RecommendedAdapter.
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
-            title = itemView.findViewById(R.id.title1);
+            title = itemView.findViewById(R.id.orderDate);
             pic = itemView.findViewById(R.id.pic);
             fee = itemView.findViewById(R.id.fee);
             addBtn = itemView.findViewById(R.id.addBtn);

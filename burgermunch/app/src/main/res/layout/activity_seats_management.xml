@@ -86,9 +86,9 @@
 
     <TextView
         android:id="@+id/seatsTxt"
-        android:layout_width="112dp"
-        android:layout_height="33dp"
-        android:layout_marginTop="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:text="מקומות ישיבה"
         android:textAlignment="center"
         android:textSize="16sp"
@@ -98,15 +98,14 @@
 
     <TextView
         android:id="@+id/textView24"
-        android:layout_width="112dp"
-        android:layout_height="33dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:text="מנות"
         android:textAlignment="center"
         android:textSize="16sp"
         android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="@+id/seatsTxt"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/seatsTxt"
         app:layout_constraintTop_toBottomOf="@+id/seatsView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
