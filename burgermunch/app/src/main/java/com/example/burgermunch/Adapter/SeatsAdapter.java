@@ -31,7 +31,7 @@ public class SeatsAdapter extends Adapter<SeatsAdapter.ViewHolder> {
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View inflate = LayoutInflater.from(parent.getContext()).inflate(R.layout.viewholder_seats, parent, false);
+        View inflate = LayoutInflater.from(parent.getContext()).inflate(R.layout.viewholder_seats_management, parent, false);
         return new ViewHolder(inflate);
     }
 
