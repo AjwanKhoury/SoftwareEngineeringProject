@@ -84,7 +84,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (firebaseAuth.getCurrentUser() !=null) {
-                    if(firebaseAuth.getCurrentUser().getEmail() == "lishaimelameds@gmail.com"){
+                    String id = firebaseAuth.getCurrentUser().getUid();
+                    if(id.equals("4T3l8v0nJ6YSTTByP29cWMpweyJ2")){
                         startActivity(new Intent(MainActivity.this,ManagementActivity.class));
                     }
                     else {
