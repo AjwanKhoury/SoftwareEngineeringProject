@@ -6,13 +6,16 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 import com.example.burgermunch.Adapter.SeatsAdapter;
 import com.example.burgermunch.Object.Seats;
 import com.example.burgermunch.R;
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -28,6 +31,7 @@ public class ManagementActivity extends AppCompatActivity {
     private RecyclerView recyclerViewSeatsList;
     FirebaseDatabase db = FirebaseDatabase.getInstance();
     private DatabaseReference databaseReference;
+    TextView logOutBtn;
 
 
 
@@ -38,9 +42,17 @@ public class ManagementActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_seats_management);
         TextView date = findViewById(R.id.Date);
+        logOutBtn = findViewById(R.id.LogOutBtn);
         String currentDate = java.time.LocalDate.now().toString();
         date.setText(currentDate);
         recyclerViewSeats();
+        logOutBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FirebaseAuth.getInstance().signOut();
+                startActivity(new Intent(ManagementActivity.this, MainActivity.class));
+            }
+        });
 
     }
 
