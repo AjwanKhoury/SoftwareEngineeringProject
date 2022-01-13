@@ -84,7 +84,11 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (firebaseAuth.getCurrentUser() !=null) {
-                    startActivity(new Intent(MainActivity.this, CustomerPageActivity.class));
+                    if(firebaseAuth.getCurrentUser().getEmail() == "lishaimelameds@gmail.com"){
+                        startActivity(new Intent(MainActivity.this,ManagementActivity.class));
+                    }
+                    else
+                        startActivity(new Intent(MainActivity.this, CustomerPageActivity.class));
                 }
                 else {
                     startActivity(new Intent(MainActivity.this, LoginActivity.class));
