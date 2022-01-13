@@ -24,7 +24,7 @@
         android:id="@+id/statusIMG"
         android:layout_width="27dp"
         android:layout_height="19dp"
-        app:layout_constraintEnd_toEndOf="@+id/orderDate"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/statustxt"
         app:srcCompat="@drawable/status1" />
 
@@ -32,29 +32,26 @@
         android:id="@+id/statustxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
-        android:layout_marginEnd="10dp"
+        android:layout_marginEnd="5dp"
         android:text="סטטוס"
+        android:textStyle="italic"
         app:layout_constraintEnd_toStartOf="@+id/statusIMG"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/orderDate" />
 
     <TextView
         android:id="@+id/addtxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="12dp"
         android:text="כתובת למשלוח"
-        app:layout_constraintEnd_toEndOf="@+id/statusIMG"
+        android:textColor="#FFC107"
+        app:layout_constraintEnd_toEndOf="@+id/orderDate"
+        app:layout_constraintStart_toStartOf="@+id/orderDate"
         app:layout_constraintTop_toBottomOf="@+id/statusIMG" />
-
-    <TextView
-        android:id="@+id/phoneNumtxt"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="מספר פלאפון"
-        app:layout_constraintEnd_toEndOf="@+id/addtxt"
-        app:layout_constraintTop_toBottomOf="@+id/addtxt" />
 
     <TextView
         android:id="@+id/fee"
@@ -67,7 +64,10 @@
         android:textSize="16dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/orderDate"
+        app:layout_constraintHorizontal_bias="0.515"
         app:layout_constraintStart_toStartOf="@+id/orderDate"
-        app:layout_constraintTop_toBottomOf="@+id/phoneNumtxt" />
+        app:layout_constraintTop_toBottomOf="@+id/addtxt"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -2006,7 +2006,6 @@ id FUNCTION
 id FacebookBtn
 id LogOutBtn
 id META
-id Managment
 id NO_DEBUG
 id NumSeats
 id SHIFT
@@ -2429,7 +2428,6 @@ id pepper
 id percent
 id phoneNum
 id phoneNum_txt
-id phoneNumtxt
 id phoneSeats
 id phonenumtxt
 id pic

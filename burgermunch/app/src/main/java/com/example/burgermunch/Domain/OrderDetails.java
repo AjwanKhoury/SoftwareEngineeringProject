@@ -13,6 +13,17 @@ public class OrderDetails implements IOrderDetails, Serializable {
     private int calories;
     private int numberInCart = 1;
 
+    public OrderDetails(){
+        title = "";
+        pic = "";
+        description = "";
+        fee = 0;
+        star = 0;
+        time = 0;
+        calories = 0;
+        id++;
+    }
+
     public OrderDetails(String title ,String pic ,String description ,int fee){
         this.title = title;
         this.pic = pic;

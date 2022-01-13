@@ -56,15 +56,8 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout menuBtn=findViewById(R.id.menuBtn);
         LinearLayout makeContactBtn=findViewById(R.id.makeContactBtn);
         TextView Seats = findViewById(R.id.order_seats);
-        Button managment = findViewById(R.id.Managment);
         TextView Visitor = findViewById(R.id.Visitor);
 
-        managment.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, ManagementActivity.class));
-            }
-        });
 
         homeBtn.setOnClickListener(new View.OnClickListener() {
             @Override
