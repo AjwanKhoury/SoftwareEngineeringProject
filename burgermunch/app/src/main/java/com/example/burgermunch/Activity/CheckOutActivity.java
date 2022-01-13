@@ -1,5 +1,6 @@
 package com.example.burgermunch.Activity;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,8 +21,15 @@ import android.widget.Toast;
 import com.example.burgermunch.Controller.OrderController;
 import com.example.burgermunch.Helper.ManagementCart;
 import com.example.burgermunch.Object.CCinfo;
+import com.example.burgermunch.Object.Customer;
+import com.example.burgermunch.Object.ICustomer;
 import com.example.burgermunch.View.IOrderView;
 import com.example.burgermunch.R;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 import java.util.List;
 
@@ -36,6 +44,8 @@ public class CheckOutActivity extends AppCompatActivity implements IOrderView {
     private AlertDialog popUpDelivery;
     private ListView deliveryList;
     private int deliveryCost = 0;
+    FirebaseAuth firebaseAuth;
+    FirebaseDatabase db;
     private String[] delivery ={"ישוב תפוח - מינימום 100 ש״ח, משלוח 10 ש״ח", "רחלים - מינימום 120 ש״ח, משלוח 15 ש״ח", "חטמ״ר שומרון - מינימום 150 ש״ח, משלוח 15 ש״ח", "יצהר - מינימום 150 ש״ח, משלוח 15 ש״ח", "מגדלים - מינימום 150 ש״ח, משלוח 15 ש״ח", "מעלה לבונה - מינימום 150 ש״ח, משלוח 20 ש״ח", "עלי - מינימום 150 ש״ח, משלוח 20 ש״ח", "איתמר - מינימום 150 ש״ח, משלוח 20 ש״ח", "הר ברכה - מינימום 150 ש״ח, משלוח 20 ש״ח", "גבעת איתמר - מינימום 350 ש״ח, משלוח 30 ש״ח", "אלון מורה - מינימום 350 ש״ח, משלוח 30 ש״ח", "שילה - מינימום 350 ש״ח, משלוח 30 ש״ח", "נריה  – מינימום 50 ש״ח", "טלמון  – מינימום 50 ש״ח", "בסיס חורש ירון - מינימום 75 ש״ח", "דולב - מינימום 120 ש״ח, משלוח 12 ש״ח", "חורשה - מינימום 120 ש״ח, משלוח 12 ש״ח", "כרם רעים - מינימום 150 ש״ח, משלוח 12 ש״ח", "נעלה - מינימום 150 ש״ח, משלוח 12 ש״ח", "ניל״י - מינימום 150 ש״ח, משלוח 12 ש״ח", "נווה צוף(חלמיש) - מינימום 200 ש״ח, משלוח 12 ש״ח", "עטרת - מינימום 250 ש״ח, משלוח 12 ש״ח", "מוצב נווה יאיר - מינימום 300 ש״ח, משלוח 12 ש״ח", " כל מקום אחר לחץ כאן ליצירת קשר "};
 
 
@@ -52,6 +62,8 @@ public class CheckOutActivity extends AppCompatActivity implements IOrderView {
     }
 
     private void buttonNavi() {
+        firebaseAuth = FirebaseAuth.getInstance();
+        db = FirebaseDatabase.getInstance();
         payBtn.setOnClickListener(new View.OnClickListener() {
             @RequiresApi(api = Build.VERSION_CODES.O)
             @Override
@@ -64,7 +76,21 @@ public class CheckOutActivity extends AppCompatActivity implements IOrderView {
                         cardNum.getText().toString(),textDate.getText().toString(),
                         CVV.getText().toString(),ID.getText().toString());
                 setOrder.OnOrder(phone,add,deliveryCost,OrderDetail,creditCard);
-                //TODO manager user ang login user page
+                int tot = (int) (Math.round((managementCart.getTotalFee() + deliveryCost) * 100) / 100);
+                if (firebaseAuth.getCurrentUser()!=null){
+                    String key = firebaseAuth.getCurrentUser().getUid();
+                    db.getReference("Customer").child(key).addListenerForSingleValueEvent(new ValueEventListener() {
+                        @Override
+                        public void onDataChange(@NonNull DataSnapshot snapshot) {
+                            Customer user = snapshot.getValue(Customer.class);
+                            int newPoint = user.getPoints()+tot/10;
+                            user.setPoints(newPoint);
+                            db.getReference().child("Customer").child(key).setValue(user);
+                        }
+                        @Override
+                        public void onCancelled(@NonNull DatabaseError error) {}
+                    });
+                }
                 //TODO screenshots after changes
             }
         });

@@ -75,9 +75,8 @@ public class Customer implements ICustomer {
     }
 
     @Override
-    public int getPoints() {
-        return 0;
-    }
+    public int getPoints() { return points;}
+    public void setPoints(int P){ this.points = P;}
 
     public void setPassword(String p) {
         this.password = p;
