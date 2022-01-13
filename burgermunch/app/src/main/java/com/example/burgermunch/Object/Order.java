@@ -36,7 +36,6 @@ public class Order implements IOrder{
         this.deliveryCost=dc;
     }
 
-
     @Override
     public String getDate() {
         return date;
@@ -61,14 +60,6 @@ public class Order implements IOrder{
     @Override
     public List<OrderDetails> getList() { return meals; }
     public void setList(List<OrderDetails> OdL){ this.meals= OdL; }
-
-    @Override
-    public int getPoints() {
-        return this.points;
-    }
-    public void setPoints(){
-        this.points = points + getTotalPrice()/10;
-    }
 
     @Override
     public int getTotalPrice() {

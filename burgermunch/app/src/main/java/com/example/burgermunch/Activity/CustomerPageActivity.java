@@ -81,7 +81,7 @@ public class CustomerPageActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if (firebaseAuth.getCurrentUser() !=null) {
                     String id = firebaseAuth.getCurrentUser().getUid();
-                    if(id.equals("4T3l8v0nJ6YSTTByP29cWMpweyJ2")){
+                    if(id.equals("xoW2uY8P02ZkOPOwxti1MutMUr23")){
                         startActivity(new Intent(CustomerPageActivity.this,ManagementActivity.class));
                     }
                     else {
@@ -127,6 +127,7 @@ public class CustomerPageActivity extends AppCompatActivity {
                 ICustomer user = snapshot.getValue(Customer.class);
                 nametxt.setText(user.getFullName());
                 phoneNum.setText(user.getPhoneNumber());
+                points.setText("סה״כ נקודות שנצברו: "+Integer.toString(user.getPoints()));
             }
             @Override
             public void onCancelled(@NonNull DatabaseError error) {}
