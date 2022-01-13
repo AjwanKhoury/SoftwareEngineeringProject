@@ -87,8 +87,9 @@ public class MainActivity extends AppCompatActivity {
                     if(firebaseAuth.getCurrentUser().getEmail() == "lishaimelameds@gmail.com"){
                         startActivity(new Intent(MainActivity.this,ManagementActivity.class));
                     }
-                    else
+                    else {
                         startActivity(new Intent(MainActivity.this, CustomerPageActivity.class));
+                    }
                 }
                 else {
                     startActivity(new Intent(MainActivity.this, LoginActivity.class));

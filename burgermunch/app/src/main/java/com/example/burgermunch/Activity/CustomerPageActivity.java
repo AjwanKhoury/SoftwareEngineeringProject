@@ -39,7 +39,6 @@ public class CustomerPageActivity extends AppCompatActivity {
                 ICustomer user = snapshot.getValue(Customer.class);
                 nametxt.setText(user.getFullName());
                 phoneNum.setText(user.getPhoneNumber());
-                points.setText(user.);
             }
             @Override
             public void onCancelled(@NonNull DatabaseError error) {}

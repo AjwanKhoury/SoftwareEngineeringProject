@@ -9,6 +9,7 @@ public class Customer implements ICustomer {
     private String full_name;
     private String phone_number;
     private String address;
+    private int points;
 
     public Customer() {
         full_name = "";
@@ -16,6 +17,7 @@ public class Customer implements ICustomer {
         phone_number = "";
         email = "";
         password= "";
+        points = 0;
     }
     //check login
     public Customer(String em, String pass) {
@@ -71,6 +73,12 @@ public class Customer implements ICustomer {
     public String getPassword() {
         return this.password;
     }
+
+    @Override
+    public int getPoints() {
+        return 0;
+    }
+
     public void setPassword(String p) {
         this.password = p;
     }
