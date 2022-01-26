@@ -8,8 +8,10 @@ import android.view.View;
 import android.widget.LinearLayout;
 
 import com.example.burgermunch.R;
+import com.google.firebase.auth.FirebaseAuth;
 
 public class MenuActivity extends AppCompatActivity {
+    FirebaseAuth firebaseAuth = FirebaseAuth.getInstance();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,7 +44,18 @@ public class MenuActivity extends AppCompatActivity {
         connectionBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MenuActivity.this,LoginActivity.class));
+                if (firebaseAuth.getCurrentUser() !=null) {
+                    String id = firebaseAuth.getCurrentUser().getUid();
+                    if(id.equals("xoW2uY8P02ZkOPOwxti1MutMUr23")){
+                        startActivity(new Intent(MenuActivity.this,ManagementActivity.class));
+                    }
+                    else {
+                        startActivity(new Intent( MenuActivity.this, CustomerPageActivity.class));
+                    }
+                }
+                else {
+                    startActivity(new Intent(MenuActivity.this, LoginActivity.class));
+                }
             }
         });
 

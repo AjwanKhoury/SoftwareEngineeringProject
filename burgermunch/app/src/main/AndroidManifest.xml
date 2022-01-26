@@ -6,11 +6,16 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_launcher_burgermunch"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_launcher_burgermunch_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Burgermunch">
+        <activity
+            android:name=".Activity.MealShowActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Dialog.Alert"
+            />
         <activity
             android:name=".Activity.CustomerPageActivity"
             android:exported="false" />

@@ -31,6 +31,17 @@
         app:layout_constraintStart_toStartOf="@+id/pic"
         app:layout_constraintTop_toBottomOf="@+id/pic" />
 
+    <ImageView
+        android:id="@+id/addBtn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/pic"
+        app:layout_constraintTop_toBottomOf="@+id/orderDate"
+        app:srcCompat="@drawable/plus_circle" />
+
     <TextView
         android:id="@+id/fee"
         android:layout_width="wrap_content"
@@ -40,18 +51,8 @@
         android:textSize="16dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/addBtn"
-        app:layout_constraintEnd_toStartOf="@+id/addBtn"
-        app:layout_constraintStart_toStartOf="@+id/pic"
+        app:layout_constraintEnd_toEndOf="@+id/pic"
+        app:layout_constraintStart_toEndOf="@+id/addBtn"
         app:layout_constraintTop_toTopOf="@+id/addBtn" />
 
-    <ImageView
-        android:id="@+id/addBtn"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/pic"
-        app:layout_constraintTop_toBottomOf="@+id/orderDate"
-        app:srcCompat="@drawable/plus_circle" />
 </androidx.constraintlayout.widget.ConstraintLayout>

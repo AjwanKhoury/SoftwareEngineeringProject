@@ -27,23 +27,23 @@ public class RegisterController implements IRegisterController, Observer {
         int signupCode = isValid(customer);
 
         if(signupCode == 0){
-            Log.e("customer","user cant be null");
+            Log.e("customer","חובה להזין שם");
         }
         if(signupCode == 1){
-            view.RegisterError("Full name problem");
+            view.RegisterError("שם לא תקין");
         }
 
         if(signupCode == 2){
-            view.RegisterError("Phone number is incorrect");
+            view.RegisterError("מספר פלאפון לא תקין");
         }
         if(signupCode == 3){
-            view.RegisterError("invalid email");
+            view.RegisterError("אימייל לא תקין");
         }
         if(signupCode == 4){
-            view.RegisterError("Password must be up than 6");
+            view.RegisterError("סיסמא חייבת להיות מעל 6 ספרות");
         }
         if(signupCode == 4){
-            view.RegisterError("Must include address");
+            view.RegisterError("חובה להזין כתובת");
         }
         if(signupCode == -1){
             model.addCustomer(customer);
@@ -54,11 +54,11 @@ public class RegisterController implements IRegisterController, Observer {
     public void update(Observable o, Object arg) {
         int keyCode = (int) arg;
         if(keyCode == -1){
-            view.RegisterSuccess("Successfully signed up!");
+            view.RegisterSuccess("נרשמת בהצלחה");
         }else if(keyCode == 1){
             Log.e("firebase", "the user added to the authentication but not to realtime database");
         }else if (keyCode == 2){
-            view.RegisterError("Email already exists!");
+            view.RegisterError("אימייל כבר קיים");
         }
     }
     public int isValid(Customer c) {

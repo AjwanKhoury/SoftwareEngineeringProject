@@ -1202,6 +1202,7 @@ color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color ic_launcher_burgermunch_background
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
@@ -1844,12 +1845,14 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable angusburg
 drawable avd_hide_password
 drawable avd_show_password
 drawable background
 drawable background_category
 drawable background_white
 drawable banner
+drawable battachips
 drawable bottom_btn1
 drawable bottom_btn2
 drawable bottom_btn3
@@ -1864,6 +1867,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable burgtort
 drawable button_start
 drawable call
 drawable card_background
@@ -1873,7 +1877,11 @@ drawable cat_12
 drawable cat_13
 drawable cat_14
 drawable cat_15
+drawable chips
 drawable chronometer
+drawable clasic
+drawable cola
+drawable colazero
 drawable com_facebook_auth_dialog_background
 drawable com_facebook_auth_dialog_cancel_background
 drawable com_facebook_auth_dialog_header_background
@@ -1918,9 +1926,12 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable email
+drawable firstser
 drawable flame
+drawable fuzetea
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable grape
 drawable grey_bar
 drawable grey_btn_background
 drawable home_meal1
@@ -1949,7 +1960,9 @@ drawable menu1
 drawable menu2
 drawable menu3
 drawable menu_btn
+drawable miniburg
 drawable minus
+drawable mixgrill
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
 drawable mtrl_ic_arrow_drop_down
@@ -1962,6 +1975,7 @@ drawable mtrl_popupmenu_background_dark
 drawable mtrl_tabs_default_indicator
 drawable name
 drawable navigation_empty_icon
+drawable no
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -1974,6 +1988,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable onionrings
 drawable orange_background
 drawable password
 drawable plus_circle
@@ -1982,6 +1997,11 @@ drawable searchbotton
 drawable sergeant
 drawable sergeant_large
 drawable sergent
+drawable snitc
+drawable snitcandchips
+drawable snitcburg
+drawable snitctort
+drawable soda
 drawable star
 drawable status0
 drawable status1
@@ -1990,6 +2010,7 @@ drawable test_custom_background
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable water
 drawable white_recommended_btn
 drawable yellow_bar
 drawable yellow_btn_background
@@ -2005,7 +2026,10 @@ id Description
 id FUNCTION
 id FacebookBtn
 id LogOutBtn
+id M
 id META
+id MR
+id MW
 id NO_DEBUG
 id NumSeats
 id SHIFT
@@ -2018,6 +2042,7 @@ id TOP_START
 id TextDate
 id VicaloriesTxt
 id Visitor
+id WD
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -2170,6 +2195,7 @@ id constraintLayout
 id constraintLayout2
 id constraintLayout3
 id constraintLayout4
+id constraintLayout5
 id container
 id content
 id contentPanel
@@ -2341,6 +2367,7 @@ id material_timepicker_mode_button
 id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
+id mealsShow
 id media_actions
 id menuBtn
 id message
@@ -2551,6 +2578,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
 id textView10
 id textView12
 id textView13
@@ -2585,6 +2613,7 @@ id title
 id titleDividerNoCustom
 id titleTxt
 id title_template
+id title_txt
 id toggle
 id tomato
 id top
@@ -2705,6 +2734,7 @@ layout activity_intro
 layout activity_login
 layout activity_main
 layout activity_make_contact
+layout activity_meal_show
 layout activity_menu
 layout activity_register
 layout activity_seats
@@ -2819,6 +2849,9 @@ layout viewholder_seats
 menu example_menu
 menu example_menu2
 mipmap ic_launcher
+mipmap ic_launcher_burgermunch
+mipmap ic_launcher_burgermunch_foreground
+mipmap ic_launcher_burgermunch_round
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description

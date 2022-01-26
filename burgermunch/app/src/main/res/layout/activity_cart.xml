@@ -26,10 +26,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="32dp"
+                android:layoutDirection="rtl"
                 android:paddingStart="16dp"
-                android:text="My Cart"
+                android:text="העגלה שלי"
                 android:textAlignment="viewStart"
-                android:textColor="#ff3d00"
+                android:textColor="#FF9800"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
@@ -45,34 +46,6 @@
                 android:background="@drawable/card_background"
                 android:elevation="3dp"
                 android:orientation="vertical">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginStart="16dp"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginEnd="16dp"
-                    android:layout_marginBottom="4dp"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="Items Total:"
-                        android:textColor="#373b54"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:id="@+id/totalFeeTxt"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="0 ש״ח"
-                        android:textColor="#373b54"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
-                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -105,15 +78,6 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="Total:"
-                        android:textColor="#373b54"
-                        android:textSize="30sp"
-                        android:textStyle="bold" />
-
-                    <TextView
                         android:id="@+id/totalTxt"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -121,6 +85,16 @@
                         android:textColor="#373b54"
                         android:textSize="30sp"
                         android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="סה״כ:"
+                        android:textColor="#373b54"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
                 </LinearLayout>
             </LinearLayout>
 
@@ -134,7 +108,7 @@
                     android:id="@+id/check"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="CheckOut"
+                    android:text="לתשלום"
                     android:textColor="#ffffff"
                     android:textSize="25sp"
                     android:textStyle="bold"

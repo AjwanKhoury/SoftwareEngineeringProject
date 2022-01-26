@@ -1,6 +1,8 @@
 package com.example.burgermunch.Domain;
 
-public class CategoryDomain implements ICategoryDomain{
+import java.io.Serializable;
+
+public class CategoryDomain implements ICategoryDomain, Serializable {
     private String title;
     private String pic;
 

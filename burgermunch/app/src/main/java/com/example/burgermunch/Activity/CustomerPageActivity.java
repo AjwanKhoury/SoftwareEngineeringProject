@@ -135,7 +135,7 @@ public class CustomerPageActivity extends AppCompatActivity {
     }
 
     private void recycleViewLastOrders() {
-        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
+        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL,true);
         rvOrderList = findViewById(R.id.lastOrder);
         rvOrderList.setLayoutManager(linearLayoutManager);
         ArrayList<Order> orderlist = new ArrayList<>();

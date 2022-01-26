@@ -74,7 +74,7 @@ public class OrderController implements IOrderController, Observer {
         public void update (Observable o, Object arg){
             int keyCode = (int) arg;
             if (keyCode == -1) {
-                view.OrderSuccess("Order Confirmed!");
+                view.OrderSuccess("הזמנה בוצעה בהצלחה");
             } else if (keyCode == 1) {
                 Log.e("firebase", "failed to put data on realtime database");
             }

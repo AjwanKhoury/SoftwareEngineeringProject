@@ -14,14 +14,27 @@
         android:id="@+id/feeEachItem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
+        android:layout_marginStart="10dp"
         android:text="0 ש״ח"
         android:textColor="#373b54"
         android:textSize="18sp"
         android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="@+id/titleTxt"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/titleTxt" />
+
+    <TextView
+        android:id="@+id/titleTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="10dp"
+        android:text="title"
+        android:textColor="#373b54"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/pic"
+        app:layout_constraintTop_toTopOf="@+id/pic" />
 
     <ImageView
         android:id="@+id/pic"
@@ -29,31 +42,20 @@
         android:layout_height="100dp"
         android:layout_margin="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/home_meal1" />
 
-    <TextView
-        android:id="@+id/titleTxt"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
-        android:text="title"
-        android:textColor="#373b54"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/pic"
-        app:layout_constraintTop_toTopOf="@+id/pic" />
-
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout5"
         android:layout_width="28dp"
         android:layout_height="24dp"
-        android:layout_marginStart="5dp"
+        android:layout_marginEnd="4dp"
         android:background="@drawable/yellow_bar"
         app:layout_constraintBottom_toBottomOf="@+id/titleTxt"
-        app:layout_constraintStart_toEndOf="@+id/titleTxt"
-        app:layout_constraintTop_toTopOf="@+id/titleTxt">
+        app:layout_constraintEnd_toStartOf="@+id/titleTxt"
+        app:layout_constraintTop_toTopOf="@+id/titleTxt"
+        app:layout_constraintVertical_bias="0.0">
 
         <ImageView
             android:id="@+id/minusCardBtn"
@@ -80,11 +82,12 @@
         android:id="@+id/Description"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="16dp"
         android:text="Description"
-        android:layout_margin="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/feeEachItem"
-        app:layout_constraintStart_toStartOf="@+id/titleTxt"
+        app:layout_constraintEnd_toEndOf="@+id/titleTxt"
+        app:layout_constraintStart_toStartOf="@+id/feeEachItem"
         app:layout_constraintTop_toBottomOf="@+id/titleTxt" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

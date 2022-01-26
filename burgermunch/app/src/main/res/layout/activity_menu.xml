@@ -35,7 +35,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="22dp"
-                android:layout_marginTop="-350dp"
+                android:layout_marginTop="-300dp"
                 android:layout_marginEnd="12dp"
                 android:layout_marginBottom="0dp"
                 app:srcCompat="@drawable/menu2" />

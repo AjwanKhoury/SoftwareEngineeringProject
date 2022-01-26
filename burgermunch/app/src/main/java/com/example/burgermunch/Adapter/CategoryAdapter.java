@@ -1,5 +1,6 @@
 package com.example.burgermunch.Adapter;
 
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -7,10 +8,13 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
+import com.example.burgermunch.Activity.MealShowActivity;
+import com.example.burgermunch.Activity.ShowDetailActivity;
 import com.example.burgermunch.Domain.CategoryDomain;
 import com.example.burgermunch.R;
 
@@ -18,6 +22,7 @@ import java.util.ArrayList;
 
 public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.ViewHolder> {
     ArrayList<CategoryDomain> categoryDomains;
+
 
     public CategoryAdapter(ArrayList<CategoryDomain> categoryDomains) {
         this.categoryDomains = categoryDomains;
@@ -66,8 +71,16 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.ViewHo
                 .load(drawableReourceId)
                 .into(holder.categoryPic);
 
-    }
 
+        holder.mainLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(holder.itemView.getContext(), MealShowActivity.class);
+                intent.putExtra("object",categoryDomains.get(position));
+                holder.itemView.getContext().startActivity(intent);
+            }
+        });
+    }
 
     @Override
     public int getItemCount() {

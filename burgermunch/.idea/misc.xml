@@ -5,20 +5,16 @@
       <map>
         <entry key="../../../../layout/custom_preview.xml" value="0.1921875" />
         <entry key="..\:/Users/koren/OneDrive/Desktop/BurgerMunchProject/GitHub/SoftwareEngineeringProject/burgermunch/app/src/main/res/layout/activity_cart.xml" value="0.22" />
-        <entry key="..\:/Users/koren/OneDrive/Desktop/BurgerMunchProject/GitHub/SoftwareEngineeringProject/burgermunch/app/src/main/res/layout/activity_check_out.xml" value="0.3333333333333333" />
-        <entry key="..\:/Users/koren/OneDrive/Desktop/BurgerMunchProject/GitHub/SoftwareEngineeringProject/burgermunch/app/src/main/res/layout/activity_customer_page.xml" value="0.22" />
         <entry key="..\:/Users/koren/OneDrive/Desktop/BurgerMunchProject/GitHub/SoftwareEngineeringProject/burgermunch/app/src/main/res/layout/activity_intro.xml" value="0.11055276381909548" />
         <entry key="..\:/Users/koren/OneDrive/Desktop/BurgerMunchProject/GitHub/SoftwareEngineeringProject/burgermunch/app/src/main/res/layout/activity_login.xml" value="0.22" />
-        <entry key="..\:/Users/koren/OneDrive/Desktop/BurgerMunchProject/GitHub/SoftwareEngineeringProject/burgermunch/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/koren/OneDrive/Desktop/BurgerMunchProject/GitHub/SoftwareEngineeringProject/burgermunch/app/src/main/res/layout/activity_main.xml" value="0.1118659420289855" />
         <entry key="..\:/Users/koren/OneDrive/Desktop/BurgerMunchProject/GitHub/SoftwareEngineeringProject/burgermunch/app/src/main/res/layout/activity_make_contact.xml" value="0.184375" />
         <entry key="..\:/Users/koren/OneDrive/Desktop/BurgerMunchProject/GitHub/SoftwareEngineeringProject/burgermunch/app/src/main/res/layout/activity_menu.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/koren/OneDrive/Desktop/BurgerMunchProject/GitHub/SoftwareEngineeringProject/burgermunch/app/src/main/res/layout/activity_register.xml" value="0.184375" />
         <entry key="..\:/Users/koren/OneDrive/Desktop/BurgerMunchProject/GitHub/SoftwareEngineeringProject/burgermunch/app/src/main/res/layout/activity_seats.xml" value="0.13999999999999999" />
         <entry key="..\:/Users/koren/OneDrive/Desktop/BurgerMunchProject/GitHub/SoftwareEngineeringProject/burgermunch/app/src/main/res/layout/viewholder_cart.xml" value="0.184375" />
         <entry key="..\:/Users/koren/OneDrive/Desktop/BurgerMunchProject/GitHub/SoftwareEngineeringProject/burgermunch/app/src/main/res/layout/viewholder_category.xml" value="0.3333333333333333" />
-        <entry key="..\:/Users/koren/OneDrive/Desktop/BurgerMunchProject/GitHub/SoftwareEngineeringProject/burgermunch/app/src/main/res/layout/viewholder_lastorder.xml" value="0.5" />
         <entry key="..\:/Users/koren/OneDrive/Desktop/BurgerMunchProject/GitHub/SoftwareEngineeringProject/burgermunch/app/src/main/res/layout/viewholder_recommended.xml" value="0.184375" />
-        <entry key="..\:/Users/koren/OneDrive/Desktop/BurgerMunchProject/GitHub/SoftwareEngineeringProject/burgermunch/app/src/main/res/layout/viewholder_seats.xml" value="0.184375" />
         <entry key="app/src/main/res/drawable/background_category.xml" value="0.2206081081081081" />
         <entry key="app/src/main/res/drawable/button_start.xml" value="0.11944444444444445" />
         <entry key="app/src/main/res/drawable/card_background.xml" value="0.11666666666666667" />
@@ -28,20 +24,27 @@
         <entry key="app/src/main/res/drawable/white_recommended_btn.xml" value="0.2206081081081081" />
         <entry key="app/src/main/res/drawable/yellow_bar.xml" value="0.19166666666666668" />
         <entry key="app/src/main/res/drawable/yellow_btn_background.xml" value="0.11666666666666667" />
-        <entry key="app/src/main/res/layout/activity_cart.xml" value="0.2810658990188495" />
-        <entry key="app/src/main/res/layout/activity_check_out.xml" value="0.335" />
-        <entry key="app/src/main/res/layout/activity_customer_page.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_cart.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_check_out.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_customer_page.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_intro.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.24166666666666667" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.31561461794019935" />
         <entry key="app/src/main/res/layout/activity_make_contact.xml" value="0.15949453551912568" />
-        <entry key="app/src/main/res/layout/activity_menu.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_meal_show.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_menu.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.125" />
-        <entry key="app/src/main/res/layout/activity_show_detail.xml" value="0.14673561732385262" />
+        <entry key="app/src/main/res/layout/activity_seats.xml" value="0.1152027027027027" />
+        <entry key="app/src/main/res/layout/activity_seats_management.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_show_detail.xml" value="0.25" />
         <entry key="app/src/main/res/layout/popup_delivery.xml" value="0.1152027027027027" />
         <entry key="app/src/main/res/layout/viewholder_cart.xml" value="0.3571222412389255" />
         <entry key="app/src/main/res/layout/viewholder_category.xml" value="0.35706930981061985" />
-        <entry key="app/src/main/res/layout/viewholder_recommended.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/viewholder_lastOrder.xml" value="0.5613150520664938" />
+        <entry key="app/src/main/res/layout/viewholder_recommended.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/viewholder_seats.xml" value="0.45" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_burgermunch.xml" value="0.11805555555555555" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.12567567567567567" />
       </map>
     </option>
   </component>
