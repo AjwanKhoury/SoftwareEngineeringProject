@@ -68,14 +68,15 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/seatsView"
-        android:layout_width="394dp"
-        android:layout_height="247dp"
+        android:layout_width="395dp"
+        android:layout_height="201dp"
         app:layout_constraintEnd_toEndOf="@+id/imageView2"
         app:layout_constraintHorizontal_bias="0.473"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/seatsTxt" />
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/ordersView"
         android:layout_width="398dp"
         android:layout_height="216dp"
         app:layout_constraintBottom_toBottomOf="parent"

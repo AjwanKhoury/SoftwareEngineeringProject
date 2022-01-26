@@ -38,7 +38,6 @@ public class OrderAdapter extends Adapter<OrderAdapter.ViewHolder> {
     public void onBindViewHolder(@NonNull OrderAdapter.ViewHolder holder, int pos) {
         holder.date.setText(OrderDomains.get(pos).getDate());
         holder.statustxt.setText(OrderDomains.get(pos).getStatus());
-        //holder.address.setText(OrderDomains.get(pos).getAddress());
         holder.pricetxt.setText(Integer.toString(OrderDomains.get(pos).getTotalPrice())+" שח");
         updateStatusBtn(holder , pos);
     }
