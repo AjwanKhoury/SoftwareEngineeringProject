@@ -1202,7 +1202,6 @@ color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
-color ic_launcher_burgermunch_background
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
@@ -2849,9 +2848,6 @@ layout viewholder_seats
 menu example_menu
 menu example_menu2
 mipmap ic_launcher
-mipmap ic_launcher_burgermunch
-mipmap ic_launcher_burgermunch_foreground
-mipmap ic_launcher_burgermunch_round
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description

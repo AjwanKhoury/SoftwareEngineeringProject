@@ -151,9 +151,9 @@ MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/liroymelame
 	android:label
 		ADDED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:11:9-66
+		ADDED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:11:9-54
 	android:icon
-		ADDED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:9:9-55
+		ADDED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:9:9-43
 	android:allowBackup
 		ADDED from /Users/liroymelamed/Desktop/SoftwareEngineeringProject/burgermunch/app/src/main/AndroidManifest.xml:8:9-35
 	android:theme

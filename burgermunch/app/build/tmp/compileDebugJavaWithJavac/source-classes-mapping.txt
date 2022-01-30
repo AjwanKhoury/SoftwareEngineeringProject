@@ -17,6 +17,7 @@ com/example/burgermunch/Activity/ManagementActivity.java
  com.example.burgermunch.Activity.ManagementActivity
  com.example.burgermunch.Activity.ManagementActivity$1
  com.example.burgermunch.Activity.ManagementActivity$2
+ com.example.burgermunch.Activity.ManagementActivity$3
 com/example/burgermunch/View/IRegisterView.java
  com.example.burgermunch.View.IRegisterView
 com/example/burgermunch/Object/Seats.java
@@ -39,6 +40,9 @@ com/example/burgermunch/Activity/CheckOutActivity.java
  com.example.burgermunch.Activity.CheckOutActivity
  com.example.burgermunch.Activity.CheckOutActivity$1
  com.example.burgermunch.Activity.CheckOutActivity$1$1
+com/example/burgermunch/Adapter/OrderAdapterManagement.java
+ com.example.burgermunch.Adapter.OrderAdapterManagement
+ com.example.burgermunch.Adapter.OrderAdapterManagement$ViewHolder
 com/example/burgermunch/Adapter/CategoryAdapter.java
  com.example.burgermunch.Adapter.CategoryAdapter
  com.example.burgermunch.Adapter.CategoryAdapter$1
