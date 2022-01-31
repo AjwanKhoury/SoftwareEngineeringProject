@@ -1,4 +1,4 @@
-# # Let's Eat - Software Engineering Project
+#  Let's Eat - Software Engineering Project
 
 <img src='https://github.com/LiroyMelamed/SoftwareEngineeringProject/blob/main/burgermunch/app/src/main/res/drawable/logofull.png'>
 
