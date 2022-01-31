@@ -7,7 +7,7 @@
 
 - The project was built in Android Studio and written with emphasis on the MVC model.
 
-- I put my database in Firebase.
+- We put my database on Firebase.
 
 - To run the app on your computer download the zip file and open it with android studio.
 
